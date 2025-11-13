@@ -1,0 +1,22 @@
+<?php
+
+namespace Modules\Cart\Listeners;
+
+use Modules\Cart\Facades\Cart;
+
+class ClearCart
+{
+    /**
+     * Handle the event.
+     *
+     * @return void
+     */
+    public function handle(): void
+    {
+        // Cart temizlenmeden önce stok azalt
+        Cart::reduceStock();
+
+        // Sonra Cart'ı temizle
+        Cart::clear();
+    }
+}

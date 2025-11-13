@@ -1,0 +1,14 @@
+{
+    "name": "korkusuzsoft/listing-module",
+    "description": "Pazaryeri İlan Modülü",
+    "type": "laravel-module",
+    "require": {
+        "php": "^8.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Listing\\": ""
+        }
+    }
+}
+

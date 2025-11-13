@@ -1,0 +1,345 @@
+/* Base dark mode styles */
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color var(--transition-250), color var(--transition-250);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary);
+}
+
+p, span, div {
+    color: var(--text-primary);
+}
+
+a {
+    color: var(--text-primary);
+    
+    &:hover {
+        color: var(--color-primary);
+    }
+}
+
+/* Cards and containers */
+.card,
+.panel,
+.product-card,
+.category-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-primary);
+    color: var(--text-primary);
+    transition: background-color var(--transition-250), border-color var(--transition-250);
+}
+
+/* Forms */
+.form-control,
+.form-select,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+textarea {
+    background-color: var(--card-bg);
+    border-color: var(--border-primary);
+    color: var(--text-primary);
+    
+    &:focus {
+        background-color: var(--card-bg);
+        border-color: var(--color-primary);
+        color: var(--text-primary);
+    }
+    
+    &::placeholder {
+        color: var(--text-secondary);
+    }
+}
+
+/* Buttons */
+.btn-secondary {
+    background-color: var(--card-bg);
+    border-color: var(--border-primary);
+    color: var(--text-primary);
+    
+    &:hover {
+        background-color: var(--bg-secondary);
+    }
+}
+
+/* Header */
+.header-wrap {
+    background-color: var(--header-bg);
+    transition: background-color var(--transition-250);
+}
+
+.header-wrap-inner {
+    background-color: var(--header-bg);
+    border-color: var(--border-primary);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--footer-bg);
+    color: var(--text-primary);
+}
+
+/* Navigation */
+.navbar,
+.nav-menu {
+    background-color: var(--header-bg);
+}
+
+.navbar-nav .nav-link {
+    color: var(--text-primary);
+    
+    &:hover {
+        color: var(--color-primary);
+    }
+}
+
+/* Navigation Menu Items - Dark Mode Override for Inline Styles */
+.dark-mode {
+    .nav-link.menu-item[style*="color"] {
+        color: var(--text-primary) !important;
+        
+        &:hover {
+            color: var(--color-primary) !important;
+            
+            /* Preserve hover border effects */
+            &::after {
+                width: 100% !important;
+                background-color: var(--after-color, var(--color-primary)) !important;
+            }
+        }
+    }
+    
+    .nav-link.menu-item[style*="background-color"] {
+        background-color: var(--card-bg) !important;
+        
+        &:hover {
+            background-color: var(--bg-secondary) !important;
+        }
+    }
+    
+    /* Primary menu items */
+    .primary-menu .nav-link {
+        color: var(--text-primary) !important;
+        background-color: transparent !important;
+        
+        &:hover {
+            color: var(--color-primary) !important;
+            background-color: transparent !important;
+            
+            /* Ensure hover border shows */
+            &::after {
+                width: 100% !important;
+                background-color: var(--after-color, var(--color-primary)) !important;
+            }
+        }
+    }
+    
+    /* Category menu items */
+    .category-menu .nav-link {
+        color: var(--text-primary) !important;
+        background-color: var(--card-bg) !important;
+        
+        &:hover {
+            color: var(--color-primary) !important;
+            background-color: var(--bg-secondary) !important;
+        }
+    }
+    
+    /* Mega menu items */
+    .mega-menu .nav-link {
+        color: var(--text-primary) !important;
+        
+        &:hover {
+            color: var(--color-primary) !important;
+            
+            &::after {
+                width: 100% !important;
+                background-color: var(--after-color, var(--color-primary)) !important;
+            }
+        }
+    }
+    
+    /* Override all navigation menu inline styles in dark mode */
+    .navigation-menu .menu-item,
+    .primary-navigation .menu-item,
+    .category-navigation .menu-item {
+        color: var(--text-primary) !important;
+        background-color: transparent !important;
+        
+        &:hover {
+            color: var(--color-primary) !important;
+            background-color: transparent !important;
+            
+            &::after {
+                width: 100% !important;
+                background-color: var(--after-color, var(--color-primary)) !important;
+            }
+        }
+    }
+    
+    /* Preserve horizontal menu hover borders */
+    .horizontal-megamenu .nav-item > .nav-link {
+        &:hover::after {
+            width: 100% !important;
+            background-color: var(--after-color, var(--color-primary)) !important;
+        }
+    }
+}
+
+/* Dropdowns */
+.dropdown-menu {
+    background-color: var(--card-bg);
+    border-color: var(--border-primary);
+}
+
+.dropdown-item {
+    color: var(--text-primary);
+    
+    &:hover {
+        background-color: var(--bg-secondary);
+        color: var(--text-primary);
+    }
+}
+
+/* Tables */
+.table {
+    color: var(--text-primary);
+    
+    th, td {
+        border-color: var(--border-primary);
+    }
+    
+    thead th {
+        background-color: var(--bg-secondary);
+        border-color: var(--border-primary);
+    }
+}
+
+/* Modals */
+.modal-content {
+    background-color: var(--card-bg);
+    color: var(--text-primary);
+}
+
+.modal-header {
+    border-color: var(--border-primary);
+}
+
+.modal-footer {
+    border-color: var(--border-primary);
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+    background-color: var(--bg-secondary);
+}
+
+.breadcrumb-item {
+    color: var(--text-secondary);
+    
+    &.active {
+        color: var(--text-primary);
+    }
+}
+
+/* Sidebar */
+.sidebar,
+.sidebar-menu {
+    background-color: var(--card-bg);
+    color: var(--text-primary);
+}
+
+/* Sidebar Menu Items - Dark Mode Override for Inline Styles */
+.dark-mode {
+    .sidebar-menu .menu-item[style*="color"] {
+        color: var(--text-primary) !important;
+        
+        &:hover {
+            color: var(--color-primary) !important;
+        }
+    }
+    
+    .sidebar-menu .menu-item[style*="background-color"] {
+        background-color: var(--card-bg) !important;
+        
+        &:hover {
+            background-color: var(--bg-secondary) !important;
+        }
+    }
+    
+    /* General sidebar menu items */
+    .sidebar-menu .menu-item {
+        color: var(--text-primary) !important;
+        
+        &:hover {
+            color: var(--color-primary) !important;
+            background-color: var(--bg-secondary) !important;
+        }
+    }
+    
+    /* Sidebar submenu items */
+    .sidebar-menu .submenu-item {
+        color: var(--text-primary) !important;
+        
+        &:hover {
+            color: var(--color-primary) !important;
+            background-color: var(--bg-secondary) !important;
+        }
+    }
+}
+
+/* Product cards */
+.product-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-primary);
+    
+    .product-title {
+        color: var(--text-primary);
+    }
+    
+    .product-price {
+        color: var(--text-primary);
+    }
+    
+    .product-description {
+        color: var(--text-secondary);
+    }
+}
+
+/* Icons */
+.icon-wrap i,
+.las,
+.la {
+    color: var(--text-primary);
+    transition: color var(--transition-150);
+}
+
+/* Dark mode toggle icon */
+.header-dark-mode .icon-wrap {
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    border-radius: var(--radius-default);
+    padding: 8px;
+    transition: all var(--transition-200);
+    
+    &:hover {
+        background-color: var(--color-primary);
+        color: var(--color-white);
+    }
+    
+    i {
+        font-size: 18px;
+    }
+}
+
+/* Ensure smooth transitions for all elements */
+* {
+    transition: background-color var(--transition-250), 
+                color var(--transition-250), 
+                border-color var(--transition-250);
+}

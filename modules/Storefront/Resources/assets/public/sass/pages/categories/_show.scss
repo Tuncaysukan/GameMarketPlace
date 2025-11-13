@@ -1,0 +1,375 @@
+// Kategori Sayfası Stilleri - Sadece Category Show Sayfası İçin
+
+.category-show-page {
+    padding: 30px 0;
+    
+    // Breadcrumb
+    .breadcrumb-section {
+        margin-bottom: 20px;
+        
+        .breadcrumb {
+            background: transparent;
+            padding: 0;
+            margin: 0;
+            font-size: 13px;
+            
+            .breadcrumb-item {
+                color: #666;
+                
+                a {
+                    color: #666;
+                    text-decoration: none;
+                    
+                    &:hover {
+                        color: #333;
+                        text-decoration: underline;
+                    }
+                }
+                
+                &.active {
+                    color: #333;
+                    font-weight: 600;
+                }
+                
+                + .breadcrumb-item::before {
+                    content: "/";
+                    color: #999;
+                    margin: 0 6px;
+                }
+            }
+        }
+    }
+    
+    .product-search {
+        display: flex;
+        gap: 30px;
+        
+        // Sol Taraf - Ana Kategori Bilgisi
+        .product-search-left {
+            width: 320px;
+            flex-shrink: 0;
+            
+            .category-info-card {
+                background: #fff;
+                border-radius: 15px;
+                box-shadow: 0 6px 30px rgba(0, 0, 0, 0.12);
+                overflow: hidden;
+                margin-bottom: 20px;
+                display: flex;
+                flex-direction: column;
+                height: fit-content;
+                border: 2px solid #f8f9fa;
+                
+                // Dark mode
+                .dark-mode & {
+                    background-color: var(--card-bg);
+                    border-color: var(--border-primary);
+                }
+                
+                .category-image-container {
+                    width: 100%;
+                    height: 240px; // Sabit yükseklik - çok büyük olmasın
+                    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+                    border-radius: 12px;
+                    flex-shrink: 0;
+                    
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        aspect-ratio: 3/4; // Sadece resmin oranı 3:4
+                    }
+                    
+                    .las {
+                        font-size: 3.5rem;
+                        color: #adb5bd;
+                        
+                        // Dark mode
+                        .dark-mode & {
+                            color: var(--text-muted);
+                        }
+                    }
+                }
+                
+                .content {
+                    padding: 20px;
+                    flex-grow: 1;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+                    
+                    // Dark mode
+                    .dark-mode & {
+                        background: var(--card-bg);
+                    }
+                    
+                    .category-title {
+                        font-size: 1.6rem;
+                        font-weight: 800;
+                        color: #333;
+                        margin: 0;
+                        line-height: 1.2;
+                        text-align: center;
+                        width: 100%;
+                        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+                        
+                        // Dark mode
+                        .dark-mode & {
+                            color: var(--text-primary);
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Sağ Taraf - Alt Kategoriler
+        .product-search-right {
+            flex: 1;
+            
+            .subcategories-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                gap: 20px;
+                align-items: start;
+                
+                .subcategory-item {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    
+    // Alt Kategoriler (Ürün Kartı Gibi)
+    .category-card {
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        
+        .product-card-top {
+            flex-shrink: 0;
+            width: 100%;
+            margin-bottom: 0;
+            padding: 0;
+            overflow: hidden;
+            border-radius: 10px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            img {
+                width: 100%;
+                aspect-ratio: 3/4; // Sadece resmin kendisi 3:4 oranında
+                object-fit: cover;
+                display: block;
+            }
+            
+        }
+        
+        // Ürün kartı stillerini kullan, sadece kategori özel ayarları
+        .product-card-middle {
+            padding: 0; // Dengeli boşluk
+            flex: 1; // Kalan alanı kapla
+            min-height: 30px; // Minimum yükseklik azaltıldı
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            .product-name {
+                text-align: center;
+                width: 100%;
+                padding-bottom: 0;
+                h6 {
+                    font-size: 13px;
+                    font-weight: 600;
+                    line-height: 1.2;
+                    margin: 0;
+                    text-align: center;
+                    // Uzun metinleri kes
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    word-break: break-word;
+                }
+            }
+        }
+    }
+    
+    // Boş Mesaj
+    .empty-categories-message {
+        text-align: center;
+        padding: 60px 20px;
+        
+        .empty-message {
+            i {
+                font-size: 4rem;
+                color: #ddd;
+                margin-bottom: 20px;
+            }
+            
+            h3 {
+                font-size: 1.8rem;
+                color: #666;
+                margin-bottom: 10px;
+            }
+            
+            p {
+                color: #999;
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+// Responsive Tasarım
+@media (max-width: 992px) {
+    .category-show-page {
+        .product-search {
+            flex-direction: column;
+            gap: 20px;
+            
+            .product-search-left {
+                width: 100%;
+                
+                .category-info-card {
+                    margin-bottom: 20px;
+                    
+                    .category-image-container {
+                        height: 180px; // Tablet için daha küçük
+                        
+                        .las {
+                            font-size: 3rem;
+                        }
+                    }
+                    
+                    .content {
+                        padding: 18px;
+                        
+                        .category-title {
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+            
+            .product-search-right {
+                .subcategories-grid {
+                    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                    gap: 15px;
+                }
+            }
+        }
+        
+        .category-card {
+            margin-bottom: 12px;
+            
+            .product-card-top {
+                margin-bottom: 6px;
+                padding: 0;
+                
+                img {
+                    width: 100%;
+                    aspect-ratio: 3/4; // Resmin kendisi 3:4 oranında
+                    object-fit: cover;
+                    display: block;
+                }
+                
+            }
+            
+            .product-card-middle {
+                padding: 0px;
+                
+                .product-name h6 {
+                    font-size: 13px;
+                    line-height: 1.2;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .category-show-page {
+        padding: 20px 0;
+        
+        .breadcrumb-section {
+            margin-bottom: 15px;
+            
+            .breadcrumb {
+                font-size: 12px;
+                
+                .breadcrumb-item + .breadcrumb-item::before {
+                    margin: 0 4px;
+                }
+            }
+        }
+        
+        .product-search {
+            gap: 15px;
+            
+            .product-search-left {
+                .category-info-card {
+                    margin-bottom: 15px;
+                    
+                    .category-image-container {
+                        height: 160px; // Mobil için daha küçük
+                        
+                        .las {
+                            font-size: 2.5rem;
+                        }
+                    }
+                    
+                    .content {
+                        padding: 15px;
+                        
+                        .category-title {
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+            
+            .product-search-right {
+                .subcategories-grid {
+                    grid-template-columns: 1fr 1fr; // 2 sütun - mobilde
+                    gap: 12px;
+                }
+            }
+        }
+        
+        .category-card {
+            margin-bottom: 15px;
+            
+            .product-card-top {
+                margin-bottom: 5px;
+                padding: 0;
+                
+                img {
+                    width: 100%;
+                    aspect-ratio: 3/4; // Resmin kendisi 3:4 oranında
+                    object-fit: cover;
+                    display: block;
+                }
+                
+            }
+            
+            .product-card-middle {
+                padding: 0px;
+                
+                .product-name h6 {
+                    font-size: 12px;
+                    line-height: 1.3;
+                }
+            }
+        }
+    }
+}

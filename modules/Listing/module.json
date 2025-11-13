@@ -1,0 +1,24 @@
+{
+    "name": "Listing",
+    "alias": "listing",
+    "description": "Pazaryeri ilan yönetim modülü",
+    "keywords": [
+        "listing",
+        "advertisement",
+        "marketplace",
+        "ilan",
+        "pazaryeri"
+    ],
+    "active": 1,
+    "order": 31,
+    "priority": 31,
+    "providers": [
+        "Modules\\Listing\\Providers\\ListingServiceProvider",
+        "Modules\\Listing\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "helpers.php"
+    ]
+}
+

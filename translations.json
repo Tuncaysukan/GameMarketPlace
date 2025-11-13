@@ -1,0 +1,5468 @@
+{
+    "account::attributes.addresses.address_1": {
+        "tr": "Adres Sat\u0131r\u0131"
+    },
+    "checkout::attributes.billing.address_1": {
+        "tr": "Adres Sat\u0131r\u0131"
+    },
+    "checkout::attributes.shipping.address_1": {
+        "tr": "Adres Sat\u0131r\u0131"
+    },
+    "storefront::account.addresses.address_line_1": {
+        "tr": "Adres Sat\u0131r\u0131"
+    },
+    "checkout::attributes.billing.address_2": {
+        "tr": "Adres Sat\u0131r\u0131 2 (iste\u011fe ba\u011fl\u0131)"
+    },
+    "checkout::attributes.shipping.address_2": {
+        "tr": "Adres Sat\u0131r\u0131 2 (iste\u011fe ba\u011fl\u0131)"
+    },
+    "storefront::account.addresses.address_line_2": {
+        "tr": "Adres Sat\u0131r\u0131 2 (iste\u011fe ba\u011fl\u0131)"
+    },
+    "account::attributes.addresses.city": {
+        "tr": "\u0130l\u00e7e"
+    },
+    "checkout::attributes.billing.city": {
+        "tr": "\u0130l\u00e7e"
+    },
+    "checkout::attributes.shipping.city": {
+        "tr": "\u0130l\u00e7e"
+    },
+    "setting::attributes.store_city": {
+        "tr": "Ma\u011faza \u0130li"
+    },
+    "storefront::account.addresses.city": {
+        "tr": "\u0130l\u00e7e"
+    },
+    "tax::attributes.city": {
+        "tr": "\u0130l\u00e7e"
+    },
+    "account::attributes.addresses.country": {
+        "tr": "\u00dclke"
+    },
+    "checkout::attributes.billing.country": {
+        "tr": "\u00dclke"
+    },
+    "checkout::attributes.shipping.country": {
+        "tr": "\u00dclke"
+    },
+    "setting::attributes.default_country": {
+        "tr": "Varsay\u0131lan \u00dclke"
+    },
+    "setting::attributes.store_country": {
+        "tr": "Ma\u011faza \u00dclkesi"
+    },
+    "storefront::account.addresses.country": {
+        "tr": "\u00dclke"
+    },
+    "tax::attributes.country": {
+        "tr": "\u00dclke"
+    },
+    "account::attributes.addresses.first_name": {
+        "tr": "Ad"
+    },
+    "checkout::attributes.billing.first_name": {
+        "tr": "Ad"
+    },
+    "checkout::attributes.shipping.first_name": {
+        "tr": "Ad"
+    },
+    "storefront::account.addresses.first_name": {
+        "tr": "Ad"
+    },
+    "storefront::account.profile.first_name": {
+        "tr": "Ad"
+    },
+    "user::attributes.users.first_name": {
+        "tr": "Ad"
+    },
+    "user::auth.first_name": {
+        "tr": "Ad"
+    },
+    "user::users.table.first_name": {
+        "tr": "Ad"
+    },
+    "account::attributes.addresses.last_name": {
+        "tr": "Soyad"
+    },
+    "checkout::attributes.billing.last_name": {
+        "tr": "Soyad"
+    },
+    "checkout::attributes.shipping.last_name": {
+        "tr": "Soyad"
+    },
+    "storefront::account.addresses.last_name": {
+        "tr": "Soyad"
+    },
+    "storefront::account.profile.last_name": {
+        "tr": "Soyad"
+    },
+    "user::attributes.users.last_name": {
+        "tr": "Soyad"
+    },
+    "user::auth.last_name": {
+        "tr": "Soyad"
+    },
+    "user::users.table.last_name": {
+        "tr": "Soyad"
+    },
+    "account::attributes.addresses.state": {
+        "tr": "\u0130l"
+    },
+    "checkout::attributes.billing.state": {
+        "tr": "\u0130l"
+    },
+    "checkout::attributes.shipping.state": {
+        "tr": "\u0130l"
+    },
+    "storefront::account.addresses.state": {
+        "tr": "\u0130l"
+    },
+    "account::attributes.addresses.zip": {
+        "tr": "Posta Kodu"
+    },
+    "checkout::attributes.billing.zip": {
+        "tr": "Posta Kodu"
+    },
+    "checkout::attributes.shipping.zip": {
+        "tr": "Posta Kodu"
+    },
+    "storefront::account.addresses.zip": {
+        "tr": "Posta Kodu"
+    },
+    "account::messages.address_created": {
+        "tr": "Adres olu\u015fturuldu"
+    },
+    "account::messages.address_deleted": {
+        "tr": "Adres silindi"
+    },
+    "account::messages.address_updated": {
+        "tr": "Adres g\u00fcncellendi"
+    },
+    "account::messages.default_address_updated": {
+        "tr": "Varsay\u0131lan adres g\u00fcncellendi"
+    },
+    "account::messages.profile_updated": {
+        "tr": "Profiliniz g\u00fcncellendi"
+    },
+    "admin::admin.admin": {
+        "tr": "Y\u00f6netici"
+    },
+    "admin::admin.buttons.cancel": {
+        "tr": "\u0130ptal"
+    },
+    "admin::admin.buttons.delete": {
+        "tr": "Sil"
+    },
+    "admin::admin.buttons.save": {
+        "tr": "Kaydet"
+    },
+    "admin::admin.buttons.save_and_edit": {
+        "tr": "Kaydet & D\u00fczenle"
+    },
+    "admin::admin.buttons.save_and_exit": {
+        "tr": "Kaydet & \u00c7\u0131k"
+    },
+    "admin::admin.delete.confirmation": {
+        "tr": "Do\u011frulama"
+    },
+    "admin::admin.delete.confirmation_message": {
+        "tr": "Silmek istedi\u011finizden emin misiniz?"
+    },
+    "admin::admin.errors.404": {
+        "tr": "404"
+    },
+    "admin::admin.errors.404_description": {
+        "tr": "Arad\u0131\u011f\u0131n\u0131z sayfa bulunamad\u0131"
+    },
+    "admin::admin.errors.404_title": {
+        "tr": "Oops! Bu sayfa bulunamad\u0131"
+    },
+    "admin::admin.errors.500": {
+        "tr": "500"
+    },
+    "admin::admin.errors.500_description": {
+        "tr": "Y\u00f6netici bilgilendirildi"
+    },
+    "admin::admin.errors.500_title": {
+        "tr": "Oops! Bir \u015feyler yanl\u0131\u015f gitti"
+    },
+    "admin::admin.form.please_select": {
+        "tr": "L\u00fctfen Se\u00e7iniz"
+    },
+    "option::options.form.option_types.please_select": {
+        "tr": "L\u00fctfen Se\u00e7iniz"
+    },
+    "product::products.form.options.option_types.please_select": {
+        "tr": "L\u00fctfen Se\u00e7iniz"
+    },
+    "product::products.form.variations.variation_types.please_select": {
+        "tr": "L\u00fctfen Se\u00e7iniz"
+    },
+    "report::admin.filters.please_select": {
+        "tr": "L\u00fctfen Se\u00e7iniz"
+    },
+    "storefront::account.addresses.please_select": {
+        "tr": "L\u00fctfen Se\u00e7iniz"
+    },
+    "storefront::checkout.please_select": {
+        "tr": "L\u00fctfen Se\u00e7iniz"
+    },
+    "storefront::storefront.form.please_select": {
+        "tr": "L\u00fctfen Se\u00e7iniz"
+    },
+    "variation::variations.form.variation_types.please_select": {
+        "tr": "L\u00fctfen Se\u00e7iniz"
+    },
+    "admin::admin.pagination.next": {
+        "tr": "Sonraki"
+    },
+    "admin::admin.pagination.previous": {
+        "tr": "\u00d6nceki"
+    },
+    "admin::admin.shortcuts.available_shortcuts": {
+        "tr": "Bu sayfadaki kullan\u0131labilir klavye k\u0131sayollar\u0131"
+    },
+    "admin::admin.shortcuts.back_to_index": {
+        "tr": ":name Dizini'ne Geri D\u00f6n"
+    },
+    "admin::admin.shortcuts.keyboard_shortcuts": {
+        "tr": "Klavye k\u0131sayollar\u0131"
+    },
+    "admin::admin.shortcuts.this_menu": {
+        "tr": "Bu Men\u00fc"
+    },
+    "admin::admin.storefront": {
+        "tr": "Ma\u011faza"
+    },
+    "admin::admin.table.active": {
+        "tr": "Aktif"
+    },
+    "admin::admin.table.approved": {
+        "tr": "Onayland\u0131"
+    },
+    "admin::admin.table.created": {
+        "tr": "Olu\u015fturuldu"
+    },
+    "admin::admin.table.date": {
+        "tr": "Tarih"
+    },
+    "admin::admin.table.filtered_from_max_total_entries": {
+        "tr": "(_MAX_ toplam kay\u0131t i\u00e7erisinden filtrelendi)"
+    },
+    "admin::admin.table.id": {
+        "tr": "ID"
+    },
+    "admin::admin.table.inactive": {
+        "tr": "Aktif De\u011fil"
+    },
+    "admin::admin.table.loading": {
+        "tr": "Y\u00fckleniyor"
+    },
+    "admin::admin.table.no_data_available_table": {
+        "tr": "Tabloda veri bulunmamaktad\u0131r"
+    },
+    "admin::admin.table.no_matching_records_found": {
+        "tr": "E\u015fle\u015fen kay\u0131t bulunamad\u0131"
+    },
+    "admin::admin.table.pending": {
+        "tr": "Beklemede"
+    },
+    "admin::admin.table.search_here": {
+        "tr": "Burada aray\u0131n..."
+    },
+    "admin::admin.table.showing_empty_entries": {
+        "tr": "0 kay\u0131ttan 0 ile 0 aras\u0131 g\u00f6steriliyor"
+    },
+    "admin::admin.table.status": {
+        "tr": "Durum"
+    },
+    "admin::admin.table.updated": {
+        "tr": "G\u00fcncellendi"
+    },
+    "admin::dashboard.dashboard": {
+        "tr": "Kontrol Paneli"
+    },
+    "admin::dashboard.latest_orders": {
+        "tr": "Son Sipari\u015fler"
+    },
+    "admin::dashboard.latest_reviews": {
+        "tr": "Son Yorumlar"
+    },
+    "admin::dashboard.latest_searches": {
+        "tr": "Son Aramalar"
+    },
+    "admin::dashboard.no_data": {
+        "tr": "Veri bulunamad\u0131!"
+    },
+    "admin::dashboard.sales_analytics.day_names.0": {
+        "tr": "Pazartesi"
+    },
+    "admin::dashboard.sales_analytics.day_names.1": {
+        "tr": "Sal\u0131"
+    },
+    "admin::dashboard.sales_analytics.day_names.2": {
+        "tr": "\u00c7ar\u015famba"
+    },
+    "admin::dashboard.sales_analytics.day_names.3": {
+        "tr": "Per\u015fembe"
+    },
+    "admin::dashboard.sales_analytics.day_names.4": {
+        "tr": "Cuma"
+    },
+    "admin::dashboard.sales_analytics.day_names.5": {
+        "tr": "Cumartesi"
+    },
+    "admin::dashboard.sales_analytics.day_names.6": {
+        "tr": "Pazar"
+    },
+    "admin::dashboard.sales_analytics.orders": {
+        "tr": "Sipari\u015fler"
+    },
+    "admin::dashboard.sales_analytics.sales": {
+        "tr": "Sat\u0131\u015flar"
+    },
+    "admin::dashboard.sales_analytics_title": {
+        "tr": "Sat\u0131\u015f Analizleri"
+    },
+    "admin::dashboard.table.customer": {
+        "tr": "M\u00fc\u015fteri"
+    },
+    "admin::dashboard.table.latest_orders.order_id": {
+        "tr": "Sipari\u015f ID"
+    },
+    "admin::dashboard.table.latest_orders.status": {
+        "tr": "Durum"
+    },
+    "admin::dashboard.table.latest_orders.total": {
+        "tr": "Toplam"
+    },
+    "admin::dashboard.table.latest_reviews.product": {
+        "tr": "\u00dcr\u00fcn"
+    },
+    "admin::dashboard.table.latest_reviews.rating": {
+        "tr": "Derecelendirme"
+    },
+    "admin::dashboard.table.latest_searches.keyword": {
+        "tr": "Anahtar Kelime"
+    },
+    "admin::dashboard.table.latest_searches.results": {
+        "tr": "Sonu\u00e7lar"
+    },
+    "admin::dashboard.total_customers": {
+        "tr": "Toplam M\u00fc\u015fteriler"
+    },
+    "admin::dashboard.total_orders": {
+        "tr": "Toplam Sipari\u015fler"
+    },
+    "admin::dashboard.total_products": {
+        "tr": "Toplam \u00dcr\u00fcnler"
+    },
+    "admin::dashboard.total_sales": {
+        "tr": "Toplam Sat\u0131\u015flar"
+    },
+    "admin::messages.permission_denied": {
+        "tr": "\u0130zin Reddedildi (gerekli izin: \u201c:permission\u201d)"
+    },
+    "admin::sidebar.localization": {
+        "tr": "Yerelle\u015ftirme"
+    },
+    "admin::sidebar.content": {
+        "tr": "\u0130\u00e7erik"
+    },
+    "admin::sidebar.appearance": {
+        "tr": "G\u00f6r\u00fcn\u00fcm"
+    },
+    "admin::sidebar.sales": {
+        "tr": "Sat\u0131\u015flar"
+    },
+    "admin::sidebar.system": {
+        "tr": "Sistem"
+    },
+    "admin::sidebar.tools": {
+        "tr": "Ara\u00e7lar"
+    },
+    "admin::sidebar.update": {
+        "tr": "G\u00fcncelle"
+    },
+    "attribute::admin.table.no": {
+        "tr": "Hay\u0131r"
+    },
+    "attribute::admin.table.yes": {
+        "tr": "Evet"
+    },
+    "attribute::admin.tabs.general": {
+        "tr": "Genel"
+    },
+    "storefront::layouts.contact_us": {
+        "tr": "\u0130leti\u015fim"
+    },
+    "contact::attributes.email": {
+        "tr": "E-posta"
+    },
+    "contact::attributes.g-recaptcha": {
+        "tr": "Captcha"
+    },
+    "contact::attributes.message": {
+        "tr": "Mesaj\u0131n\u0131z"
+    },
+    "contact::attributes.subject": {
+        "tr": "Konu"
+    },
+    "contact::messages.your_message_has_been_sent": {
+        "tr": "Mesaj\u0131n\u0131z g\u00f6nderildi"
+    },
+    "contact::validation.failed_to_verify": {
+        "tr": "Do\u011frulama ba\u015far\u0131s\u0131z"
+    },
+    "storefront::contact.contact": {
+        "tr": "\u0130leti\u015fim"
+    },
+    "storefront::contact.leave_a_message": {
+        "tr": "Mesaj B\u0131rak\u0131n"
+    },
+    "storefront::contact.send_message": {
+        "tr": "MESAJ G\u00d6NDER"
+    },
+    "storefront::layouts.contact": {
+        "tr": "\u0130leti\u015fim"
+    },
+    "storefront::layouts.all_categories_header": {
+        "tr": "T\u00dcM KATEGOR\u0130LER"
+    },
+    "storefront::layouts.all_categories": {
+        "tr": "T\u00fcm Kategoriler"
+    },
+    "storefront::categories.all_categories": {
+        "tr": "T\u00fcm Kategoriler"
+    },
+    "category::categories.tree.expand_all": {
+        "tr": "T\u00fcm\u00fcn\u00fc Geni\u015flet"
+    },
+    "category::categories.tree.collapse_all": {
+        "tr": "T\u00fcm\u00fcn\u00fc Daralt"
+    },
+    "checkout::attributes.create_an_account": {
+        "tr": "Hesap olu\u015fturmak ister misiniz?"
+    },
+    "order::orders.account_information": {
+        "tr": "Hesap Bilgileri"
+    },
+    "order::orders.order_and_account_information": {
+        "tr": "Sipari\u015f & Hesap Bilgileri"
+    },
+    "storefront::account.action": {
+        "tr": "\u0130\u015flem"
+    },
+    "storefront::account.actions": {
+        "tr": "\u0130\u015flemler"
+    },
+    "storefront::account.addresses.add_new_address": {
+        "tr": "Yeni Adres Ekle"
+    },
+    "storefront::account.addresses.confirm": {
+        "tr": "Bu adresi silmek istedi\u011finize emin misiniz?"
+    },
+    "storefront::account.addresses.default": {
+        "tr": "Varsay\u0131lan"
+    },
+    "storefront::account.addresses.delete": {
+        "tr": "Sil"
+    },
+    "storefront::account.addresses.edit": {
+        "tr": "D\u00fczenle"
+    },
+    "storefront::account.addresses.new_address": {
+        "tr": "Yeni Adres"
+    },
+    "storefront::account.addresses.save_address": {
+        "tr": "Adresi Kaydet"
+    },
+    "storefront::account.addresses.street_address": {
+        "tr": "Adres"
+    },
+    "storefront::account.dashboard.account_information": {
+        "tr": "Hesap Bilgileri"
+    },
+    "storefront::account.dashboard.edit": {
+        "tr": "D\u00fczenle"
+    },
+    "storefront::account.dashboard.recent_orders": {
+        "tr": "Son Sipari\u015fler"
+    },
+    "storefront::account.dashboard.view_all": {
+        "tr": "Hepsini G\u00f6r\u00fcnt\u00fcle"
+    },
+    "storefront::account.date": {
+        "tr": "Tarih"
+    },
+    "storefront::account.downloads.download": {
+        "tr": "\u0130ndirme"
+    },
+    "storefront::account.downloads.filename": {
+        "tr": "Dosya Ad\u0131"
+    },
+    "storefront::account.downloads.no_downloadable_files": {
+        "tr": "\u0130ndirilebilir herhangi bir dosyan\u0131z yok."
+    },
+    "storefront::account.downloads.no_file_found": {
+        "tr": "Dosya bulunamad\u0131."
+    },
+    "storefront::account.image": {
+        "tr": "Resim"
+    },
+    "storefront::account.orders.no_orders": {
+        "tr": "Hen\u00fcz sipari\u015f vermediniz."
+    },
+    "storefront::account.orders.order_id": {
+        "tr": "Sipari\u015f ID"
+    },
+    "storefront::account.orders.total": {
+        "tr": "Toplam"
+    },
+    "storefront::account.orders.view": {
+        "tr": "G\u00f6r\u00fcnt\u00fcle"
+    },
+    "storefront::account.orders.view_order": {
+        "tr": "Sipari\u015fi G\u00f6r\u00fcnt\u00fcle"
+    },
+    "storefront::account.pages.dashboard": {
+        "tr": "Kontrol Paneli"
+    },
+    "storefront::account.pages.logout": {
+        "tr": "\u00c7\u0131k\u0131\u015f Yap"
+    },
+    "storefront::account.pages.my_account": {
+        "tr": "Hesab\u0131m"
+    },
+    "storefront::account.pages.my_addresses": {
+        "tr": "Adreslerim"
+    },
+    "storefront::account.pages.my_downloads": {
+        "tr": "\u0130ndirmelerim"
+    },
+    "storefront::account.pages.my_orders": {
+        "tr": "Sipari\u015flerim"
+    },
+    "storefront::account.pages.my_profile": {
+        "tr": "Profilim"
+    },
+    "storefront::account.pages.my_reviews": {
+        "tr": "Yorumlar\u0131m"
+    },
+    "storefront::account.pages.my_wishlist": {
+        "tr": "Favorilerim"
+    },
+    "storefront::account.product_name": {
+        "tr": "\u00dcr\u00fcn \u0130smi"
+    },
+    "storefront::account.profile.account": {
+        "tr": "Hesap"
+    },
+    "storefront::account.profile.confirm_password": {
+        "tr": "Parolay\u0131 Onayla"
+    },
+    "storefront::account.profile.email": {
+        "tr": "E-posta"
+    },
+    "storefront::account.profile.new_password": {
+        "tr": "Yeni Parola"
+    },
+    "storefront::account.profile.password": {
+        "tr": "Parola"
+    },
+    "storefront::account.profile.phone": {
+        "tr": "Telefon"
+    },
+    "storefront::account.profile.save_changes": {
+        "tr": "De\u011fi\u015fiklikleri Kaydet"
+    },
+    "storefront::account.reviews.no_reviews": {
+        "tr": "Hen\u00fcz hi\u00e7bir \u00fcr\u00fcne yorum yapmad\u0131n\u0131z."
+    },
+    "storefront::account.reviews.rating": {
+        "tr": "Derecelendirme"
+    },
+    "storefront::account.status": {
+        "tr": "Durum"
+    },
+    "storefront::account.view_order.billing_address": {
+        "tr": "Fatura Adresi"
+    },
+    "storefront::account.view_order.date": {
+        "tr": "Tarih:"
+    },
+    "storefront::account.view_order.email": {
+        "tr": "E-posta:"
+    },
+    "storefront::account.view_order.id": {
+        "tr": "ID"
+    },
+    "storefront::account.wishlist.in_stock": {
+        "tr": "Stokta"
+    },
+    "storefront::account.wishlist.out_of_stock": {
+        "tr": "Stokta Yok"
+    },
+    "storefront::account.wishlist.price": {
+        "tr": "Fiyat"
+    },
+    "storefront::checkout.account_details": {
+        "tr": "Hesap Detaylar\u0131"
+    },
+    "storefront::layouts.account": {
+        "tr": "Hesab\u0131m"
+    },
+    "storefront::layouts.my_account": {
+        "tr": "Hesab\u0131m"
+    },
+    "user::auth.already_have_an_account": {
+        "tr": "Zaten bir hesab\u0131n\u0131z var m\u0131?"
+    },
+    "user::auth.create_account": {
+        "tr": "Hesap Olu\u015ftur"
+    },
+    "user::auth.do_not_have_an_account": {
+        "tr": "Hesab\u0131n\u0131z yok mu?"
+    },
+    "user::auth.dont_have_an_account": {
+        "tr": "Hesab\u0131n\u0131z yok mu?"
+    },
+    "user::users.tabs.account": {
+        "tr": "Hesab\u0131m"
+    },
+    "storefront::layouts.search_for_products": {
+        "tr": "\u00dcr\u00fcnleri ara"
+    },
+    "storefront::blog.search_results_for": {
+        "tr": "Arama sonu\u00e7lar\u0131:"
+    },
+    "storefront::products.search_results_for": {
+        "tr": "Arama sonu\u00e7lar\u0131:"
+    },
+    "storefront::account.wishlist.empty_wishlist": {
+        "tr": "Favorileriniz bo\u015f."
+    },
+    "storefront::account.addresses.cancel": {
+        "tr": "\u0130ptal"
+    },
+    "order::statuses.canceled": {
+        "tr": "\u0130ptal Edildi"
+    },
+    "payment::messages.payment_cancelled": {
+        "tr": "\u00d6deme iptal edildi!"
+    },
+    "storefront::compare.no_product": {
+        "tr": "Kar\u015f\u0131la\u015ft\u0131rma listesinde \u00fcr\u00fcn bulunmuyor."
+    },
+    "storefront::account.wishlist.add_to_cart": {
+        "tr": "Sepete Ekle"
+    },
+    "storefront::cart.cart": {
+        "tr": "Sepet"
+    },
+    "storefront::cart.cart_summary": {
+        "tr": "Sepet \u00d6zeti"
+    },
+    "storefront::cart.checkout": {
+        "tr": "\u00d6deme"
+    },
+    "storefront::cart.continue_shopping": {
+        "tr": "Al\u0131\u015fveri\u015fe Devam Et"
+    },
+    "storefront::cart.my_cart": {
+        "tr": "Sepetim"
+    },
+    "storefront::cart.order_complete": {
+        "tr": "Sipari\u015fi Tamamla"
+    },
+    "storefront::cart.table.image": {
+        "tr": "Resim"
+    },
+    "storefront::cart.table.product_name": {
+        "tr": "\u00dcr\u00fcn \u0130smi"
+    },
+    "storefront::cart.table.quantity": {
+        "tr": "Miktar"
+    },
+    "storefront::cart.table.unit_price": {
+        "tr": "Birim Fiyat"
+    },
+    "storefront::cart.total": {
+        "tr": "Toplam"
+    },
+    "storefront::cart.your_cart_is_empty": {
+        "tr": "Sepetiniz bo\u015f"
+    },
+    "storefront::compare.add_to_cart": {
+        "tr": "Sepete Ekle"
+    },
+    "storefront::layouts.cart": {
+        "tr": "Sepet"
+    },
+    "storefront::layouts.clear_cart": {
+        "tr": "Temizle"
+    },
+    "storefront::layouts.my_cart": {
+        "tr": "Sepetim"
+    },
+    "storefront::layouts.view_cart": {
+        "tr": "Sepeti G\u00f6r\u00fcnt\u00fcle"
+    },
+    "storefront::product.add_to_cart": {
+        "tr": "Sepete Ekle"
+    },
+    "storefront::product_card.add_to_cart": {
+        "tr": "Sepete Ekle"
+    },
+    "admin::messages.resource_created": {
+        "tr": ":resource olu\u015fturuldu"
+    },
+    "admin::messages.resource_deleted": {
+        "tr": ":resource silindi"
+    },
+    "admin::messages.resource_updated": {
+        "tr": ":resource g\u00fcncellendi"
+    },
+    "admin::resource.create": {
+        "tr": ":resource Olu\u015ftur"
+    },
+    "admin::resource.delete": {
+        "tr": ":resource Sil"
+    },
+    "admin::resource.edit": {
+        "tr": ":resource D\u00fczenle"
+    },
+    "admin::resource.show": {
+        "tr": ":resource G\u00f6ster"
+    },
+    "attribute::admin.attribute": {
+        "tr": "\u00d6zellik"
+    },
+    "attribute::admin.attributes": {
+        "tr": "\u00d6zellikler"
+    },
+    "attribute::admin.form.add_new_value": {
+        "tr": "Yeni De\u011fer Ekle"
+    },
+    "attribute::admin.form.delete_value": {
+        "tr": "De\u011feri Sil"
+    },
+    "attribute::admin.form.use_this_attribute_for_filtering_products": {
+        "tr": "\u00dcr\u00fcnleri filtrelemek i\u00e7in bu \u00f6zelli\u011fi kullan\u0131n"
+    },
+    "attribute::admin.form.value": {
+        "tr": "De\u011fer"
+    },
+    "attribute::admin.table.attribute_set": {
+        "tr": "\u00d6zellik Grubu"
+    },
+    "attribute::admin.table.filterable": {
+        "tr": "Filtrelenebilir"
+    },
+    "attribute::admin.table.name": {
+        "tr": "\u0130sim"
+    },
+    "attribute::admin.tabs.group.attribute_information": {
+        "tr": "\u00d6zellik Bilgisi"
+    },
+    "attribute::admin.tabs.values": {
+        "tr": "De\u011ferler"
+    },
+    "attribute::attributes.attributes.attribute_set_id": {
+        "tr": "\u00d6zellik Grubu"
+    },
+    "attribute::attributes.attributes.categories": {
+        "tr": "Kategoriler"
+    },
+    "attribute::attributes.attribute_sets.name": {
+        "tr": "\u0130sim"
+    },
+    "attribute::attributes.attributes.is_filterable": {
+        "tr": "Filtrelenebilir"
+    },
+    "attribute::attributes.attributes.name": {
+        "tr": "\u0130sim"
+    },
+    "attribute::attributes.attributes.slug": {
+        "tr": "URL"
+    },
+    "attribute::attribute_sets.attribute_set": {
+        "tr": "\u00d6zellik Grubu"
+    },
+    "attribute::attribute_sets.attribute_sets": {
+        "tr": "\u00d6zellik Gruplar\u0131"
+    },
+    "attribute::attribute_sets.table.name": {
+        "tr": "\u0130sim"
+    },
+    "attribute::attribute_sets.tabs.general": {
+        "tr": "Genel"
+    },
+    "attribute::attribute_sets.tabs.group.attribute_set_information": {
+        "tr": "\u00d6zellik Grubu Bilgisi"
+    },
+    "attribute::attributes.product_attributes.attributes.*.attribute_id": {
+        "tr": "\u00d6zellik"
+    },
+    "attribute::attributes.product_attributes.attributes.*.values": {
+        "tr": "De\u011ferler"
+    },
+    "blog::admin.blog_posts.form.featured_image": {
+        "tr": "\u00d6ne \u00c7\u0131kan Resim"
+    },
+    "blog::admin.blog_posts.form.description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "blog::admin.blog_post.name": {
+        "tr": "Blog G\u00f6nderisi"
+    },
+    "blog::admin.blog_category.name": {
+        "tr": "Blog Kategorisi"
+    },
+    "blog::admin.blog_categories.table.name": {
+        "tr": "\u0130sim"
+    },
+    "blog::admin.blog_categories.name": {
+        "tr": "Blog Kategorileri"
+    },
+    "blog::admin.blog": {
+        "tr": "Blog"
+    },
+    "attribute::sidebar.attribute_sets": {
+        "tr": "\u00d6zellik Gruplar\u0131"
+    },
+    "attribute::sidebar.attributes": {
+        "tr": "\u00d6zellikler"
+    },
+    "attribute::attribute_values.attribute_value": {
+        "tr": "\u00d6zellik De\u011feri"
+    },
+    "attribute::attribute_values.attribute_values": {
+        "tr": "\u00d6zellik De\u011ferleri"
+    },
+    "attribute::permissions.attributes.create": {
+        "tr": "\u00d6zellik Olu\u015ftur"
+    },
+    "attribute::permissions.attributes.destroy": {
+        "tr": "\u00d6zelli\u011fi Sil"
+    },
+    "attribute::permissions.attributes.edit": {
+        "tr": "\u00d6zelli\u011fi D\u00fczenle"
+    },
+    "attribute::permissions.attribute_sets.create": {
+        "tr": "\u00d6zellik Grubu Olu\u015ftur"
+    },
+    "attribute::permissions.attribute_sets.destroy": {
+        "tr": "\u00d6zellik Grubu Sil"
+    },
+    "attribute::permissions.attribute_sets.edit": {
+        "tr": "\u00d6zellik Grubunu D\u00fczenle"
+    },
+    "blog::admin.blog_posts.form.short_description": {
+        "tr": "K\u0131sa A\u00e7\u0131klama"
+    },
+    "blog::admin.blog_posts.form.title": {
+        "tr": "Ba\u015fl\u0131k"
+    },
+    "blog::admin.blog_posts.name": {
+        "tr": "Blog G\u00f6nderileri"
+    },
+    "blog::admin.blog_posts.table.featured_image": {
+        "tr": "\u00d6ne \u00c7\u0131kan Resim"
+    },
+    "blog::admin.blog_posts.table.publish_status": {
+        "tr": "Payla\u015f\u0131m Durumu"
+    },
+    "blog::admin.blog_posts.table.title": {
+        "tr": "Ba\u015fl\u0131k"
+    },
+    "blog::admin.blog_posts.table.user": {
+        "tr": "Kullan\u0131c\u0131"
+    },
+    "blog::admin.blog_tag.name": {
+        "tr": "Blog Etiketi"
+    },
+    "blog::admin.blog_tags.name": {
+        "tr": "Blog Etiketleri"
+    },
+    "blog::admin.blog_tags.table.name": {
+        "tr": "\u0130sim"
+    },
+    "blog::admin.categories": {
+        "tr": "Kategoriler"
+    },
+    "blog::admin.posts": {
+        "tr": "G\u00f6nderiler"
+    },
+    "blog::admin.tags": {
+        "tr": "Etiketler"
+    },
+    "blog::attributes.categories.name": {
+        "tr": "\u0130sim"
+    },
+    "blog::attributes.categories.slug": {
+        "tr": "URL"
+    },
+    "blog::attributes.posts.category": {
+        "tr": "Kategori Se\u00e7iniz"
+    },
+    "blog::attributes.posts.description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "blog::attributes.posts.publish_status": {
+        "tr": "Payla\u015f\u0131m Durumu"
+    },
+    "blog::attributes.posts.slug": {
+        "tr": "URL"
+    },
+    "blog::attributes.posts.tags": {
+        "tr": "Etiketler Ekle"
+    },
+    "blog::attributes.posts.title": {
+        "tr": "Ba\u015fl\u0131k"
+    },
+    "blog::attributes.tags.name": {
+        "tr": "\u0130sim"
+    },
+    "blog::attributes.tags.slug": {
+        "tr": "URL"
+    },
+    "blog::blog.categories.name": {
+        "tr": "Blog Kategorisi"
+    },
+    "blog::blog.posts.form.enable_the_blog_category": {
+        "tr": "Blog kategorisini aktif et"
+    },
+    "blog::blog.posts.form.publish_status.published": {
+        "tr": "Yay\u0131nland\u0131"
+    },
+    "blog::blog.posts.form.publish_status.unpublished": {
+        "tr": "Yay\u0131nlanmad\u0131"
+    },
+    "blog::blog.posts.groups.categories": {
+        "tr": "Kategoriler"
+    },
+    "blog::blog.posts.groups.featured_image": {
+        "tr": "\u00d6ne \u00c7\u0131kan Resim"
+    },
+    "blog::blog.posts.groups.general": {
+        "tr": "Genel"
+    },
+    "blog::blog.posts.groups.publish": {
+        "tr": "Yay\u0131nla"
+    },
+    "blog::blog.posts.groups.seo": {
+        "tr": "SEO"
+    },
+    "blog::blog.posts.groups.tags": {
+        "tr": "Etiketler"
+    },
+    "blog::blog.posts.name": {
+        "tr": "Blog G\u00f6nderisi"
+    },
+    "blog::blog.tags.name": {
+        "tr": "Blog Etiketi"
+    },
+    "blog::permissions.categories.create": {
+        "tr": "Blog Kategorisi Olu\u015ftur"
+    },
+    "blog::permissions.categories.destroy": {
+        "tr": "Blog Kategorisini Sil"
+    },
+    "blog::permissions.categories.edit": {
+        "tr": "Blog Kategorisini D\u00fczenle"
+    },
+    "blog::permissions.posts.create": {
+        "tr": "Blog G\u00f6nderisi Olu\u015ftur"
+    },
+    "blog::permissions.posts.destroy": {
+        "tr": "Blog G\u00f6nderisini Sil"
+    },
+    "blog::permissions.posts.edit": {
+        "tr": "Blog G\u00f6nderisini D\u00fczenle"
+    },
+    "blog::permissions.tags.create": {
+        "tr": "Blog Etiketi Olu\u015ftur"
+    },
+    "blog::permissions.tags.destroy": {
+        "tr": "Blog Etiketini D\u00fczenle"
+    },
+    "blog::permissions.tags.edit": {
+        "tr": "Blog Etiketini Sil"
+    },
+    "brand::attributes.is_active": {
+        "tr": "Durum"
+    },
+    "brand::attributes.name": {
+        "tr": "\u0130sim"
+    },
+    "brand::brands.brand": {
+        "tr": "Marka"
+    },
+    "brand::brands.brands": {
+        "tr": "Markalar"
+    },
+    "brand::brands.form.banner": {
+        "tr": "Banner"
+    },
+    "brand::brands.form.enable_the_brand": {
+        "tr": "Markay\u0131 etinle\u015ftir"
+    },
+    "brand::brands.form.logo": {
+        "tr": "Logo"
+    },
+    "brand::brands.table.logo": {
+        "tr": "Logo"
+    },
+    "brand::brands.table.name": {
+        "tr": "\u0130sim"
+    },
+    "brand::brands.tabs.general": {
+        "tr": "Genel"
+    },
+    "brand::brands.tabs.group.brand_information": {
+        "tr": "Marka Bilgisi"
+    },
+    "brand::brands.tabs.images": {
+        "tr": "Resimler"
+    },
+    "brand::brands.tabs.seo": {
+        "tr": "SEO"
+    },
+    "brand::permissions.create": {
+        "tr": "Test Olu\u015ftur"
+    },
+    "brand::permissions.destroy": {
+        "tr": "Testi Sil"
+    },
+    "brand::permissions.edit": {
+        "tr": "Testi D\u00fczenle"
+    },
+    "category::categories.categories": {
+        "tr": "Kategoriler"
+    },
+    "category::categories.category": {
+        "tr": "Kategori"
+    },
+    "category::categories.form.banner": {
+        "tr": "Banner"
+    },
+    "category::categories.form.enable_the_category": {
+        "tr": "Kategoriyi etkinle\u015ftir"
+    },
+    "category::categories.form.logo": {
+        "tr": "Logo"
+    },
+    "category::attributes.slug": {
+        "tr": "URL"
+    },
+    "category::attributes.name": {
+        "tr": "\u0130sim"
+    },
+    "category::attributes.is_active": {
+        "tr": "Durum"
+    },
+    "category::attributes.id": {
+        "tr": "ID"
+    },
+    "cart::validation.this_field_is_required": {
+        "tr": "Bu alan gereklidir"
+    },
+    "review::attributes.comment": {
+        "tr": "Yorum"
+    },
+    "review::attributes.is_approved": {
+        "tr": "Durum"
+    },
+    "review::attributes.rating": {
+        "tr": "Derecelendirme"
+    },
+    "review::attributes.reviewer_name": {
+        "tr": "Yorum Yapan Ad\u0131"
+    },
+    "review::reviews.form.approve_this_review": {
+        "tr": "Yorumlar"
+    },
+    "review::reviews.products.reviews": {
+        "tr": "Yorumlar"
+    },
+    "review::reviews.review": {
+        "tr": "Yorum"
+    },
+    "review::reviews.reviews": {
+        "tr": "Yorumlar"
+    },
+    "storefront::product_card.review": {
+        "tr": "Yorum"
+    },
+    "storefront::product_card.reviews": {
+        "tr": "Yorumlar"
+    },
+    "storefront::product.reviews": {
+        "tr": "Yorumlar (:count)"
+    },
+    "flashsale::attributes.products.*.qty": {
+        "tr": "Miktar"
+    },
+    "flashsale::attributes.quantity": {
+        "tr": "Miktar"
+    },
+    "order::orders.quantity": {
+        "tr": "Miktar"
+    },
+    "order::print.quantity": {
+        "tr": "Miktar"
+    },
+    "product::attributes.variants.*.qty": {
+        "tr": "Miktar"
+    },
+    "storefront::account.view_order.quantity": {
+        "tr": "Miktar"
+    },
+    "storefront::invoice.quantity": {
+        "tr": "Miktar"
+    },
+    "storefront::product.quantity": {
+        "tr": "Miktar"
+    },
+    "storefront::account.wishlist.delete": {
+        "tr": "Sil"
+    },
+    "storefront::compare.add_to_wishlist": {
+        "tr": "Favorilere Ekle"
+    },
+    "storefront::layouts.wishlist": {
+        "tr": "Favori"
+    },
+    "storefront::product_card.wishlist": {
+        "tr": "Favori"
+    },
+    "storefront::product.wishlist": {
+        "tr": "Favori"
+    },
+    "storefront::product.compare": {
+        "tr": "Kar\u015f\u0131la\u015ft\u0131r"
+    },
+    "storefront::product_card.compare": {
+        "tr": "Kar\u015f\u0131la\u015ft\u0131r"
+    },
+    "storefront::layouts.compare": {
+        "tr": "Kar\u015f\u0131la\u015ft\u0131r"
+    },
+    "storefront::checkout.checkout": {
+        "tr": "\u00d6deme"
+    },
+    "storefront::layouts.checkout": {
+        "tr": "\u00d6deme"
+    },
+    "storefront::checkout.total": {
+        "tr": "Toplam"
+    },
+    "storefront::checkout.subtotal": {
+        "tr": "Alt Toplam"
+    },
+    "storefront::checkout.terms_&_conditions": {
+        "tr": "\u015eartlar & Ko\u015fullar"
+    },
+    "order::orders.subtotal": {
+        "tr": "Alt Toplam"
+    },
+    "order::print.subtotal": {
+        "tr": "Alt Toplam"
+    },
+    "report::admin.table.subtotal": {
+        "tr": "Alt Toplam"
+    },
+    "storefront::account.view_order.subtotal": {
+        "tr": "Alt Toplam"
+    },
+    "storefront::invoice.subtotal": {
+        "tr": "Alt Toplam"
+    },
+    "storefront::layouts.subtotal": {
+        "tr": "Alt Toplam"
+    },
+    "storefront::checkout.billing_details": {
+        "tr": "Fatura Detaylar\u0131"
+    },
+    "order::orders.payment_method": {
+        "tr": "\u00d6deme Y\u00f6ntemi"
+    },
+    "order::print.payment_method": {
+        "tr": "\u00d6deme Y\u00f6ntemi"
+    },
+    "setting::settings.tabs.group.payment_methods": {
+        "tr": "\u00d6deme Y\u00f6ntemleri"
+    },
+    "storefront::account.view_order.payment_method": {
+        "tr": "\u00d6deme Y\u00f6ntemi:"
+    },
+    "storefront::checkout.payment_method": {
+        "tr": "\u00d6deme Y\u00f6ntemi"
+    },
+    "storefront::invoice.payment_method": {
+        "tr": "\u00d6deme Y\u00f6ntemi"
+    },
+    "transaction::transactions.table.payment_method": {
+        "tr": "\u00d6deme Y\u00f6ntemi"
+    },
+    "storefront::attributes.storefront_instagram_link": {
+        "tr": "Instagram"
+    },
+    "storefront::storefront.social_links.instagram": {
+        "tr": "Instagram"
+    },
+    "storefront::checkout.i_agree_to_the": {
+        "tr": "Onayl\u0131yorum:"
+    },
+    "user::auth.i_agree_to_the": {
+        "tr": "Onayl\u0131yorum:"
+    },
+    "checkout::attributes.street_address": {
+        "tr": "Adres"
+    },
+    "checkout::attributes.ship_to_a_different_address": {
+        "tr": "Farkl\u0131 bir adrese teslim edilsin"
+    },
+    "storefront::checkout.shipping_details": {
+        "tr": "Teslimat Detaylar\u0131"
+    },
+    "checkout::attributes.order_note": {
+        "tr": "Sipari\u015f Notu"
+    },
+    "order::orders.order_note": {
+        "tr": "Sipari\u015f Notu"
+    },
+    "storefront::account.view_order.order_note": {
+        "tr": "Sipari\u015f Notu:"
+    },
+    "storefront::checkout.no_payment_method": {
+        "tr": "\u00d6deme y\u00f6ntemi bulunamad\u0131"
+    },
+    "storefront::checkout.enter_coupon_code": {
+        "tr": "Kupon kodunu giriniz"
+    },
+    "product::products.variants.apply": {
+        "tr": "Onayla"
+    },
+    "storefront::checkout.apply": {
+        "tr": "Onayla"
+    },
+    "storefront::checkout.order_summary": {
+        "tr": "Sipari\u015f \u00d6zeti"
+    },
+    "storefront::products.latest_products": {
+        "tr": "Yeni \u00dcr\u00fcnler"
+    },
+    "storefront::storefront.form.product_types.latest_products": {
+        "tr": "Yeni \u00dcr\u00fcnler"
+    },
+    "storefront::products.sort_options.latest": {
+        "tr": "Yeni Gelenler"
+    },
+    "storefront::products.sort_options.alphabetic": {
+        "tr": "Alfabetik"
+    },
+    "storefront::products.sort_options.priceHighToLow": {
+        "tr": "Fiyat: Y\u00fcksekten D\u00fc\u015f\u00fc\u011fe"
+    },
+    "storefront::products.sort_options.priceLowToHigh": {
+        "tr": "Fiyat: D\u00fc\u015f\u00fckten Y\u00fckse\u011fe"
+    },
+    "storefront::products.sort_options.relevance": {
+        "tr": "Alaka D\u00fczeyi"
+    },
+    "storefront::products.sort_options.topRated": {
+        "tr": "En Y\u00fcksek Puanl\u0131"
+    },
+    "storefront::products.browse_categories": {
+        "tr": "Kategorileri Ke\u015ffet"
+    },
+    "report::admin.filters.brand": {
+        "tr": "Marka"
+    },
+    "report::admin.filters.category": {
+        "tr": "Kategori"
+    },
+    "report::admin.filters.coupon_code": {
+        "tr": "Kupon Kodu"
+    },
+    "report::admin.filters.customer_email": {
+        "tr": "M\u00fc\u015fteri E-postas\u0131"
+    },
+    "report::admin.filters.customer_name": {
+        "tr": "M\u00fc\u015fteri Ad\u0131"
+    },
+    "report::admin.filters.date_end": {
+        "tr": "Biti\u015f Tarihi"
+    },
+    "report::admin.filters.date_start": {
+        "tr": "Ba\u015flang\u0131\u00e7 Tarihi"
+    },
+    "report::admin.filters.groups.days": {
+        "tr": "G\u00fcn"
+    },
+    "report::admin.filters.groups.months": {
+        "tr": "Ay"
+    },
+    "report::admin.filters.groups.weeks": {
+        "tr": "Hafta"
+    },
+    "report::admin.filters.groups.years": {
+        "tr": "Y\u0131l"
+    },
+    "report::admin.filters.keyword": {
+        "tr": "Anahtar Kelime"
+    },
+    "report::admin.filters.product": {
+        "tr": "\u00dcr\u00fcn"
+    },
+    "report::admin.filters.stock_availability_states.out_of_stock": {
+        "tr": "Stokta Yok"
+    },
+    "report::admin.filters.stock_availability_states.in_stock": {
+        "tr": "Stokta"
+    },
+    "report::admin.filters.tag": {
+        "tr": "Etiket"
+    },
+    "report::admin.filters.stock_availability": {
+        "tr": "Stok Durumu"
+    },
+    "report::admin.filters.status": {
+        "tr": "Sipari\u015f Durumu"
+    },
+    "report::admin.filters.shipping_method": {
+        "tr": "Teslimat Y\u00f6ntemi"
+    },
+    "storefront::products.filters": {
+        "tr": "Filtreler"
+    },
+    "flashsale::attributes.price": {
+        "tr": "Fiyat"
+    },
+    "flashsale::attributes.products.*.price": {
+        "tr": "Fiyat"
+    },
+    "option::attributes.options.*.values.*.price": {
+        "tr": "Fiyat"
+    },
+    "option::attributes.options.*.values.*.price_type": {
+        "tr": "Fiyat T\u00fcr\u00fc"
+    },
+    "option::attributes.price": {
+        "tr": "Fiyat"
+    },
+    "option::attributes.price_type": {
+        "tr": "Fiyat T\u00fcr\u00fc"
+    },
+    "option::attributes.values.*.price": {
+        "tr": "Fiyat"
+    },
+    "option::attributes.values.*.price_type": {
+        "tr": "Fiyat T\u00fcr\u00fc"
+    },
+    "option::options.form.price": {
+        "tr": "Fiyat"
+    },
+    "product::attributes.options.*.values.*.price": {
+        "tr": "Fiyat"
+    },
+    "product::attributes.options.*.values.*.price_type": {
+        "tr": "Fiyat T\u00fcr\u00fc"
+    },
+    "product::attributes.price": {
+        "tr": "Fiyat"
+    },
+    "product::attributes.variants.*.price": {
+        "tr": "Fiyat"
+    },
+    "product::products.form.options.price": {
+        "tr": "Fiyat"
+    },
+    "product::products.form.variants.price": {
+        "tr": "Fiyat"
+    },
+    "product::products.table.price": {
+        "tr": "Fiyat"
+    },
+    "storefront::compare.price": {
+        "tr": "Fiyat"
+    },
+    "storefront::products.price": {
+        "tr": "Fiyat"
+    },
+    "admin::admin.table.showing_start_end_total_entries": {
+        "tr": "_TOTAL_ sonu\u00e7tan _START_-_END_ aras\u0131ndakiler g\u00f6steriliyor."
+    },
+    "storefront::products.showing_results": {
+        "tr": ":to sonu\u00e7tan :from-:total aras\u0131ndakiler g\u00f6steriliyor."
+    },
+    "coupon::attributes.exclude_products": {
+        "tr": "\u00dcr\u00fcnleri Hari\u00e7 Tut"
+    },
+    "coupon::attributes.products": {
+        "tr": "\u00dcr\u00fcnler"
+    },
+    "flashsale::attributes.products.*.end_date": {
+        "tr": "Biti\u015f Tarihi"
+    },
+    "flashsale::attributes.products.*.product_id": {
+        "tr": "\u00dcr\u00fcn"
+    },
+    "flashsale::flash_sales.tabs.products": {
+        "tr": "\u00dcr\u00fcnler"
+    },
+    "product::attributes.related_products": {
+        "tr": "\u0130lgili \u00dcr\u00fcnler"
+    },
+    "product::permissions.create": {
+        "tr": "\u00dcr\u00fcn Olu\u015ftur"
+    },
+    "product::permissions.destroy": {
+        "tr": "\u00dcr\u00fcn\u00fc Sil"
+    },
+    "product::permissions.edit": {
+        "tr": "\u00dcr\u00fcn\u00fc D\u00fczenle"
+    },
+    "product::products.attributes.add_attribute": {
+        "tr": "\u00d6zellik Ekle"
+    },
+    "product::products.attributes.attribute": {
+        "tr": "\u00d6zellik"
+    },
+    "product::products.attributes.values": {
+        "tr": "De\u011ferler"
+    },
+    "product::products.downloads.add_file": {
+        "tr": "Dosya Ekle"
+    },
+    "product::products.downloads.choose": {
+        "tr": "Se\u00e7iniz"
+    },
+    "product::products.downloads.file": {
+        "tr": "Dosya"
+    },
+    "product::products.form.enable_the_product": {
+        "tr": "\u00dcr\u00fcn\u00fc Etkinle\u015ftir"
+    },
+    "product::products.form.manage_stock_states.0": {
+        "tr": "Stok Takibi Yapma"
+    },
+    "product::products.form.manage_stock_states.1": {
+        "tr": "Stok Takibi"
+    },
+    "product::products.form.options.is_required": {
+        "tr": "Gerekli"
+    },
+    "product::products.form.options.label": {
+        "tr": "Etiket"
+    },
+    "product::products.form.options.name": {
+        "tr": "\u0130sim"
+    },
+    "product::products.form.options.option_types.checkbox": {
+        "tr": "Onay Kutusu"
+    },
+    "product::products.form.options.option_types.checkbox_custom": {
+        "tr": "\u00d6zel Onay Kutusu"
+    },
+    "product::products.form.options.option_types.date": {
+        "tr": "Tarih"
+    },
+    "product::products.form.options.option_types.date_time": {
+        "tr": "Tarih & Zaman"
+    },
+    "product::products.form.options.option_types.dropdown": {
+        "tr": "A\u00e7\u0131l\u0131r Men\u00fc"
+    },
+    "product::products.form.options.option_types.field": {
+        "tr": "Alan"
+    },
+    "product::products.form.options.option_types.multiple_select": {
+        "tr": "\u00c7oklu Se\u00e7im"
+    },
+    "product::products.form.options.option_types.radio": {
+        "tr": "Radio Buton"
+    },
+    "product::products.form.options.option_types.radio_custom": {
+        "tr": "\u00d6zel Radio buton"
+    },
+    "product::products.form.options.option_types.select": {
+        "tr": "Se\u00e7iniz"
+    },
+    "product::products.form.options.option_types.text": {
+        "tr": "Metin"
+    },
+    "product::products.form.options.option_types.textarea": {
+        "tr": "Metin Alan\u0131"
+    },
+    "product::products.form.options.option_types.time": {
+        "tr": "Zaman"
+    },
+    "product::products.form.options.price_type": {
+        "tr": "Fiyat T\u00fcr\u00fc"
+    },
+    "product::products.form.options.price_types.fixed": {
+        "tr": "Sabit"
+    },
+    "product::products.form.options.price_types.percent": {
+        "tr": "Y\u00fczde"
+    },
+    "product::products.form.options.select_template": {
+        "tr": "\u015eablon Se\u00e7iniz"
+    },
+    "product::products.form.options.type": {
+        "tr": "T\u00fcr"
+    },
+    "product::products.form.special_price_types.fixed": {
+        "tr": "Sabit"
+    },
+    "product::products.form.special_price_types.percent": {
+        "tr": "Y\u00fczde"
+    },
+    "product::products.form.stock_availability_states.0": {
+        "tr": "Stokta Yok"
+    },
+    "product::products.form.stock_availability_states.1": {
+        "tr": "Stokta"
+    },
+    "product::products.form.the_product_won't_be_shipped": {
+        "tr": "\u00dcr\u00fcn g\u00f6nderilmeyecek"
+    },
+    "product::products.form.variants.all_variants": {
+        "tr": "T\u00fcm Varyasyonlar"
+    },
+    "product::products.form.variants.bulk_edit": {
+        "tr": "Toplu D\u00fczenle"
+    },
+    "product::products.form.variants.default_variant": {
+        "tr": "Varsay\u0131lan Varyasyon"
+    },
+    "product::products.form.variants.enable_the_variants": {
+        "tr": "Varyasyonlar\u0131 Etkinle\u015ftir"
+    },
+    "product::products.form.variants.field_type": {
+        "tr": "Alan T\u00fcr\u00fc"
+    },
+    "product::products.form.variants.in_stock": {
+        "tr": "Stok Durumu"
+    },
+    "product::products.form.variants.is_active": {
+        "tr": "Durum"
+    },
+    "product::products.form.variants.manage_stock": {
+        "tr": "Stok Y\u00f6netimi"
+    },
+    "product::products.form.variants.manage_stock_states.0": {
+        "tr": "Stok Takibi Yapma"
+    },
+    "product::products.form.variants.manage_stock_states.1": {
+        "tr": "Stok Takibi"
+    },
+    "product::products.form.variants.media": {
+        "tr": "Medya"
+    },
+    "product::products.form.variants.name": {
+        "tr": "\u0130sim"
+    },
+    "product::products.form.variants.qty": {
+        "tr": "Mktr:"
+    },
+    "product::products.form.variants.sku": {
+        "tr": "SKU"
+    },
+    "product::products.form.variants.special_price": {
+        "tr": "\u00d6zel Fiyat"
+    },
+    "product::products.form.variants.special_price_end": {
+        "tr": "\u00d6zel Fiyat Biti\u015f"
+    },
+    "product::products.form.variants.special_price_start": {
+        "tr": "\u00d6zel Fiyat Ba\u015flang\u0131\u00e7"
+    },
+    "product::products.form.variants.special_price_type": {
+        "tr": "\u00d6zel Fiyat T\u00fcr\u00fc"
+    },
+    "product::products.form.variants.special_price_types.fixed": {
+        "tr": "Sabit"
+    },
+    "product::products.form.variants.special_price_types.percent": {
+        "tr": "Y\u00fczde"
+    },
+    "product::products.form.variants.stock_availability_states.0": {
+        "tr": "Stokta Yok"
+    },
+    "product::products.form.variants.stock_availability_states.1": {
+        "tr": "Stokta"
+    },
+    "product::products.form.variations.color": {
+        "tr": "Renk"
+    },
+    "product::products.form.variations.image": {
+        "tr": "Resim"
+    },
+    "product::products.form.variations.label": {
+        "tr": "Etiket"
+    },
+    "product::products.form.variations.name": {
+        "tr": "\u0130sim"
+    },
+    "product::products.form.variations.select_template": {
+        "tr": "\u015eablon Se\u00e7iniz"
+    },
+    "product::products.form.variations.type": {
+        "tr": "T\u00fcr"
+    },
+    "product::products.form.variations.values": {
+        "tr": "De\u011ferler"
+    },
+    "product::products.form.variations.variation_types.color": {
+        "tr": "Renk"
+    },
+    "product::products.form.variations.variation_types.image": {
+        "tr": "Resim"
+    },
+    "product::products.form.variations.variation_types.text": {
+        "tr": "Metin"
+    },
+    "product::products.group.additional": {
+        "tr": "Eklenebilir"
+    },
+    "product::products.group.attributes": {
+        "tr": "\u00d6zellikler"
+    },
+    "product::products.group.downloads": {
+        "tr": "\u0130ndirmeler"
+    },
+    "product::products.group.general": {
+        "tr": "Genel"
+    },
+    "product::products.group.inventory": {
+        "tr": "Stok"
+    },
+    "product::products.group.linked_products": {
+        "tr": "Ba\u011flant\u0131l\u0131 \u00dcr\u00fcnler"
+    },
+    "product::products.group.media": {
+        "tr": "Medya"
+    },
+    "product::products.group.options": {
+        "tr": "Se\u00e7enekler"
+    },
+    "product::products.group.pricing": {
+        "tr": "Fiyatland\u0131rma"
+    },
+    "product::products.group.seo": {
+        "tr": "Seo"
+    },
+    "product::products.group.variants": {
+        "tr": "Varyasyon"
+    },
+    "product::products.group.variations": {
+        "tr": "Varyasyonlar"
+    },
+    "product::products.options.add_option": {
+        "tr": "\u00d6zellik Ekle"
+    },
+    "product::products.options.add_row": {
+        "tr": "Row Ekle"
+    },
+    "product::products.options.insert": {
+        "tr": "Ekle"
+    },
+    "product::products.options.new_option": {
+        "tr": "Yeni Se\u00e7enek"
+    },
+    "product::products.options.option_inserted": {
+        "tr": "Se\u00e7enek eklendi"
+    },
+    "product::products.product": {
+        "tr": "\u00dcr\u00fcn"
+    },
+    "product::products.products": {
+        "tr": "\u00dcr\u00fcnler"
+    },
+    "product::products.save": {
+        "tr": "Kaydet"
+    },
+    "product::products.save_and_edit": {
+        "tr": "Kaydet & D\u00fczenle"
+    },
+    "product::products.save_and_exit": {
+        "tr": "Kaydet & \u00c7\u0131k"
+    },
+    "product::products.section.collapse_all": {
+        "tr": "T\u00fcm\u00fcn\u00fc Daralt"
+    },
+    "product::products.section.expand_all": {
+        "tr": "T\u00fcm\u00fcn\u00fc Geni\u015flet"
+    },
+    "product::products.section.order_saved": {
+        "tr": "Sipari\u015f kaydedildi"
+    },
+    "product::products.table.name": {
+        "tr": "\u0130sim"
+    },
+    "product::products.table.stock": {
+        "tr": "Stok"
+    },
+    "product::products.table.thumbnail": {
+        "tr": "K\u00fc\u00e7\u00fck Resim"
+    },
+    "product::products.variants.bulk_variants_updated": {
+        "tr": "Varyasyonlar g\u00fcncellendi"
+    },
+    "product::products.variants.default": {
+        "tr": "Varsay\u0131lan"
+    },
+    "product::products.variants.disable_default_variant": {
+        "tr": "Varsay\u0131lan varyant devre d\u0131\u015f\u0131 b\u0131rak\u0131lamaz"
+    },
+    "product::products.variants.has_product_variant": {
+        "tr": "Bireysel varyantlardan y\u00f6netilir"
+    },
+    "product::products.variants.inactive": {
+        "tr": "Aktif De\u011fil"
+    },
+    "product::products.variants.out_of_stock": {
+        "tr": "Stokta Yok"
+    },
+    "product::products.variants.variant": {
+        "tr": "Varyant"
+    },
+    "product::products.variants.variants": {
+        "tr": "Varyantlar"
+    },
+    "product::products.variants.variants_created": {
+        "tr": ":count :suffix olu\u015fturuldu"
+    },
+    "product::products.variants.variants_removed": {
+        "tr": ":count :suffix kald\u0131r\u0131ld\u0131"
+    },
+    "product::products.variants.variants_reordered": {
+        "tr": "Varyantlar yeniden s\u0131raland\u0131"
+    },
+    "product::products.variants.variants_updated": {
+        "tr": ":count :suffix g\u00fcncellendi"
+    },
+    "product::products.variations.add_row": {
+        "tr": "Row Ekle"
+    },
+    "product::products.variations.add_variation": {
+        "tr": "Varyant Ekle"
+    },
+    "product::products.variations.insert": {
+        "tr": "Ekle"
+    },
+    "product::products.variations.new_variation": {
+        "tr": "Yeni Varyant"
+    },
+    "product::products.variations.please_add_some_variations": {
+        "tr": "L\u00fctfen varyant olu\u015fturmak i\u00e7in baz\u0131 varyasyonlar ekleyin"
+    },
+    "product::sidebar.all_products": {
+        "tr": "T\u00fcm \u00dcr\u00fcnler"
+    },
+    "product::sidebar.products": {
+        "tr": "\u00dcr\u00fcnler"
+    },
+    "report::admin.filters.report_types.branded_products_report": {
+        "tr": "Markal\u0131 \u00dcr\u00fcn Raporu"
+    },
+    "report::admin.filters.report_types.categorized_products_report": {
+        "tr": "Kategori \u00dcr\u00fcn Raporu"
+    },
+    "report::admin.filters.report_types.products_purchase_report": {
+        "tr": "\u00dcr\u00fcn Sipari\u015f Raporu"
+    },
+    "report::admin.filters.report_types.products_stock_report": {
+        "tr": "\u00dcr\u00fcn Stok Raporu"
+    },
+    "report::admin.filters.report_types.products_view_report": {
+        "tr": "\u00dcr\u00fcn G\u00f6r\u00fcnt\u00fclenme Raporu"
+    },
+    "report::admin.filters.report_types.tagged_products_report": {
+        "tr": "Etiketli \u00dcr\u00fcn Raporu"
+    },
+    "report::admin.filters.report_types.taxed_products_report": {
+        "tr": "Vergilendirilmi\u015f \u00dcr\u00fcn Raporu"
+    },
+    "report::admin.table.products": {
+        "tr": "\u00dcr\u00fcnler"
+    },
+    "report::admin.table.products_count": {
+        "tr": "\u00dcr\u00fcn Say\u0131s\u0131"
+    },
+    "storefront::attributes.products": {
+        "tr": "\u00dcr\u00fcnler"
+    },
+    "storefront::attributes.products_limit": {
+        "tr": "\u00dcr\u00fcn Limiti"
+    },
+    "storefront::attributes.total_products": {
+        "tr": "Toplam \u00dcr\u00fcnler"
+    },
+    "storefront::product.related_products": {
+        "tr": "\u0130lgili \u00dcr\u00fcnler"
+    },
+    "storefront::products.list_view": {
+        "tr": "Liste G\u00f6r\u00fcn\u00fcm\u00fc"
+    },
+    "storefront::products.no_product_found": {
+        "tr": "Oops! \u00dcr\u00fcn bulunamad\u0131."
+    },
+    "storefront::products.per_page_options.10": {
+        "tr": "10"
+    },
+    "storefront::products.per_page_options.20": {
+        "tr": "20"
+    },
+    "storefront::products.per_page_options.30": {
+        "tr": "30"
+    },
+    "storefront::products.per_page_options.40": {
+        "tr": "40"
+    },
+    "storefront::products.per_page_options.50": {
+        "tr": "50"
+    },
+    "storefront::products.shop": {
+        "tr": "Ma\u011faza"
+    },
+    "storefront::storefront.form.enable_flash_sale_and_vertical_products_section": {
+        "tr": "Fla\u015f indirim & sanal \u00fcr\u00fcnler b\u00f6l\u00fcm\u00fcn\u00fc etkinle\u015ftir"
+    },
+    "storefront::storefront.form.product_types.category_products": {
+        "tr": "Kategori \u00dcr\u00fcnleri"
+    },
+    "storefront::storefront.form.product_types.custom_products": {
+        "tr": "\u00d6zel \u00dcr\u00fcnler"
+    },
+    "storefront::storefront.form.product_types.recently_viewed_products": {
+        "tr": "Son G\u00f6r\u00fcnt\u00fclenen \u00dcr\u00fcnler"
+    },
+    "storefront::storefront.form.vertical_products_1": {
+        "tr": "Sanal \u00dcr\u00fcnler 1"
+    },
+    "storefront::storefront.form.vertical_products_2": {
+        "tr": "Sanal \u00dcr\u00fcnler 2"
+    },
+    "storefront::storefront.form.vertical_products_3": {
+        "tr": "Sanal \u00dcr\u00fcnler 3"
+    },
+    "storefront::storefront.tabs.flash_sale_and_vertical_products": {
+        "tr": "Fla\u015f \u0130ndirim & Sanal \u00dcr\u00fcnler"
+    },
+    "product::sidebar.create_product": {
+        "tr": "\u00dcr\u00fcn Olu\u015ftur"
+    },
+    "category::categories.tabs.image": {
+        "tr": "Resim"
+    },
+    "category::categories.tabs.general": {
+        "tr": "Genel"
+    },
+    "category::categories.form.show_this_category_in_search_box": {
+        "tr": "Bu kategoriyi arama kutusu kategori listesinde g\u00f6ster"
+    },
+    "category::categories.tabs.seo": {
+        "tr": "SEO"
+    },
+    "category::categories.tree.add_root_category": {
+        "tr": "Ana Kategori Ekle"
+    },
+    "category::categories.tree.add_sub_category": {
+        "tr": "Alt Kategori Ekle"
+    },
+    "category::permissions.create": {
+        "tr": "Kategori Olu\u015ftur"
+    },
+    "category::permissions.destroy": {
+        "tr": "Kategoriyi Sil"
+    },
+    "category::permissions.edit": {
+        "tr": "Kategoriyi D\u00fczenle"
+    },
+    "category::sidebar.categories": {
+        "tr": "Kategoriler"
+    },
+    "coupon::attributes.categories": {
+        "tr": "Kategoriler"
+    },
+    "product::attributes.categories": {
+        "tr": "Kategoriler"
+    },
+    "storefront::blog.blog_posts.categories": {
+        "tr": "Kategoriler"
+    },
+    "storefront::blog.blog_posts.no_categories": {
+        "tr": "Kategori yok"
+    },
+    "storefront::categories.no_category_found": {
+        "tr": "Opps! Kategori bulunamad\u0131."
+    },
+    "storefront::layouts.categories": {
+        "tr": "Kategoriler"
+    },
+    "storefront::product.categories": {
+        "tr": "Kategoriler:"
+    },
+    "storefront::storefront.tabs.featured_categories": {
+        "tr": "\u00d6ne \u00c7\u0131kan Kategoriler"
+    },
+    "variation::sidebar.variations": {
+        "tr": "Varyasyonlar"
+    },
+    "variation::variations.variations": {
+        "tr": "Varyasyonlar"
+    },
+    "user::auth.welcome": {
+        "tr": "Ho\u015f Geldiniz"
+    },
+    "storefront::layouts.login": {
+        "tr": "Giri\u015f Yap"
+    },
+    "storefront::layouts.login_register": {
+        "tr": "Giri\u015f Yap \/ Kay\u0131t Ol"
+    },
+    "user::auth.back_to_login": {
+        "tr": "Giri\u015f Yapmaya Geri D\u00f6n"
+    },
+    "user::auth.login": {
+        "tr": "Giri\u015f Yap"
+    },
+    "user::users.table.last_login": {
+        "tr": "Son Giri\u015f"
+    },
+    "setting::attributes.google_login_enabled": {
+        "tr": "Durum"
+    },
+    "setting::settings.tabs.group.social_logins": {
+        "tr": "Sosyal Giri\u015fler"
+    },
+    "user::auth.enter_your_details": {
+        "tr": "Hesab\u0131n\u0131zda giri\u015f yapmak i\u00e7in bilgilerinizi a\u015fa\u011f\u0131ya giriniz."
+    },
+    "checkout::attributes.customer_email": {
+        "tr": "E-posta"
+    },
+    "newsletter::attributes.email": {
+        "tr": "E-posta"
+    },
+    "order::print.email": {
+        "tr": "E-posta"
+    },
+    "user::users.table.email": {
+        "tr": "E-posta"
+    },
+    "user::auth.email": {
+        "tr": "E-posta"
+    },
+    "user::attributes.users.email": {
+        "tr": "E-posta"
+    },
+    "storefront::invoice.email": {
+        "tr": "E-posta"
+    },
+    "user::auth.enter_your_email": {
+        "tr": "E-posta adresinizi giriniz"
+    },
+    "user::auth.enter_your_password": {
+        "tr": "Parolan\u0131z\u0131 giriniz"
+    },
+    "checkout::attributes.password": {
+        "tr": "Parola"
+    },
+    "user::attributes.users.password": {
+        "tr": "Parola"
+    },
+    "user::auth.password": {
+        "tr": "Parola"
+    },
+    "user::attributes.auth.remember_me": {
+        "tr": "Beni hat\u0131rla"
+    },
+    "user::auth.remember_me": {
+        "tr": "Beni hat\u0131rla"
+    },
+    "user::auth.sign_in": {
+        "tr": "Giri\u015f Yap"
+    },
+    "user::auth.sign_in_with_facebook": {
+        "tr": "Facebook ile Giri\u015f Yap"
+    },
+    "user::auth.sign_in_with_google": {
+        "tr": "Google ile Giri\u015f Yap"
+    },
+    "user::auth.sign_up": {
+        "tr": "Kay\u0131t Ol"
+    },
+    "user::auth.or_sign_up_with": {
+        "tr": "Veya, \u015eununla Kaydolun"
+    },
+    "storefront::layouts.home": {
+        "tr": "Ana Sayfa"
+    },
+    "storefront::layouts.favorites": {
+        "tr": "Favoriler"
+    },
+    "storefront::layouts.language_and_currency": {
+        "tr": "Dil & Para Birimi"
+    },
+    "storefront::layouts.language": {
+        "tr": "Dil"
+    },
+    "storefront::layouts.menu": {
+        "tr": "Men\u00fc"
+    },
+    "storefront::layouts.more": {
+        "tr": "Daha Fazla"
+    },
+    "storefront::layouts.next": {
+        "tr": "\u0130LER\u0130"
+    },
+    "storefront::layouts.no_thanks": {
+        "tr": "Hay\u0131r, Te\u015fekk\u00fcrler"
+    },
+    "user::auth.or": {
+        "tr": "Veya"
+    },
+    "user::auth.or_continue_with": {
+        "tr": "Veya, Devam Edin"
+    },
+    "user::auth.register": {
+        "tr": "Kay\u0131t Ol"
+    },
+    "user::auth.enter_your_create_account_details": {
+        "tr": "Hesab\u0131n\u0131z\u0131 olu\u015fturmak i\u00e7in a\u015fa\u011f\u0131ya bilgilerinizi giriniz."
+    },
+    "checkout::attributes.customer_phone": {
+        "tr": "Telefon"
+    },
+    "order::print.phone": {
+        "tr": "Telefon"
+    },
+    "user::auth.phone": {
+        "tr": "Telefon"
+    },
+    "user::attributes.users.phone": {
+        "tr": "Telefon"
+    },
+    "storefront::invoice.phone": {
+        "tr": "Telefon"
+    },
+    "storefront::account.view_order.phone": {
+        "tr": "Telefon:"
+    },
+    "user::attributes.users.password_confirmation": {
+        "tr": "Parolay\u0131 Onayla"
+    },
+    "user::auth.confirm_password": {
+        "tr": "Parolay\u0131 Onayla"
+    },
+    "user::attributes.users.confirm_new_password": {
+        "tr": "Yeni Parolay\u0131 Onayla"
+    },
+    "user::auth.privacy_policy": {
+        "tr": "Gizlilik Politikas\u0131"
+    },
+    "storefront::layouts.privacy_policy": {
+        "tr": "Gizlilik Politikas\u0131."
+    },
+    "storefront::attributes.storefront_privacy_page": {
+        "tr": "Gizlilik Politikas\u0131 Sayfas\u0131"
+    },
+    "setting::settings.form.privacy_settings": {
+        "tr": "Gizlilik Ayarlar\u0131"
+    },
+    "storefront::layouts.the_website_uses_cookies": {
+        "tr": "Web sitemiz, en iyi deneyimi ya\u015faman\u0131z\u0131 sa\u011flamak i\u00e7in \u00e7erezleri kullan\u0131r."
+    },
+    "storefront::layouts.decline": {
+        "tr": "Reddet"
+    },
+    "storefront::layouts.accept": {
+        "tr": "Kabul Et"
+    },
+    "storefront::compare.in_stock": {
+        "tr": "Stokta"
+    },
+    "storefront::product.in_stock": {
+        "tr": "Stokta"
+    },
+    "storefront::product.share": {
+        "tr": "Payla\u015f:"
+    },
+    "product::attributes.description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.iyzico_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.authorizenet_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.bank_transfer_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.check_payment_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.cod_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.flutterwave_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.instamojo_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.mercadopago_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.payfast_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.paypal_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.paystack_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.paytm_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.razorpay_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "setting::attributes.translatable.stripe_description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "storefront::compare.description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "storefront::product.description": {
+        "tr": "A\u00e7\u0131klama"
+    },
+    "storefront::layouts.category_suggestions": {
+        "tr": "Kategori \u00d6nerileri"
+    },
+    "storefront::layouts.product_suggestions": {
+        "tr": "\u00dcr\u00fcn \u00d6nerileri"
+    },
+    "storefront::layouts.subscribe_to_our_newsletter_subtitle": {
+        "tr": "B\u00fcltenimize abone olun & indirimler f\u0131rsatlar\u0131n\u0131 ka\u00e7\u0131rmay\u0131n."
+    },
+    "storefront::layouts.subscribe_to_our_newsletter": {
+        "tr": "B\u00fcltenimize Abone Olun"
+    },
+    "setting::settings.form.allow_customers_to_subscribe": {
+        "tr": "M\u00fc\u015fterilerinizin b\u00fclteninize abone olmas\u0131na izin verin"
+    },
+    "storefront::layouts.email_address": {
+        "tr": "E-posta adresiniz"
+    },
+    "user::messages.users.no_user_found": {
+        "tr": "Bu e-posta adresine sahip hi\u00e7bir kullan\u0131c\u0131 sistemimize ait de\u011fildir"
+    },
+    "user::messages.users.invalid_credentials": {
+        "tr": "Ge\u00e7ersiz e-posta adresi veya parola"
+    },
+    "user::messages.users.check_email_to_reset_password": {
+        "tr": "Parolan\u0131z\u0131 s\u0131f\u0131rlamak i\u00e7in e-posta adresinizi kontrol ediniz"
+    },
+    "core::validation.email": {
+        "tr": ":attribute ge\u00e7erli bir e-posta adresi olmal\u0131d\u0131r"
+    },
+    "storefront::layouts.subscribe": {
+        "tr": "Abone Ol"
+    },
+    "storefront::layouts.by_subscribing": {
+        "tr": "B\u00fcltenimize abone olarak gizlilik politikas\u0131n\u0131 kabul edersiniz."
+    },
+    "user::auth.forgot_password": {
+        "tr": "Parolan\u0131z\u0131 m\u0131 unuttunuz?"
+    },
+    "storefront::blog.blog_posts.read_more": {
+        "tr": "Daha Fazla"
+    },
+    "storefront::blog.blog_posts.search_blog_posts": {
+        "tr": "Blog g\u00f6nderilerini aray\u0131n"
+    },
+    "storefront::blog.blog_posts.search": {
+        "tr": "Ara"
+    },
+    "report::admin.filters.report_types.search_report": {
+        "tr": "Arama Raporlar\u0131"
+    },
+    "category::attributes.is_searchable": {
+        "tr": "Aranabilir"
+    },
+    "storefront::attributes.storefront_most_searched_keywords": {
+        "tr": "En \u00c7ok Aranan Anahtar Kelimeler"
+    },
+    "storefront::storefront.form.enable_most_searched_keywords": {
+        "tr": "En \u00c7ok Aranan Anahtar Kelimeleri Etkinle\u015ftir"
+    },
+    "storefront::blog.blog_posts.recent_posts": {
+        "tr": "Son G\u00f6nderiler"
+    },
+    "storefront::blog.blog_posts.no_recent_posts": {
+        "tr": "Yeni g\u00f6nderi yok."
+    },
+    "storefront::blog.blog_posts.social_share": {
+        "tr": "Sosyal Payla\u015f\u0131m"
+    },
+    "product::attributes.tags": {
+        "tr": "Etiketler"
+    },
+    "storefront::attributes.storefront_footer_tags": {
+        "tr": "Alt Bilgi Etiketleri"
+    },
+    "storefront::blog.blog_posts.tags": {
+        "tr": "Etiketler"
+    },
+    "storefront::layouts.tags": {
+        "tr": "Etiketler"
+    },
+    "storefront::product.tags": {
+        "tr": "Etiketler:"
+    },
+    "tag::tags.table.name": {
+        "tr": "\u0130sim"
+    },
+    "tag::tags.tabs.general": {
+        "tr": "Genel"
+    },
+    "tag::tags.tabs.group.tag_information": {
+        "tr": "Etiket Bilgisi"
+    },
+    "tag::tags.tag": {
+        "tr": "Etiket"
+    },
+    "tag::tags.tags": {
+        "tr": "Etiketler"
+    },
+    "storefront::layouts.prev": {
+        "tr": "\u00d6NCEK\u0130"
+    },
+    "slider::sliders.form.show_arrows": {
+        "tr": "\u00d6nceki\/Sonraki oklar\u0131n\u0131 g\u00f6ster"
+    },
+    "user::auth.this_password_should_be_different": {
+        "tr": "Bu parola \u00f6nceki paroladan farkl\u0131 olmal\u0131d\u0131r."
+    },
+    "storefront::product.add_a_review": {
+        "tr": "Yorum Yap\u0131n"
+    },
+    "storefront::product.review_form.your_rating": {
+        "tr": "Derecelendirmeniz"
+    },
+    "coupon::attributes.name": {
+        "tr": "\u0130sim"
+    },
+    "coupon::coupons.table.name": {
+        "tr": "\u0130sim"
+    },
+    "flashsale::attributes.campaign_name": {
+        "tr": "Kampanya \u0130smi"
+    },
+    "flashsale::flash_sales.table.campaign_name": {
+        "tr": "Kampanya \u0130smi"
+    },
+    "media::media.table.filename": {
+        "tr": "Dosya \u0130smi"
+    },
+    "menu::attributes.name": {
+        "tr": "\u0130sim"
+    },
+    "menu::menus.table.name": {
+        "tr": "\u0130sim"
+    },
+    "option::attributes.name": {
+        "tr": "\u0130sim"
+    },
+    "option::options.table.name": {
+        "tr": "\u0130sim"
+    },
+    "option::attributes.options.*.name": {
+        "tr": "\u0130sim"
+    },
+    "order::orders.customer_name": {
+        "tr": "M\u00fc\u015fteri Ad\u0131"
+    },
+    "order::orders.table.customer_name": {
+        "tr": "M\u00fc\u015fteri Ad\u0131"
+    },
+    "page::attributes.name": {
+        "tr": "\u0130sim"
+    },
+    "page::pages.table.name": {
+        "tr": "\u0130sim"
+    },
+    "product::attributes.name": {
+        "tr": "\u0130sim"
+    },
+    "product::attributes.options.*.name": {
+        "tr": "\u0130sim"
+    },
+    "product::attributes.variants.*.name": {
+        "tr": "\u0130sim"
+    },
+    "product::attributes.variations.*.name": {
+        "tr": "\u0130sim"
+    },
+    "report::admin.filters.tax_name": {
+        "tr": "Vergi \u0130smi"
+    },
+    "report::admin.table.coupon_name": {
+        "tr": "Kupon \u0130smi"
+    },
+    "report::admin.table.customer_name": {
+        "tr": "M\u00fc\u015fteri E-postas\u0131"
+    },
+    "report::admin.table.tax_name": {
+        "tr": "Vergi \u0130smi"
+    },
+    "review::reviews.table.reviewer_name": {
+        "tr": "Yorum Yapan Ad\u0131"
+    },
+    "setting::attributes.translatable.store_name": {
+        "tr": "Ma\u011faza \u0130smi"
+    },
+    "slider::attributes.name": {
+        "tr": "Yorum Yapan Ad\u0131"
+    },
+    "slider::sliders.table.name": {
+        "tr": "Yorum Yapan Ad\u0131"
+    },
+    "storefront::mail.hello": {
+        "tr": "Merhaba :name!"
+    },
+    "storefront::product.review_form.name": {
+        "tr": "Ad\u0131n\u0131z"
+    },
+    "tag::attributes.name": {
+        "tr": "\u0130sim"
+    },
+    "tax::attributes.name": {
+        "tr": "Vergi Ad\u0131"
+    },
+    "tax::attributes.rates.*.name": {
+        "tr": "Vergi Ad\u0131"
+    },
+    "user::attributes.roles.name": {
+        "tr": "\u0130sim"
+    },
+    "user::mail.welcome": {
+        "tr": "Merhaba :name!"
+    },
+    "user::roles.table.name": {
+        "tr": "\u0130sim"
+    },
+    "variation::attributes.name": {
+        "tr": "\u0130sim"
+    },
+    "variation::variations.form.name": {
+        "tr": "\u0130sim"
+    },
+    "variation::variations.table.name": {
+        "tr": "\u0130sim"
+    },
+    "storefront::product.be_the_first_one_to_review_this_product": {
+        "tr": "Bu \u00fcr\u00fcne ilk yorum yapan siz olun."
+    },
+    "storefront::product.review_form.comment": {
+        "tr": "Yorum"
+    },
+    "user::auth.submit": {
+        "tr": "G\u00f6nder"
+    },
+    "storefront::product.review_submitted": {
+        "tr": "Yorum g\u00f6nderildi"
+    },
+    "storefront::product.review_form.submit_review": {
+        "tr": "Yorum G\u00f6nder"
+    },
+    "review::messages.submitted_for_approval": {
+        "tr": "Yorumunuz onay i\u00e7in g\u00f6nderildi"
+    },
+    "storefront::checkout.place_order": {
+        "tr": "Sipari\u015f Ver"
+    },
+    "storefront::order_complete.order_placed": {
+        "tr": "Sipari\u015f Al\u0131nd\u0131!"
+    },
+    "storefront::order_complete.your_order_has_been_placed": {
+        "tr": "Sipari\u015finiz al\u0131nm\u0131\u015ft\u0131r. Sipari\u015f ID: <b>:id<\/b>"
+    },
+    "sms::messages.order_has_been_placed": {
+        "tr": "Merhaba :first_name, Sipari\u015finiz #:order_id al\u0131nm\u0131\u015ft\u0131r. Bizimle al\u0131\u015fveri\u015f yapt\u0131\u011f\u0131n\u0131z i\u00e7in te\u015fekk\u00fcr ederiz."
+    },
+    "sms::messages.new_order": {
+        "tr": "Yeni bir sipari\u015f al\u0131nd\u0131. Sipari\u015f ID: #:order_id"
+    },
+    "checkout::mail.new_order_text": {
+        "tr": "Yeni bir sipari\u015f al\u0131nd\u0131. Sipari\u015f ID: #:order_id."
+    },
+    "checkout::mail.new_order_subject": {
+        "tr": "Yeni bir sipari\u015f al\u0131nd\u0131."
+    },
+    "checkout::mail.view_order": {
+        "tr": "Sipari\u015fi G\u00f6r\u00fcnt\u00fcle"
+    },
+    "storefront::account.view_order.coupon": {
+        "tr": "Kupon"
+    },
+    "storefront::invoice.unit_price": {
+        "tr": "Birim Fiyat"
+    },
+    "storefront::account.view_order.unit_price": {
+        "tr": "Birim Fiyat"
+    },
+    "order::print.unit_price": {
+        "tr": "Birim Fiyat"
+    },
+    "order::orders.unit_price": {
+        "tr": "Birim Fiyat"
+    },
+    "order::statuses.pending": {
+        "tr": "Beklemede"
+    },
+    "order::statuses.pending_payment": {
+        "tr": "\u00d6deme Beklemede"
+    },
+    "order::orders.line_total": {
+        "tr": "Toplam"
+    },
+    "order::print.line_total": {
+        "tr": "Toplam"
+    },
+    "storefront::account.view_order.line_total": {
+        "tr": "Toplam"
+    },
+    "storefront::cart.table.line_total": {
+        "tr": "Toplam"
+    },
+    "storefront::invoice.line_total": {
+        "tr": "Toplam"
+    },
+    "order::orders.table.total": {
+        "tr": "Toplam"
+    },
+    "order::orders.total": {
+        "tr": "Toplam"
+    },
+    "order::print.total": {
+        "tr": "Toplam"
+    },
+    "report::admin.table.total": {
+        "tr": "Toplam"
+    },
+    "storefront::account.view_order.total": {
+        "tr": "Toplam"
+    },
+    "storefront::invoice.total": {
+        "tr": "Toplam"
+    },
+    "storefront::account.view_order.shipping_address": {
+        "tr": "Teslimat Adresi"
+    },
+    "storefront::account.view_order.shipping_method": {
+        "tr": "Teslimat Y\u00f6ntemi:"
+    },
+    "storefront::account.view_order.view_order": {
+        "tr": "Sipari\u015fi G\u00f6r\u00fcnt\u00fcle"
+    },
+    "order::orders.address_information": {
+        "tr": "Adres Bilgisi"
+    },
+    "order::orders.order_information": {
+        "tr": "Sipari\u015f Bilgisi"
+    },
+    "storefront::account.view_order.order_information": {
+        "tr": "Sipari\u015f Bilgisi"
+    },
+    "product::attributes.in_stock": {
+        "tr": "Stok Durumu"
+    },
+    "product::attributes.variants.*.in_stock": {
+        "tr": "Stok Durumu"
+    },
+    "report::admin.table.stock_availability": {
+        "tr": "Stok Durumu"
+    },
+    "storefront::account.wishlist.availability": {
+        "tr": "Durum"
+    },
+    "storefront::compare.availability": {
+        "tr": "Durum"
+    },
+    "storefront::checkout.default": {
+        "tr": "Varsay\u0131lan"
+    },
+    "setting::attributes.default_timezone": {
+        "tr": "Varsay\u0131lan Zaman Dilimi"
+    },
+    "setting::attributes.default_currency": {
+        "tr": "Varsay\u0131lan Para Birimi"
+    },
+    "product::attributes.variants.*.is_default": {
+        "tr": "Varsay\u0131lan"
+    },
+    "setting::attributes.default_locale": {
+        "tr": "Varsay\u0131lan Konum"
+    },
+    "storefront::checkout.add_new_address": {
+        "tr": "Yeni Adres Ekle"
+    },
+    "setting::settings.form.ip_addreses_seperated_in_new_line": {
+        "tr": "IP adresleri yeni sat\u0131rda ayr\u0131lm\u0131\u015ft\u0131r"
+    },
+    "tax::taxes.form.add_new_rate": {
+        "tr": "Yeni Oran Ekle"
+    },
+    "admin::admin.table.show_menu_entries": {
+        "tr": "_MENU_ giri\u015flerini g\u00f6ster"
+    },
+    "attribute::permissions.attributes.index": {
+        "tr": "Index \u00d6zellik"
+    },
+    "attribute::permissions.attribute_sets.index": {
+        "tr": "Index \u00d6zellik Grubu"
+    },
+    "blog::permissions.categories.index": {
+        "tr": "Index Blog Kategorisi"
+    },
+    "blog::permissions.tags.index": {
+        "tr": "Dizin Blog Etiketi"
+    },
+    "blog::permissions.posts.index": {
+        "tr": "Index Blog G\u00f6nderisi"
+    },
+    "cart::validation.the_selected_option_is_invalid": {
+        "tr": "Se\u00e7ilen se\u00e7enek ge\u00e7ersizdir"
+    },
+    "cart::messages.out_of_stock": {
+        "tr": "\u00dczg\u00fcn\u00fcz, \u00fcr\u00fcn stokta yok"
+    },
+    "cart::messages.one_or_more_product_is_out_of_stock": {
+        "tr": "\u00dczg\u00fcn\u00fcz, bir veya daha fazla \u00fcr\u00fcn stokta yok"
+    },
+    "cart::messages.one_or_more_product_doesn't_have_enough_stock": {
+        "tr": "\u00dczg\u00fcn\u00fcz, bir veya daha fazla \u00fcr\u00fcn i\u00e7in yeterli stok yok"
+    },
+    "cart::messages.not_have_enough_quantity_in_stock": {
+        "tr": "\u00dczg\u00fcn\u00fcz, stoklar\u0131m\u0131zda sadece :stock var"
+    },
+    "brand::permissions.index": {
+        "tr": "Index Test"
+    },
+    "category::permissions.index": {
+        "tr": "Index Kategoriler"
+    },
+    "category::messages.category_order_updated": {
+        "tr": "Kategori s\u0131ralamas\u0131 g\u00fcncellendi"
+    },
+    "checkout::mail.if_you\\\u2019re_having_trouble": {
+        "tr": "\u201cSipari\u015fi G\u00f6r\u00fcnt\u00fcle\u201d d\u00fc\u011fmesine t\u0131klamakta sorun ya\u015f\u0131yorsan\u0131z, a\u015fa\u011f\u0131daki URL'yi kopyalay\u0131p web taray\u0131c\u0131n\u0131za yap\u0131\u015ft\u0131r\u0131n:"
+    },
+    "checkout::messages.no_shipping_method": {
+        "tr": "Teslimat y\u00f6ntemi bulunamad\u0131"
+    },
+    "core::messages.mail_is_not_configured": {
+        "tr": "E-posta d\u00fczg\u00fcn yap\u0131land\u0131r\u0131lmam\u0131\u015f"
+    },
+    "core::messages.something_went_wrong": {
+        "tr": "Bir \u015feyler ters gitti!"
+    },
+    "core::messages.the_given_data_was_invalid": {
+        "tr": "Verilen veriler ge\u00e7ersiz"
+    },
+    "core::validation.accepted": {
+        "tr": ":attribute kabul edilmelidir"
+    },
+    "core::validation.active_url": {
+        "tr": ":attribute ge\u00e7erli bir URL de\u011fil"
+    },
+    "core::validation.after": {
+        "tr": ":date \u00f6\u011fesinden sonra :attribute \u00f6\u011fesi bir tarih olmal\u0131d\u0131r"
+    },
+    "core::validation.after_or_equal": {
+        "tr": ":attribute :date'den sonra veya ona e\u015fit bir tarih olmal\u0131d\u0131r"
+    },
+    "core::validation.alpha": {
+        "tr": ":attribute yaln\u0131zca harf i\u00e7erebilir"
+    },
+    "core::validation.alpha_dash": {
+        "tr": ":attribute yaln\u0131zca harf, rakam ve tire i\u00e7erebilir"
+    },
+    "core::validation.alpha_num": {
+        "tr": ":attribute yaln\u0131zca harf ve rakam i\u00e7erebilir"
+    },
+    "core::validation.array": {
+        "tr": ":attribute bir dizi olmal\u0131d\u0131r"
+    },
+    "core::validation.before": {
+        "tr": ":date \u00f6\u011fesinden \u00f6nce :attribute \u00f6\u011fesi bir tarih olmal\u0131d\u0131r"
+    },
+    "core::validation.before_or_equal": {
+        "tr": ":attribute :date'den \u00f6nce veya ona e\u015fit bir tarih olmal\u0131d\u0131r"
+    },
+    "core::validation.between.array": {
+        "tr": ":attribute :min ve :max \u00f6\u011feleri aras\u0131nda olmal\u0131d\u0131r"
+    },
+    "core::validation.between.file": {
+        "tr": ":attribute :min ve :max kilobayt aras\u0131nda olmal\u0131d\u0131r"
+    },
+    "core::validation.between.numeric": {
+        "tr": ":attribute :min ve :max aras\u0131nda olmal\u0131d\u0131r"
+    },
+    "core::validation.between.string": {
+        "tr": ":attribute :min ve :max karakterleri aras\u0131nda olmal\u0131d\u0131r"
+    },
+    "core::validation.boolean": {
+        "tr": ":attribute alan\u0131 do\u011fru veya yanl\u0131\u015f olmal\u0131d\u0131r"
+    },
+    "core::validation.confirmed": {
+        "tr": ":attribute onay\u0131 e\u015fle\u015fmiyor"
+    },
+    "core::validation.date": {
+        "tr": ":attribute ge\u00e7erli bir tarih de\u011fildir"
+    },
+    "core::validation.date_format": {
+        "tr": ":attribute :format bi\u00e7imiyle e\u015fle\u015fmiyor"
+    },
+    "core::validation.different": {
+        "tr": ":attribute ve :other farkl\u0131 olmal\u0131d\u0131r"
+    },
+    "core::validation.digits": {
+        "tr": ":attribute :digits rakamlar\u0131 olmal\u0131d\u0131r"
+    },
+    "core::validation.digits_between": {
+        "tr": ":attribute :min ve :max rakamlar\u0131 aras\u0131nda olmal\u0131d\u0131r"
+    },
+    "core::validation.dimensions": {
+        "tr": ":attribute ge\u00e7ersiz g\u00f6r\u00fcnt\u00fc boyutlar\u0131na sahiptir"
+    },
+    "core::validation.distinct": {
+        "tr": ":attribute alan\u0131n\u0131n yinelenen bir de\u011feri var"
+    },
+    "core::validation.exists": {
+        "tr": "Se\u00e7ilen :attribute ge\u00e7ersiz"
+    },
+    "core::validation.file": {
+        "tr": ":attribute bir dosya olmal\u0131d\u0131r"
+    },
+    "core::validation.filled": {
+        "tr": ":attribute alan\u0131 bir de\u011fere sahip olmal\u0131d\u0131r"
+    },
+    "core::validation.image": {
+        "tr": ":attribute bir resim olmal\u0131d\u0131r"
+    },
+    "core::validation.in": {
+        "tr": "Se\u00e7ilen :attribute ge\u00e7ersiz"
+    },
+    "core::validation.in_array": {
+        "tr": ":attribute alan\u0131 :other i\u00e7inde mevcut de\u011fil"
+    },
+    "core::validation.integer": {
+        "tr": ":attribute bir tamsay\u0131 olmal\u0131d\u0131r"
+    },
+    "core::validation.ip": {
+        "tr": ":attribute ge\u00e7erli bir IP adresi olmal\u0131d\u0131r"
+    },
+    "core::validation.ipv4": {
+        "tr": ":attribute ge\u00e7erli bir IPv4 adresi olmal\u0131d\u0131r"
+    },
+    "core::validation.ipv6": {
+        "tr": ":attribute ge\u00e7erli bir IPv6 adresi olmal\u0131d\u0131r"
+    },
+    "core::validation.json": {
+        "tr": ": attribute ge\u00e7erli bir JSON dizesi olmal\u0131d\u0131r"
+    },
+    "core::validation.max.array": {
+        "tr": ":attribute \u00f6\u011fesi :max \u00f6\u011fesinden daha fazlas\u0131na sahip olamaz"
+    },
+    "core::validation.max.file": {
+        "tr": ":attribute :max kilobayt de\u011ferinden b\u00fcy\u00fck olamaz"
+    },
+    "core::validation.max.numeric": {
+        "tr": ":attribute :max de\u011ferinden b\u00fcy\u00fck olamaz"
+    },
+    "core::validation.max.string": {
+        "tr": ":attribute :max karakter say\u0131s\u0131ndan b\u00fcy\u00fck olamaz"
+    },
+    "core::validation.mimes": {
+        "tr": ":attribute, :values t\u00fcr\u00fcnde bir dosya olmal\u0131d\u0131r."
+    },
+    "core::validation.mimetypes": {
+        "tr": ":attribute, :values t\u00fcr\u00fcnde bir dosya olmal\u0131d\u0131r."
+    },
+    "core::validation.min.array": {
+        "tr": ":attribute en az :min \u00f6\u011felerine sahip olmal\u0131d\u0131r"
+    },
+    "core::validation.min.file": {
+        "tr": ":attribute en az :min kilobayt olmal\u0131d\u0131r"
+    },
+    "core::validation.min.numeric": {
+        "tr": ":attribute en az :min olmal\u0131d\u0131r"
+    },
+    "core::validation.min.string": {
+        "tr": ":attribute en az :min karakter olmal\u0131d\u0131r"
+    },
+    "core::validation.not_in": {
+        "tr": "Se\u00e7ilen :attribute ge\u00e7ersiz"
+    },
+    "core::validation.numeric": {
+        "tr": ":attribute bir say\u0131 olmal\u0131d\u0131r"
+    },
+    "core::validation.present": {
+        "tr": ":attribute alan\u0131 mevcut olmal\u0131d\u0131r"
+    },
+    "core::validation.redis": {
+        "tr": "Redis sunucusuna ba\u011flan\u0131lamad\u0131"
+    },
+    "core::validation.regex": {
+        "tr": ":attribute bi\u00e7imi ge\u00e7ersiz"
+    },
+    "core::validation.required": {
+        "tr": ":attribute alan\u0131 zorunludur"
+    },
+    "core::validation.required_if": {
+        "tr": ":other :value oldu\u011funda :attribute alan\u0131 gereklidir"
+    },
+    "core::validation.required_unless": {
+        "tr": ":other :values i\u00e7inde olmad\u0131\u011f\u0131 s\u00fcrece :attribute alan\u0131 zorunludur"
+    },
+    "core::validation.required_with": {
+        "tr": ":values mevcut oldu\u011funda :attribute alan\u0131 gereklidir"
+    },
+    "core::validation.required_with_all": {
+        "tr": ":values mevcut oldu\u011funda :attribute alan\u0131 gereklidir"
+    },
+    "core::validation.required_without": {
+        "tr": ":values mevcut olmad\u0131\u011f\u0131nda :attribute alan\u0131 gereklidir"
+    },
+    "core::validation.required_without_all": {
+        "tr": ":values hi\u00e7biri mevcut olmad\u0131\u011f\u0131nda :attribute alan\u0131 gereklidir"
+    },
+    "core::validation.same": {
+        "tr": ":attribute ve :other e\u015fle\u015fmelidir"
+    },
+    "core::validation.size.array": {
+        "tr": ":attribute :size \u00f6\u011felerini i\u00e7ermelidir"
+    },
+    "core::validation.size.file": {
+        "tr": ":attribute :size kilobayt olmal\u0131d\u0131r"
+    },
+    "core::validation.size.numeric": {
+        "tr": ":attribute :size olmal\u0131d\u0131r"
+    },
+    "core::validation.size.string": {
+        "tr": ":attribute :size karakterleri olmal\u0131d\u0131r"
+    },
+    "core::validation.string": {
+        "tr": ":attribute bir dize olmal\u0131d\u0131r"
+    },
+    "core::validation.timezone": {
+        "tr": ":attribute ge\u00e7erli bir b\u00f6lge olmal\u0131d\u0131r"
+    },
+    "core::validation.unique": {
+        "tr": ":attribute zaten al\u0131nm\u0131\u015f"
+    },
+    "core::validation.uploaded": {
+        "tr": ":attribute y\u00fcklenemedi"
+    },
+    "core::validation.url": {
+        "tr": ":attribute bi\u00e7imi ge\u00e7ersiz"
+    },
+    "coupon::attributes.code": {
+        "tr": "Kod"
+    },
+    "coupon::attributes.end_date": {
+        "tr": "Biti\u015f tarihi"
+    },
+    "coupon::attributes.exclude_categories": {
+        "tr": "Kategorileri Hari\u00e7 Tut"
+    },
+    "coupon::attributes.free_shipping": {
+        "tr": "\u00dccretsiz Teslimat"
+    },
+    "coupon::attributes.is_active": {
+        "tr": "Durum"
+    },
+    "coupon::attributes.is_percent": {
+        "tr": "\u0130ndirim T\u00fcr\u00fc"
+    },
+    "coupon::attributes.maximum_spend": {
+        "tr": "Maksimum Harcama"
+    },
+    "coupon::attributes.minimum_spend": {
+        "tr": "Minimum Harcama"
+    },
+    "coupon::attributes.start_date": {
+        "tr": "Ba\u015flang\u0131\u00e7 tarihi"
+    },
+    "coupon::attributes.usage_limit_per_coupon": {
+        "tr": "Kupon Ba\u015f\u0131na Kullan\u0131m Limiti"
+    },
+    "coupon::attributes.usage_limit_per_customer": {
+        "tr": "M\u00fc\u015fteri Ba\u015f\u0131na Kullan\u0131m Limiti"
+    },
+    "coupon::attributes.value": {
+        "tr": "De\u011fer"
+    },
+    "coupon::coupons.coupon": {
+        "tr": "Kupon"
+    },
+    "coupon::coupons.coupons": {
+        "tr": "Kuponlar"
+    },
+    "coupon::coupons.form.allow_free_shipping": {
+        "tr": "\u00dccretsiz teslimata izin ver"
+    },
+    "coupon::coupons.form.enable_the_coupon": {
+        "tr": "Kuponu etkinle\u015ftir"
+    },
+    "coupon::coupons.form.price_types.0": {
+        "tr": "Sabit"
+    },
+    "coupon::coupons.form.price_types.1": {
+        "tr": "Y\u00fczde"
+    },
+    "coupon::coupons.table.code": {
+        "tr": "Kod"
+    },
+    "coupon::coupons.table.discount": {
+        "tr": "\u0130ndirim"
+    },
+    "coupon::coupons.tabs.general": {
+        "tr": "Genel"
+    },
+    "coupon::coupons.tabs.group.coupon_information": {
+        "tr": "Kupon Bilgisi"
+    },
+    "coupon::coupons.tabs.usage_limits": {
+        "tr": "Kullan\u0131m Limitleri"
+    },
+    "coupon::coupons.tabs.usage_restrictions": {
+        "tr": "Kullan\u0131m S\u0131n\u0131rlamalar\u0131"
+    },
+    "coupon::messages.already_applied": {
+        "tr": "Kupon zaten uyguland\u0131"
+    },
+    "coupon::messages.inapplicable": {
+        "tr": "Bu kupon sepetinize uygulanamaz"
+    },
+    "coupon::messages.invalid_coupon": {
+        "tr": "Kupon ge\u00e7erli de\u011fil"
+    },
+    "coupon::messages.maximum_spend": {
+        "tr": "Bu kuponu uygulamak i\u00e7in :amount daha az harcama yapman\u0131z gerekir"
+    },
+    "coupon::messages.minimum_spend": {
+        "tr": "Bu kuponu uygulamak i\u00e7in en az :amount harcama yapman\u0131z gerekir"
+    },
+    "coupon::messages.not_exists": {
+        "tr": "Kupon mevcut de\u011fil"
+    },
+    "coupon::messages.usage_limit_reached": {
+        "tr": "Kupon kullan\u0131m limitine ula\u015f\u0131ld\u0131"
+    },
+    "coupon::permissions.create": {
+        "tr": "Kupon Olu\u015ftur"
+    },
+    "coupon::permissions.destroy": {
+        "tr": "Kuponu Sil"
+    },
+    "coupon::permissions.edit": {
+        "tr": "Kuponu D\u00fczenle"
+    },
+    "coupon::permissions.index": {
+        "tr": "Index Kuponlar"
+    },
+    "currency::attributes.rate": {
+        "tr": "Oran"
+    },
+    "currency::currency_rates.currency_rate": {
+        "tr": "D\u00f6viz Kuru"
+    },
+    "currency::currency_rates.currency_rates": {
+        "tr": "D\u00f6viz Kurlar\u0131"
+    },
+    "currency::currency_rates.refresh_currency_rates_from": {
+        "tr": "D\u00f6viz kurlar\u0131n\u0131 :service adresinden yenileyin"
+    },
+    "currency::currency_rates.refresh_rates": {
+        "tr": "Oranlar\u0131 Yenile"
+    },
+    "currency::currency_rates.table.code": {
+        "tr": "Kod"
+    },
+    "currency::currency_rates.table.currency": {
+        "tr": "Para Birimi"
+    },
+    "currency::currency_rates.table.last_updated": {
+        "tr": "Son G\u00fcncelleme"
+    },
+    "currency::currency_rates.table.rate": {
+        "tr": "Oran"
+    },
+    "currency::currency_rates.tabs.general": {
+        "tr": "Genel"
+    },
+    "currency::currency_rates.tabs.group.currency_rate_information": {
+        "tr": "D\u00f6viz Kuru Bilgisi"
+    },
+    "currency::messages.exchange_service_is_not_configured": {
+        "tr": "D\u00f6viz kuru de\u011fi\u015fim hizmeti yap\u0131land\u0131r\u0131lmam\u0131\u015f"
+    },
+    "currency::permissions.edit": {
+        "tr": "D\u00f6viz Kurlar\u0131n\u0131 D\u00fczenle"
+    },
+    "currency::permissions.index": {
+        "tr": "Index D\u00f6viz Kurlar\u0131"
+    },
+    "currency::services.currency_data_feed": {
+        "tr": "Para Birimi Veri Ak\u0131\u015f\u0131"
+    },
+    "currency::services.fixer": {
+        "tr": "Onar\u0131c\u0131"
+    },
+    "currency::services.forge": {
+        "tr": "Forge"
+    },
+    "flashsale::attributes.end_date": {
+        "tr": "Biti\u015f Tarihi"
+    },
+    "flashsale::attributes.product": {
+        "tr": "\u00dcr\u00fcn"
+    },
+    "flashsale::flash_sales.flash_sale": {
+        "tr": "Fla\u015f \u0130ndirim"
+    },
+    "flashsale::flash_sales.flash_sales": {
+        "tr": "Fla\u015f \u0130ndirimler"
+    },
+    "flashsale::flash_sales.form.add_product": {
+        "tr": "\u00dcr\u00fcn Ekle"
+    },
+    "flashsale::flash_sales.form.flash_sale_product": {
+        "tr": "Fla\u015f \u0130ndirim \u00dcr\u00fcn\u00fc"
+    },
+    "flashsale::flash_sales.tabs.group.flash_sale_information": {
+        "tr": "Fla\u015f \u0130ndirim Bilgisi"
+    },
+    "flashsale::flash_sales.tabs.settings": {
+        "tr": "Ayarlar"
+    },
+    "flashsale::permissions.create": {
+        "tr": "Fla\u015f \u0130ndirim Olu\u015ftur"
+    },
+    "flashsale::permissions.destroy": {
+        "tr": "Fla\u015f \u0130ndirimi Sil"
+    },
+    "flashsale::permissions.edit": {
+        "tr": "Fla\u015f \u0130ndirimi D\u00fczenle"
+    },
+    "flashsale::permissions.index": {
+        "tr": "Index Fla\u015f \u0130ndirim"
+    },
+    "media::media.browse": {
+        "tr": "Ke\u015ffet"
+    },
+    "media::media.drop_files_here": {
+        "tr": "Dosyalar\u0131 buraya b\u0131rak\u0131n veya y\u00fcklemek i\u00e7in t\u0131klay\u0131n"
+    },
+    "media::media.file_manager.insert": {
+        "tr": "Ekle"
+    },
+    "media::media.file_manager.title": {
+        "tr": "Dosya Y\u00f6neticisi"
+    },
+    "media::media.media": {
+        "tr": "Medya"
+    },
+    "media::media.table.height": {
+        "tr": "Y\u00fckseklik"
+    },
+    "media::media.table.thumbnail": {
+        "tr": "K\u00fc\u00e7\u00fck Resim"
+    },
+    "media::media.table.width": {
+        "tr": "Geni\u015flik"
+    },
+    "media::media.thumbnails": {
+        "tr": "K\u00fc\u00e7\u00fck Resimler"
+    },
+    "media::media.upload_new_file": {
+        "tr": "Yeni Dosya y\u00fckle"
+    },
+    "media::messages.image_has_been_added": {
+        "tr": "Resim eklendi"
+    },
+    "media::permissions.create": {
+        "tr": "Medya Olu\u015ftur"
+    },
+    "media::permissions.destroy": {
+        "tr": "Medyay\u0131 Sil"
+    },
+    "media::permissions.index": {
+        "tr": "Index Medya"
+    },
+    "menu::attributes.category_id": {
+        "tr": "Kategori"
+    },
+    "menu::attributes.icon": {
+        "tr": "\u0130kon"
+    },
+    "menu::attributes.is_active": {
+        "tr": "Durum"
+    },
+    "menu::attributes.is_fluid": {
+        "tr": "Fluid Men\u00fc"
+    },
+    "menu::attributes.page_id": {
+        "tr": "Sayfa"
+    },
+    "menu::attributes.parent_id": {
+        "tr": "Ana Men\u00fc \u00d6\u011fesi"
+    },
+    "menu::attributes.target": {
+        "tr": "Hedef"
+    },
+    "menu::attributes.type": {
+        "tr": "T\u00fcr"
+    },
+    "menu::attributes.url": {
+        "tr": "URL"
+    },
+    "menu::menu_items.back_to_menu_edit_page": {
+        "tr": "Men\u00fc D\u00fczenleme Sayfas\u0131na Geri D\u00f6n"
+    },
+    "menu::menu_items.form.background_image": {
+        "tr": "Arka Plan Resmi"
+    },
+    "menu::menu_items.form.enable_the_menu_item": {
+        "tr": "Men\u00fc \u00f6\u011fesini etkinle\u015ftir"
+    },
+    "menu::menu_items.form.full_width_menu": {
+        "tr": "Bu tam geni\u015flikte bir men\u00fcd\u00fcr"
+    },
+    "menu::menu_items.form.select_category": {
+        "tr": "Kategori Se\u00e7iniz"
+    },
+    "menu::menu_items.form.select_page": {
+        "tr": "Sayfa Se\u00e7iniz"
+    },
+    "menu::menu_items.form.select_parent": {
+        "tr": "Ebeveyn Se\u00e7iniz"
+    },
+    "menu::menu_items.form.targets._blank": {
+        "tr": "Yeni Sekme"
+    },
+    "menu::menu_items.form.targets._self": {
+        "tr": "Ayn\u0131 Sekme"
+    },
+    "menu::menu_items.form.types.category": {
+        "tr": "Kategori"
+    },
+    "menu::menu_items.form.types.page": {
+        "tr": "Sayfa"
+    },
+    "menu::menu_items.form.types.url": {
+        "tr": "URL"
+    },
+    "menu::menu_items.menu_item": {
+        "tr": "Men\u00fc \u00d6\u011fesi"
+    },
+    "menu::menu_items.tabs.general": {
+        "tr": "Genel"
+    },
+    "menu::menu_items.tabs.group.menu_item_information": {
+        "tr": "Men\u00fc \u00d6\u011fesi Bilgisi"
+    },
+    "menu::menu_items.tabs.image": {
+        "tr": "Resim"
+    },
+    "menu::menus.form.enable_the_menu": {
+        "tr": "Men\u00fcy\u00fc etkinle\u015ftir"
+    },
+    "menu::menus.form.please_save_the_menu_first": {
+        "tr": "Men\u00fc \u00f6\u011feleri eklemek i\u00e7in l\u00fctfen \u00f6nce men\u00fcy\u00fc kaydedin"
+    },
+    "menu::menus.menu": {
+        "tr": "Men\u00fc"
+    },
+    "menu::menus.menus": {
+        "tr": "Men\u00fcler"
+    },
+    "menu::messages.menu_item_deleted": {
+        "tr": "Men\u00fc \u00f6\u011fesi silindi"
+    },
+    "menu::messages.menu_items_order_updated": {
+        "tr": "Men\u00fc \u00f6\u011feleri s\u0131ralamas\u0131 g\u00fcncellendi"
+    },
+    "menu::permissions.menu_items.create": {
+        "tr": "Men\u00fc \u00d6\u011fesi Olu\u015ftur"
+    },
+    "menu::permissions.menu_items.destroy": {
+        "tr": "Men\u00fc \u00d6\u011fesini Sil"
+    },
+    "menu::permissions.menu_items.edit": {
+        "tr": "Men\u00fc \u00d6\u011fesini D\u00fczenle"
+    },
+    "menu::permissions.menu_items.index": {
+        "tr": "Index Men\u00fc \u00d6\u011fesi"
+    },
+    "menu::permissions.menus.create": {
+        "tr": "Men\u00fc Olu\u015ftur"
+    },
+    "menu::permissions.menus.destroy": {
+        "tr": "Men\u00fcy\u00fc Sil"
+    },
+    "menu::permissions.menus.edit": {
+        "tr": "Men\u00fcy\u00fc D\u00fczenle"
+    },
+    "menu::permissions.menus.index": {
+        "tr": "Index Men\u00fc"
+    },
+    "menu::sidebar.menus": {
+        "tr": "Men\u00fcler"
+    },
+    "meta::attributes.meta_description": {
+        "tr": "Meta A\u00e7\u0131klamas\u0131"
+    },
+    "meta::attributes.meta_title": {
+        "tr": "Meta Ba\u015fl\u0131\u011f\u0131"
+    },
+    "option::attributes.is_required": {
+        "tr": "Gerekli"
+    },
+    "option::attributes.label": {
+        "tr": "Etiket"
+    },
+    "option::attributes.options.*.type": {
+        "tr": "T\u00fcr"
+    },
+    "option::attributes.options.*.values.*.label": {
+        "tr": "Etiket"
+    },
+    "option::attributes.type": {
+        "tr": "T\u00fcr"
+    },
+    "option::attributes.values.*.label": {
+        "tr": "Etiket"
+    },
+    "option::options.form.add_row": {
+        "tr": "Row Ekle"
+    },
+    "option::options.form.delete_option": {
+        "tr": "Se\u00e7ene\u011fi Sil"
+    },
+    "option::options.form.delete_row": {
+        "tr": "Row'u Sil"
+    },
+    "option::options.form.option_types.checkbox": {
+        "tr": "Onay Kutusu"
+    },
+    "option::options.form.option_types.checkbox_custom": {
+        "tr": "\u00d6zel Onay Kutusu"
+    },
+    "option::options.form.option_types.date": {
+        "tr": "Tarih"
+    },
+    "option::options.form.option_types.date_time": {
+        "tr": "Tarih & Zaman"
+    },
+    "option::options.form.option_types.dropdown": {
+        "tr": "Dropdown"
+    },
+    "option::options.form.option_types.field": {
+        "tr": "Alan"
+    },
+    "option::options.form.option_types.multiple_select": {
+        "tr": "\u00c7oklu Se\u00e7im"
+    },
+    "option::options.form.option_types.radio": {
+        "tr": "Radio Buton"
+    },
+    "option::options.form.option_types.radio_custom": {
+        "tr": "\u00d6zel Radio Buton"
+    },
+    "option::options.form.option_types.select": {
+        "tr": "Se\u00e7iniz"
+    },
+    "option::options.form.option_types.text": {
+        "tr": "Metin"
+    },
+    "option::options.form.option_types.textarea": {
+        "tr": "Metin Alan\u0131"
+    },
+    "option::options.form.option_types.time": {
+        "tr": "Zaman"
+    },
+    "option::options.form.price_types.fixed": {
+        "tr": "Sabit"
+    },
+    "option::options.form.price_types.percent": {
+        "tr": "Y\u00fczde"
+    },
+    "option::options.form.this_option_is_required": {
+        "tr": "Bu se\u00e7enek gereklidir"
+    },
+    "option::options.option": {
+        "tr": "Se\u00e7enek"
+    },
+    "option::options.options": {
+        "tr": "Se\u00e7enekler"
+    },
+    "option::options.please_select_a_option_type": {
+        "tr": "L\u00fctfen bir se\u00e7enek t\u00fcr\u00fc se\u00e7in"
+    },
+    "option::options.table.type": {
+        "tr": "T\u00fcr"
+    },
+    "option::options.tabs.general": {
+        "tr": "Genel"
+    },
+    "option::options.tabs.group.option_information": {
+        "tr": "Se\u00e7enek Bilgisi"
+    },
+    "option::options.tabs.values": {
+        "tr": "De\u011ferler"
+    },
+    "option::permissions.options.create": {
+        "tr": "Se\u00e7enek Olu\u015ftur"
+    },
+    "option::permissions.options.destroy": {
+        "tr": "Se\u00e7ene\u011fi Sil"
+    },
+    "option::permissions.options.edit": {
+        "tr": "Se\u00e7ene\u011fi D\u00fczenle"
+    },
+    "option::permissions.options.index": {
+        "tr": "Index Se\u00e7enek"
+    },
+    "option::sidebar.options": {
+        "tr": "Se\u00e7enekler"
+    },
+    "order::mail.your_order_status_changed_subject": {
+        "tr": "Sipari\u015f durumunuz de\u011fi\u015ftirildi"
+    },
+    "order::mail.your_order_status_changed_text": {
+        "tr": "Sipari\u015f #:order_id durumunuz :status olarak de\u011fi\u015ftirildi."
+    },
+    "order::messages.invoice_sent": {
+        "tr": "Fatura m\u00fc\u015fteriye g\u00f6nderildi"
+    },
+    "order::messages.status_updated": {
+        "tr": "Sipari\u015f durumu g\u00fcncellendi"
+    },
+    "order::orders.billing_address": {
+        "tr": "Fatura Adresi"
+    },
+    "order::orders.coupon": {
+        "tr": "Kupon"
+    },
+    "order::orders.currency": {
+        "tr": "Para Birimi"
+    },
+    "order::orders.currency_rate": {
+        "tr": "Para Birimi Oran\u0131"
+    },
+    "order::orders.customer_email": {
+        "tr": "M\u00fc\u015fteri E-postas\u0131"
+    },
+    "order::orders.customer_group": {
+        "tr": "M\u00fc\u015fteri Grubu"
+    },
+    "order::orders.customer_phone": {
+        "tr": "M\u00fc\u015fteri Telefonu"
+    },
+    "order::orders.guest": {
+        "tr": "Misafir"
+    },
+    "order::orders.items_ordered": {
+        "tr": "Sipari\u015f Edilen \u00dcr\u00fcnler"
+    },
+    "order::orders.order": {
+        "tr": "Sipari\u015f"
+    },
+    "order::orders.order_date": {
+        "tr": "Sipari\u015f Tarihi"
+    },
+    "order::orders.order_id": {
+        "tr": "Sipari\u015f ID"
+    },
+    "order::orders.orders": {
+        "tr": "Sipari\u015fler"
+    },
+    "order::orders.order_status": {
+        "tr": "Sipari\u015f Durumu"
+    },
+    "order::orders.print": {
+        "tr": "Yazd\u0131r"
+    },
+    "order::orders.product": {
+        "tr": "\u00dcr\u00fcn"
+    },
+    "order::orders.registered": {
+        "tr": "Kay\u0131t Olundu"
+    },
+    "order::orders.send_email": {
+        "tr": "E-posta G\u00f6nder"
+    },
+    "order::orders.shipping_address": {
+        "tr": "Teslimat Adresi"
+    },
+    "order::orders.shipping_method": {
+        "tr": "Teslimat T\u00fcr\u00fc"
+    },
+    "order::orders.table.customer_email": {
+        "tr": "M\u00fc\u015fteri E-postas\u0131"
+    },
+    "order::orders.tax": {
+        "tr": "Vergi"
+    },
+    "order::permissions.edit": {
+        "tr": "Sipari\u015fi D\u00fczenle"
+    },
+    "order::permissions.index": {
+        "tr": "Index Sipari\u015f"
+    },
+    "order::permissions.show": {
+        "tr": "Sipari\u015fi G\u00f6r\u00fcnt\u00fcle"
+    },
+    "order::print.billing_address": {
+        "tr": "Fatura Adresi"
+    },
+    "order::print.date": {
+        "tr": "Tarih"
+    },
+    "order::print.invoice": {
+        "tr": "FATURA"
+    },
+    "order::print.invoice_id": {
+        "tr": "Fatura ID"
+    },
+    "order::print.order_details": {
+        "tr": "Sipari\u015f Detaylar\u0131"
+    },
+    "order::print.product": {
+        "tr": "\u00dcr\u00fcn"
+    },
+    "order::print.shipping_address": {
+        "tr": "Teslimat Adresi"
+    },
+    "order::print.shipping_method": {
+        "tr": "Teslimat T\u00fcr\u00fc"
+    },
+    "order::statuses.completed": {
+        "tr": "Tamamland\u0131"
+    },
+    "order::statuses.on_hold": {
+        "tr": "Ask\u0131da"
+    },
+    "order::statuses.processing": {
+        "tr": "\u0130\u015fleniyor"
+    },
+    "order::statuses.refunded": {
+        "tr": "\u0130ade Edildi"
+    },
+    "page::attributes.body": {
+        "tr": "Body"
+    },
+    "page::attributes.is_active": {
+        "tr": "Durum"
+    },
+    "page::attributes.slug": {
+        "tr": "URL"
+    },
+    "page::pages.form.enable_the_page": {
+        "tr": "Sayfay\u0131 etkinle\u015ftir"
+    },
+    "page::pages.page": {
+        "tr": "Sayfa"
+    },
+    "page::pages.pages": {
+        "tr": "Sayfalar"
+    },
+    "page::pages.tabs.general": {
+        "tr": "Genel"
+    },
+    "page::pages.tabs.group.page_information": {
+        "tr": "Sayfa Bilgisi"
+    },
+    "page::pages.tabs.seo": {
+        "tr": "SEO"
+    },
+    "page::permissions.create": {
+        "tr": "Sayfa Olu\u015ftur"
+    },
+    "page::permissions.destroy": {
+        "tr": "Sayfay\u0131 Sil"
+    },
+    "page::permissions.edit": {
+        "tr": "Sayfay\u0131 D\u00fczenle"
+    },
+    "page::permissions.index": {
+        "tr": "Index Sayfa"
+    },
+    "payment::messages.currency_not_supported": {
+        "tr": "Para birimi desteklenmiyor"
+    },
+    "payment::messages.only_supports_inr": {
+        "tr": "Yaln\u0131zca INR para birimi desteklenir"
+    },
+    "payment::messages.only_supports_zar": {
+        "tr": "Yaln\u0131zca ZAR para birimi desteklenir"
+    },
+    "payment::messages.payment_gateway_error": {
+        "tr": "\u00d6deme y\u00f6ntemi hatas\u0131!"
+    },
+    "payment::order.discount": {
+        "tr": "\u0130ndirim"
+    },
+    "payment::order.tax": {
+        "tr": "Vergi"
+    },
+    "product::attributes.attributes.*.attribute_id": {
+        "tr": "\u00d6zellik"
+    },
+    "product::attributes.attributes.*.values": {
+        "tr": "De\u011ferler"
+    },
+    "product::attributes.brand_id": {
+        "tr": "Marka"
+    },
+    "product::attributes.cross_sells": {
+        "tr": "\u00c7apraz-Sat\u0131\u015flar"
+    },
+    "product::attributes.is_active": {
+        "tr": "Durum"
+    },
+    "product::attributes.is_virtual": {
+        "tr": "Sanal"
+    },
+    "product::attributes.manage_stock": {
+        "tr": "Stok Y\u00f6netimi"
+    },
+    "product::attributes.new_from": {
+        "tr": "Yeni Gelen"
+    },
+    "product::attributes.new_to": {
+        "tr": "Yeni"
+    },
+    "product::attributes.options.*.type": {
+        "tr": "T\u00fcr"
+    },
+    "product::attributes.options.*.values.*.label": {
+        "tr": "Etiket"
+    },
+    "product::attributes.qty": {
+        "tr": "Mktr"
+    },
+    "product::attributes.short_description": {
+        "tr": "K\u0131sa A\u00e7\u0131klama"
+    },
+    "product::attributes.sku": {
+        "tr": "SKU"
+    },
+    "product::attributes.slug": {
+        "tr": "URL"
+    },
+    "product::attributes.special_price": {
+        "tr": "\u00d6zel Fiyat"
+    },
+    "product::attributes.special_price_end": {
+        "tr": "\u00d6zel Fiyat Biti\u015f"
+    },
+    "product::attributes.special_price_start": {
+        "tr": "\u00d6zel Fiyat Ba\u015flang\u0131\u00e7"
+    },
+    "product::attributes.special_price_type": {
+        "tr": "\u00d6zel Fiyat T\u00fcr\u00fc"
+    },
+    "product::attributes.tax_class_id": {
+        "tr": "Vergi S\u0131n\u0131f\u0131"
+    },
+    "product::attributes.up_sells": {
+        "tr": "Up-Sells"
+    },
+    "product::attributes.variants.*.is_active": {
+        "tr": "Durum"
+    },
+    "product::attributes.variants.*.manage_stock": {
+        "tr": "Stok Y\u00f6netimi"
+    },
+    "product::attributes.variants.*.sku": {
+        "tr": "SKU"
+    },
+    "product::attributes.variants.*.special_price": {
+        "tr": "\u00d6zel Fiyat"
+    },
+    "product::attributes.variants.*.special_price_end": {
+        "tr": "\u00d6zel Fiyat Biti\u015f"
+    },
+    "product::attributes.variants.*.special_price_start": {
+        "tr": "\u00d6zel Fiyat Ba\u015flang\u0131\u00e7"
+    },
+    "product::attributes.variants.*.special_price_type": {
+        "tr": "\u00d6zel Fiyat T\u00fcr\u00fc"
+    },
+    "product::attributes.variations.*.type": {
+        "tr": "T\u00fcr"
+    },
+    "product::attributes.variations.*.values": {
+        "tr": "De\u011ferler"
+    },
+    "product::attributes.variations.*.values.*.color": {
+        "tr": "Renk"
+    },
+    "product::attributes.variations.*.values.*.image": {
+        "tr": "Resim"
+    },
+    "product::attributes.variations.*.values.*.label": {
+        "tr": "Etiket"
+    },
+    "product::permissions.index": {
+        "tr": "Index \u00dcr\u00fcnler"
+    },
+    "report::admin.filter": {
+        "tr": "Filtre"
+    },
+    "product::validation.price_field_is_required": {
+        "tr": "Fiyat alan\u0131 gereklidir"
+    },
+    "report::admin.filters.report_types.tax_report": {
+        "tr": "Vergi Raporu"
+    },
+    "report::admin.filters.report_types.sales_report": {
+        "tr": "Sat\u0131\u015f Raporu"
+    },
+    "report::admin.filters.report_types.customers_order_report": {
+        "tr": "M\u00fc\u015fteri Sipari\u015f Raporu"
+    },
+    "report::admin.filters.report_types.coupons_report": {
+        "tr": "M\u00fc\u015fteri Raporu"
+    },
+    "report::admin.filters.report_type": {
+        "tr": "Rapor T\u00fcr\u00fc"
+    },
+    "report::admin.filters.quantity_above": {
+        "tr": "Yukar\u0131daki Miktar"
+    },
+    "report::admin.filters.quantity_below": {
+        "tr": "A\u015fa\u011f\u0131daki Miktar"
+    },
+    "report::admin.table.discount": {
+        "tr": "\u0130ndirim"
+    },
+    "report::admin.table.date": {
+        "tr": "Tarih"
+    },
+    "report::admin.table.customer_group": {
+        "tr": "M\u00fc\u015fteri Grubu"
+    },
+    "report::admin.table.customer_email": {
+        "tr": "M\u00fc\u015fteri E-postas\u0131"
+    },
+    "report::admin.table.coupon_code": {
+        "tr": "Kupon Kodu"
+    },
+    "report::admin.table.category": {
+        "tr": "Kategori"
+    },
+    "report::admin.table.brand": {
+        "tr": "Marka"
+    },
+    "report::admin.reports": {
+        "tr": "Raporlar"
+    },
+    "report::admin.no_data": {
+        "tr": "Veri bulunamad\u0131!"
+    },
+    "report::admin.filters.tax_class": {
+        "tr": "Vergi S\u0131n\u0131f\u0131"
+    },
+    "report::admin.filters.sku": {
+        "tr": "SKU"
+    },
+    "report::admin.table.views": {
+        "tr": "G\u00f6r\u00fcnt\u00fcleme"
+    },
+    "report::admin.table.tax_class": {
+        "tr": "Vergi S\u0131n\u0131f\u0131"
+    },
+    "report::admin.table.tax": {
+        "tr": "Vergi"
+    },
+    "report::admin.table.tag": {
+        "tr": "Etiket"
+    },
+    "report::admin.table.shipping_method": {
+        "tr": "Teslimat T\u00fcr\u00fc"
+    },
+    "report::admin.table.shipping": {
+        "tr": "Teslimat"
+    },
+    "report::admin.table.results": {
+        "tr": "Sonu\u00e7lar"
+    },
+    "report::admin.table.registered": {
+        "tr": "Kay\u0131t Olundu"
+    },
+    "report::admin.table.qty": {
+        "tr": "Mktr"
+    },
+    "report::admin.table.product": {
+        "tr": "\u00dcr\u00fcn"
+    },
+    "report::admin.table.orders": {
+        "tr": "Sipari\u015fler"
+    },
+    "report::admin.table.keyword": {
+        "tr": "Anahtar Kelime"
+    },
+    "report::admin.table.hits": {
+        "tr": "Hits"
+    },
+    "report::admin.table.guest": {
+        "tr": "Misafir"
+    },
+    "review::reviews.tabs.general": {
+        "tr": "Genel"
+    },
+    "review::reviews.table.rating": {
+        "tr": "Derecelendirme"
+    },
+    "review::reviews.table.product": {
+        "tr": "Yorum"
+    },
+    "review::reviews.table.approved": {
+        "tr": "Onayland\u0131"
+    },
+    "review::reviews.shortcuts.back_to_product_edit_page": {
+        "tr": "\u00dcr\u00fcn d\u00fczenleme sayfas\u0131na geri d\u00f6n"
+    },
+    "review::permissions.index": {
+        "tr": "Index Yorumlar"
+    },
+    "review::permissions.edit": {
+        "tr": "Yorumlar\u0131 D\u00fczenle"
+    },
+    "review::permissions.destroy": {
+        "tr": "Yorumlar\u0131 Sil"
+    },
+    "report::sidebar.reports": {
+        "tr": "Raporlar"
+    },
+    "report::permissions.index": {
+        "tr": "Index Raporlar"
+    },
+    "setting::attributes.custom_footer_assets": {
+        "tr": "Alt Bilgi"
+    },
+    "setting::attributes.customer_role": {
+        "tr": "M\u00fc\u015fteri Rol\u00fc"
+    },
+    "review::sidebar.reviews": {
+        "tr": "Yorumlar"
+    },
+    "review::statuses.approved": {
+        "tr": "Onayland\u0131"
+    },
+    "review::statuses.unapproved": {
+        "tr": "Onaylanmad\u0131"
+    },
+    "setting::attributes.authorizenet_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.admin_order_email": {
+        "tr": "Yeni Y\u00f6netici Sipari\u015f E-postas\u0131"
+    },
+    "review::reviews.tabs.group.review_information": {
+        "tr": "Yorum Bilgisi"
+    },
+    "setting::attributes.authorizenet_merchant_login_id": {
+        "tr": "Ma\u011faza Giri\u015f ID"
+    },
+    "setting::attributes.authorizenet_merchant_transaction_key": {
+        "tr": "Ma\u011faza \u0130\u015flem Anahtar\u0131"
+    },
+    "setting::attributes.auto_approve_reviews": {
+        "tr": "Otomatik Onaylanan \u0130ncelemeler"
+    },
+    "setting::attributes.auto_refresh_currency_rate_frequency": {
+        "tr": "Frekans"
+    },
+    "setting::attributes.auto_refresh_currency_rates": {
+        "tr": "Otomatik Yenileme"
+    },
+    "setting::attributes.bank_transfer_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.check_payment_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.cod_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.cookie_bar_enabled": {
+        "tr": "\u00c7erez Bar\u0131"
+    },
+    "setting::attributes.currency_data_feed_api_key": {
+        "tr": "Para Birimi Veri Ak\u0131\u015f\u0131 API Anahtar\u0131"
+    },
+    "setting::attributes.currency_rate_exchange_service": {
+        "tr": "D\u00f6viz Kuru Hizmeti"
+    },
+    "setting::attributes.free_shipping_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.facebook_login_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.flat_rate_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.flutterwave_enabled": {
+        "tr": "Durum"
+    },
+    "user::attributes.users.activated": {
+        "tr": "Durum"
+    },
+    "user::attributes.users.new_password": {
+        "tr": "Yeni Parola"
+    },
+    "user::attributes.users.roles": {
+        "tr": "Roller"
+    },
+    "user::permissions.users.create": {
+        "tr": "Kullan\u0131c\u0131 Olu\u015ftur"
+    },
+    "user::users.users": {
+        "tr": "Kullan\u0131c\u0131lar"
+    },
+    "user::users.user": {
+        "tr": "Kullan\u0131c\u0131"
+    },
+    "user::users.tabs.permissions": {
+        "tr": "\u0130zinler"
+    },
+    "user::users.tabs.new_password": {
+        "tr": "Yeni Parola"
+    },
+    "user::users.tabs.group.user_information": {
+        "tr": "Kullan\u0131c\u0131 Do\u011frulamas\u0131"
+    },
+    "user::users.tabs.group.profile_information": {
+        "tr": "Profil Bilgisi"
+    },
+    "user::users.send_reset_password_email": {
+        "tr": "Parola S\u0131f\u0131rlama E-postas\u0131 G\u00f6nder"
+    },
+    "user::users.profile": {
+        "tr": "Profil"
+    },
+    "user::users.or_reset_password": {
+        "tr": "veya, Parolay\u0131 S\u0131f\u0131rla"
+    },
+    "user::users.form.activated": {
+        "tr": "Aktif"
+    },
+    "user::sidebar.users": {
+        "tr": "Kullan\u0131c\u0131lar"
+    },
+    "user::permissions.users.index": {
+        "tr": "Index Kullan\u0131c\u0131lar"
+    },
+    "user::permissions.users.edit": {
+        "tr": "Kullan\u0131c\u0131lar\u0131 D\u00fczenle"
+    },
+    "user::permissions.users.destroy": {
+        "tr": "Kullan\u0131c\u0131lar\u0131 Sil"
+    },
+    "user::auth.reset_password": {
+        "tr": "Parolay\u0131 S\u0131f\u0131rla"
+    },
+    "user::mail.reset_password": {
+        "tr": "Parolay\u0131 S\u0131f\u0131rla"
+    },
+    "user::auth.enter_email": {
+        "tr": "Parolan\u0131z\u0131 s\u0131f\u0131rlaman\u0131za olanak tan\u0131yan bir ba\u011flant\u0131 almak i\u00e7in hesap e-postan\u0131z\u0131 girin."
+    },
+    "setting::messages.settings_updated": {
+        "tr": "Ayarlar g\u00fcncellendi"
+    },
+    "setting::attributes.authorizenet_test_mode": {
+        "tr": "Sandbox"
+    },
+    "setting::attributes.free_shipping_min_amount": {
+        "tr": "Minimum Tutar"
+    },
+    "setting::attributes.forge_api_key": {
+        "tr": "Forge API key"
+    },
+    "setting::attributes.flutterwave_test_mode": {
+        "tr": "Sandbox"
+    },
+    "setting::attributes.flutterwave_secret_key": {
+        "tr": "Secret Key"
+    },
+    "setting::attributes.flutterwave_public_key": {
+        "tr": "Public Key"
+    },
+    "setting::attributes.flutterwave_encryption_key": {
+        "tr": "Encryption Key"
+    },
+    "setting::attributes.flat_rate_cost": {
+        "tr": "Maliyet"
+    },
+    "setting::attributes.fixer_access_key": {
+        "tr": "Fixer Access key"
+    },
+    "setting::attributes.facebook_login_app_secret": {
+        "tr": "App Secret"
+    },
+    "setting::attributes.facebook_login_app_id": {
+        "tr": "App ID"
+    },
+    "setting::attributes.custom_header_assets": {
+        "tr": "Ba\u015fl\u0131k"
+    },
+    "setting::attributes.email_order_statuses": {
+        "tr": "E-posta Sipari\u015f Durumlar\u0131"
+    },
+    "setting::attributes.mailchimp_api_key": {
+        "tr": "Mailchimp API Key"
+    },
+    "setting::attributes.local_pickup_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.local_pickup_cost": {
+        "tr": "Masraf"
+    },
+    "setting::attributes.iyzico_test_mode": {
+        "tr": "Sandbox"
+    },
+    "setting::attributes.iyzico_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.iyzico_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.iyzico_api_secret": {
+        "tr": "API Secret"
+    },
+    "setting::attributes.iyzico_api_key": {
+        "tr": "API Key"
+    },
+    "setting::attributes.invoice_email": {
+        "tr": "Fatura E-postas\u0131"
+    },
+    "setting::attributes.instamojo_test_mode": {
+        "tr": "Sandbox"
+    },
+    "setting::attributes.instamojo_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.instamojo_auth_token": {
+        "tr": "Auth Token"
+    },
+    "setting::attributes.instamojo_api_key": {
+        "tr": "API Key"
+    },
+    "setting::attributes.google_recaptcha_site_key": {
+        "tr": "Site Key"
+    },
+    "setting::attributes.google_recaptcha_secret_key": {
+        "tr": "Secret Key"
+    },
+    "setting::attributes.google_recaptcha_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.google_login_client_secret": {
+        "tr": "Client Secret"
+    },
+    "setting::attributes.google_login_client_id": {
+        "tr": "Client ID"
+    },
+    "setting::attributes.payfast_passphrase": {
+        "tr": "Passphrase"
+    },
+    "setting::attributes.payfast_merchant_key": {
+        "tr": "Merchant Key"
+    },
+    "setting::attributes.payfast_merchant_id": {
+        "tr": "Merchant ID"
+    },
+    "setting::attributes.payfast_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.newsletter_enabled": {
+        "tr": "B\u00fclten"
+    },
+    "setting::attributes.new_order_sms": {
+        "tr": "Yeni Sipari\u015f SMS"
+    },
+    "setting::attributes.new_order_admin_sms": {
+        "tr": "Yeni Sipari\u015f Y\u00f6netici SMS"
+    },
+    "setting::attributes.mercadopago_test_mode": {
+        "tr": "Sandbox"
+    },
+    "setting::attributes.mercadopago_public_key": {
+        "tr": "Public Key"
+    },
+    "setting::attributes.mercadopago_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.mercadopago_access_token": {
+        "tr": "Eri\u015fim Token"
+    },
+    "setting::attributes.maintenance_mode": {
+        "tr": "Bak\u0131m Modu"
+    },
+    "setting::attributes.mail_username": {
+        "tr": "E-posta Kullan\u0131c\u0131 Ad\u0131"
+    },
+    "setting::attributes.mail_port": {
+        "tr": "E-posta Portu"
+    },
+    "setting::attributes.mail_password": {
+        "tr": "E-Posta Parolas\u0131"
+    },
+    "setting::attributes.mail_host": {
+        "tr": "E-posta Sunucusu"
+    },
+    "setting::attributes.mail_from_name": {
+        "tr": "E-posta G\u00f6nderen Ad\u0131"
+    },
+    "setting::attributes.mail_from_address": {
+        "tr": "E-posta G\u00f6nderen Adresi"
+    },
+    "setting::attributes.mail_encryption": {
+        "tr": "E-posta Do\u011frulmas\u0131"
+    },
+    "setting::attributes.mailchimp_list_id": {
+        "tr": "Mailchimp List ID"
+    },
+    "setting::attributes.payfast_test_mode": {
+        "tr": "Sandbox"
+    },
+    "setting::attributes.paypal_client_id": {
+        "tr": "Client ID"
+    },
+    "setting::attributes.paypal_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.paypal_secret": {
+        "tr": "Secret"
+    },
+    "setting::attributes.paypal_test_mode": {
+        "tr": "Sandbox"
+    },
+    "setting::attributes.paystack_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.paystack_public_key": {
+        "tr": "Public Key"
+    },
+    "setting::attributes.paystack_secret_key": {
+        "tr": "Secret Key"
+    },
+    "setting::attributes.paystack_test_mode": {
+        "tr": "Sandbox"
+    },
+    "setting::attributes.paytm_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.paytm_merchant_id": {
+        "tr": "Merchant ID"
+    },
+    "setting::attributes.paytm_merchant_key": {
+        "tr": "Merchant Key"
+    },
+    "setting::attributes.paytm_test_mode": {
+        "tr": "Sandbox"
+    },
+    "setting::attributes.pwa_background_color": {
+        "tr": "Arka Plan Rengi"
+    },
+    "setting::attributes.pwa_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.pwa_icon": {
+        "tr": "\u0130kon"
+    },
+    "setting::attributes.pwa_direction": {
+        "tr": "Y\u00f6nlendirme"
+    },
+    "setting::attributes.pwa_display": {
+        "tr": "G\u00f6r\u00fcnt\u00fcleme"
+    },
+    "setting::attributes.pwa_orientation": {
+        "tr": "Oryantasyon"
+    },
+    "setting::attributes.pwa_status_bar": {
+        "tr": "Durum \u00c7ubu\u011fu"
+    },
+    "setting::attributes.pwa_theme_color": {
+        "tr": "Tema Rengi"
+    },
+    "setting::attributes.razorpay_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.razorpay_key_id": {
+        "tr": "Key Id"
+    },
+    "setting::attributes.razorpay_key_secret": {
+        "tr": "Key Secret"
+    },
+    "setting::attributes.reviews_enabled": {
+        "tr": "Yorumlar & Derecelendirmeler"
+    },
+    "setting::attributes.sms_from": {
+        "tr": "SMS G\u00f6nderen"
+    },
+    "setting::attributes.sms_order_statuses": {
+        "tr": "Sipari\u015f Durumu SMS"
+    },
+    "setting::attributes.sms_service": {
+        "tr": "SMS Servisi"
+    },
+    "setting::attributes.store_address_1": {
+        "tr": "Ma\u011faza Adresi"
+    },
+    "setting::attributes.store_address_2": {
+        "tr": "Ma\u011faza Adresi 2"
+    },
+    "setting::attributes.store_email": {
+        "tr": "Ma\u011faza E-postas\u0131"
+    },
+    "setting::attributes.store_email_hide": {
+        "tr": "Ma\u011faza E-postas\u0131n\u0131 Gizle"
+    },
+    "setting::attributes.store_phone": {
+        "tr": "Ma\u011faza Telefonu"
+    },
+    "setting::attributes.store_phone_hide": {
+        "tr": "Ma\u011faza Telefonunu Gizle"
+    },
+    "setting::attributes.store_state": {
+        "tr": "Ma\u011faza Soka\u011f\u0131"
+    },
+    "setting::attributes.store_zip": {
+        "tr": "Ma\u011faza Posta Kodu"
+    },
+    "setting::attributes.stripe_enabled": {
+        "tr": "Durum"
+    },
+    "setting::attributes.stripe_integration_type": {
+        "tr": "Entegrasyon T\u00fcr\u00fc"
+    },
+    "setting::attributes.translatable.flat_rate_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.cod_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.check_payment_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.bank_transfer_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.authorizenet_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.stripe_publishable_key": {
+        "tr": "Publishable Key"
+    },
+    "setting::attributes.stripe_secret_key": {
+        "tr": "Secret Key"
+    },
+    "setting::attributes.supported_countries": {
+        "tr": "Desteklenen \u00dclkeler"
+    },
+    "setting::attributes.supported_countries.*": {
+        "tr": "Desteklenen \u00dclkeler"
+    },
+    "setting::attributes.supported_currencies": {
+        "tr": "Desteklenen Para Birimleri"
+    },
+    "setting::attributes.supported_currencies.*": {
+        "tr": "Desteklenen Para Birimleri"
+    },
+    "setting::attributes.supported_currency": {
+        "tr": "Desteklenen Para Birimi"
+    },
+    "setting::attributes.supported_locales": {
+        "tr": "Desteklenen Konumlar"
+    },
+    "setting::attributes.supported_locales.*": {
+        "tr": "Desteklenen Konumlar"
+    },
+    "setting::attributes.translatable.bank_transfer_instructions": {
+        "tr": "Y\u00f6nergeler"
+    },
+    "setting::attributes.translatable.check_payment_instructions": {
+        "tr": "Y\u00f6nergeler"
+    },
+    "setting::attributes.translatable.flutterwave_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.free_shipping_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.instamojo_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.local_pickup_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.mercadopago_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.payfast_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.paypal_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.paystack_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.paytm_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.razorpay_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.translatable.store_tagline": {
+        "tr": "Ma\u011faza Slogan\u0131"
+    },
+    "setting::attributes.translatable.stripe_label": {
+        "tr": "Etiket"
+    },
+    "setting::attributes.twilio_sid": {
+        "tr": "Account SID"
+    },
+    "setting::attributes.twilio_token": {
+        "tr": "Auth Token"
+    },
+    "setting::attributes.vonage_key": {
+        "tr": "API Key"
+    },
+    "setting::attributes.vonage_secret": {
+        "tr": "API Secret"
+    },
+    "setting::attributes.welcome_email": {
+        "tr": "Ho\u015f Geldin E-postas\u0131"
+    },
+    "setting::attributes.welcome_sms": {
+        "tr": "Ho\u015f Geldin SMS"
+    },
+    "setting::permissions.edit": {
+        "tr": "Ayarlar\u0131 D\u00fczenle"
+    },
+    "setting::settings.form.allow_reviews": {
+        "tr": "M\u00fc\u015fterilerinizin yorum & derecelendirme yapmas\u0131na izin verin"
+    },
+    "setting::settings.form.approve_reviews_automatically": {
+        "tr": "M\u00fc\u015fteri yorumlar\u0131 otomatik olarak onaylans\u0131n"
+    },
+    "setting::settings.form.auto_refresh_currency_rate_frequencies.daily": {
+        "tr": "G\u00fcnl\u00fck"
+    },
+    "setting::settings.form.auto_refresh_currency_rate_frequencies.monthly": {
+        "tr": "Ayl\u0131k"
+    },
+    "setting::settings.form.auto_refresh_currency_rate_frequencies.weekly": {
+        "tr": "Haftal\u0131k"
+    },
+    "setting::settings.form.customer_notification_settings": {
+        "tr": "M\u00fc\u015fteri Bildirim Ayarlar\u0131"
+    },
+    "setting::settings.form.enable_authorizenet": {
+        "tr": "Authorize.net'i Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_auto_refreshing_currency_rates": {
+        "tr": "Otomatik yenilenen d\u00f6viz kurlar\u0131n\u0131 etkinle\u015ftirin"
+    },
+    "setting::settings.form.enable_bank_transfer": {
+        "tr": "Banka Transferini Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_check_payment": {
+        "tr": "\u00c7ek \/ Havaleyi Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_cod": {
+        "tr": "Kap\u0131da \u00d6demeyi Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_facebook_login": {
+        "tr": "Facebook ile Giri\u015fi Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_free_shipping": {
+        "tr": "\u00dccretsiz Teslimat\u0131 Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_google_login": {
+        "tr": "Google ile Giri\u015fi Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_flat_rate": {
+        "tr": "Sabit Oran\u0131 Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_flutterwave": {
+        "tr": "Flutterwave'i Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_google_recaptcha": {
+        "tr": "Kay\u0131t, Yorum ve Bize Ula\u015f\u0131n Formlar\u0131nda Google reCAPTCHA'y\u0131 (V2) Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_instamojo": {
+        "tr": "Instamojo'i Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_iyzico": {
+        "tr": "Iyzico'yu Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_local_pickup": {
+        "tr": "Ma\u011fazadan Teslimat\u0131 Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_mercadopago": {
+        "tr": "Mercado Pago'i Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_payfast": {
+        "tr": "PayFast'i Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_paypal": {
+        "tr": "PayPal'i Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_paystack": {
+        "tr": "Paystack'i Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_paytm": {
+        "tr": "Paytm'i Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_pwa": {
+        "tr": "PWA'i Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_razorpay": {
+        "tr": "Razorpay'i Etkinle\u015ftir"
+    },
+    "setting::settings.form.enable_stripe": {
+        "tr": "Stripe'i Etkinle\u015ftir"
+    },
+    "setting::settings.form.hide_store_email": {
+        "tr": "Ma\u011faza e-postas\u0131n\u0131 ma\u011fazada gizle"
+    },
+    "setting::settings.form.hide_store_phone": {
+        "tr": "Ma\u011faza telefonunu ma\u011fazada gizle"
+    },
+    "setting::settings.form.logo": {
+        "tr": "Logo"
+    },
+    "setting::settings.form.mail_encryption_protocols.ssl": {
+        "tr": "SSL"
+    },
+    "setting::settings.form.mail_encryption_protocols.tls": {
+        "tr": "TLS"
+    },
+    "setting::settings.form.order_notification_settings": {
+        "tr": "Sipari\u015f Bildirim Ayarlar\u0131"
+    },
+    "setting::settings.form.put_the_application_into_maintenance_mode": {
+        "tr": "Uygulamay\u0131 bak\u0131m moduna ge\u00e7ir"
+    },
+    "setting::settings.form.pwa_directions.auto": {
+        "tr": "Otomatik"
+    },
+    "setting::settings.form.pwa_directions.ltr": {
+        "tr": "LTR"
+    },
+    "setting::settings.form.pwa_directions.rtl": {
+        "tr": "RTL"
+    },
+    "setting::settings.form.pwa_displays.browser": {
+        "tr": "Taray\u0131c\u0131"
+    },
+    "setting::settings.form.pwa_displays.fullscreen": {
+        "tr": "Tam Ekran"
+    },
+    "setting::settings.form.pwa_displays.minimal-ui": {
+        "tr": "Minimal-UI"
+    },
+    "setting::settings.form.pwa_displays.standalone": {
+        "tr": "Ba\u011f\u0131ms\u0131z"
+    },
+    "setting::settings.form.pwa_icon": {
+        "tr": "\u0130kon"
+    },
+    "setting::settings.form.pwa_orientations.any": {
+        "tr": "Herhangi"
+    },
+    "setting::settings.form.pwa_orientations.landscape": {
+        "tr": "Landscape"
+    },
+    "setting::settings.form.pwa_orientations.landscape-primary": {
+        "tr": "Landscape-Primary"
+    },
+    "setting::settings.form.pwa_orientations.landscape-secondary": {
+        "tr": "Landscape-Secondary"
+    },
+    "setting::settings.form.pwa_orientations.natural": {
+        "tr": "Do\u011fal"
+    },
+    "setting::settings.form.pwa_orientations.portrait": {
+        "tr": "Portre"
+    },
+    "setting::settings.form.pwa_orientations.portrait-primary": {
+        "tr": "Portre-Primary"
+    },
+    "setting::settings.form.pwa_orientations.portrait-secondary": {
+        "tr": "Portre-Secondary"
+    },
+    "setting::settings.form.select_service": {
+        "tr": "Servis Se\u00e7iniz"
+    },
+    "setting::settings.form.send_invoice_email": {
+        "tr": "\u00d6deme yap\u0131ld\u0131ktan sonra m\u00fc\u015fteriye fatura e-postas\u0131 g\u00f6nder"
+    },
+    "setting::settings.form.send_new_order_notification_to_admin": {
+        "tr": "Y\u00f6neticiye yeni sipari\u015f bildirimi g\u00f6nder"
+    },
+    "setting::settings.form.send_new_order_notification_to_customer": {
+        "tr": "M\u00fc\u015fteriye yeni sipari\u015f bildirimi g\u00f6nder"
+    },
+    "setting::settings.form.send_welcome_email_after_registration": {
+        "tr": "Kay\u0131ttan sonra ho\u015f geldiniz e-postas\u0131 g\u00f6nder"
+    },
+    "setting::settings.form.send_welcome_sms_after_registration": {
+        "tr": "Kay\u0131ttan sonra ho\u015f geldiniz SMS'i g\u00f6nder"
+    },
+    "setting::settings.form.show_cookie_bar": {
+        "tr": "Web sitenizde \u00e7erez \u00e7ubu\u011funu g\u00f6sterin"
+    },
+    "setting::settings.form.small_logo": {
+        "tr": "K\u00fc\u00e7\u00fck Logo"
+    },
+    "setting::settings.form.use_sandbox_for_test_payments": {
+        "tr": "Test \u00f6demeleri i\u00e7in sandbox kullan\u0131n"
+    },
+    "setting::settings.settings": {
+        "tr": "Ayarlar"
+    },
+    "setting::settings.tabs.authorizenet": {
+        "tr": "Authorize.net"
+    },
+    "setting::settings.tabs.bank_transfer": {
+        "tr": "Banka Transferi"
+    },
+    "setting::settings.tabs.check_payment": {
+        "tr": "\u00c7ek \/ Havale"
+    },
+    "setting::settings.tabs.cod": {
+        "tr": "Kap\u0131da \u00d6deme"
+    },
+    "setting::settings.tabs.currency": {
+        "tr": "Para Birimi"
+    },
+    "setting::settings.tabs.custom_css_js": {
+        "tr": "\u00d6zel CSS\/JS"
+    },
+    "setting::settings.tabs.facebook": {
+        "tr": "Facebook"
+    },
+    "setting::settings.tabs.flat_rate": {
+        "tr": "Sabit Oran"
+    },
+    "setting::settings.tabs.flutterwave": {
+        "tr": "Flutterwave"
+    },
+    "setting::settings.tabs.free_shipping": {
+        "tr": "\u00dccretsiz Teslimat"
+    },
+    "setting::settings.tabs.general": {
+        "tr": "Genel"
+    },
+    "setting::settings.tabs.google": {
+        "tr": "Google"
+    },
+    "setting::settings.tabs.google_recaptcha": {
+        "tr": "Google reCAPTCHA"
+    },
+    "setting::settings.tabs.group.general_settings": {
+        "tr": "Genel Ayarlar"
+    },
+    "setting::settings.tabs.group.shipping_methods": {
+        "tr": "Teslimat Y\u00f6ntemleri"
+    },
+    "setting::settings.tabs.instamojo": {
+        "tr": "Instamojo"
+    },
+    "setting::settings.tabs.iyzico": {
+        "tr": "Iyzico"
+    },
+    "setting::settings.tabs.local_pickup": {
+        "tr": "Ma\u011fazadan Teslim"
+    },
+    "setting::settings.tabs.logo": {
+        "tr": "Logo"
+    },
+    "setting::settings.tabs.mail": {
+        "tr": "E-posta"
+    },
+    "setting::settings.tabs.maintenance": {
+        "tr": "Bak\u0131m Modu"
+    },
+    "setting::settings.tabs.mercadopago": {
+        "tr": "Mercado Pago"
+    },
+    "setting::settings.tabs.newsletter": {
+        "tr": "B\u00fclten"
+    },
+    "setting::settings.tabs.payfast": {
+        "tr": "PayFast"
+    },
+    "setting::settings.tabs.paypal": {
+        "tr": "PayPal"
+    },
+    "setting::settings.tabs.paystack": {
+        "tr": "Paystack"
+    },
+    "setting::settings.tabs.paytm": {
+        "tr": "Paytm"
+    },
+    "setting::settings.tabs.pwa": {
+        "tr": "PWA"
+    },
+    "setting::settings.tabs.razorpay": {
+        "tr": "Razorpay"
+    },
+    "setting::settings.tabs.sms": {
+        "tr": "SMS"
+    },
+    "setting::settings.tabs.store": {
+        "tr": "Ma\u011faza"
+    },
+    "setting::settings.tabs.stripe": {
+        "tr": "Stripe"
+    },
+    "setting::settings.validation.sqlite_is_not_installed": {
+        "tr": "SQLite y\u00fckl\u00fc de\u011fil"
+    },
+    "setting::sidebar.general": {
+        "tr": "Genel"
+    },
+    "setting::sidebar.settings": {
+        "tr": "Ayarlar"
+    },
+    "slider::attributes.arrows": {
+        "tr": "Oklar"
+    },
+    "slider::attributes.autoplay": {
+        "tr": "Otomatik Oynatma"
+    },
+    "slider::attributes.autoplay_speed": {
+        "tr": "Otomatik Oynatma H\u0131z\u0131"
+    },
+    "slider::attributes.call_to_action_delay": {
+        "tr": "Gecikme"
+    },
+    "slider::attributes.call_to_action_effect": {
+        "tr": "Efekt"
+    },
+    "slider::attributes.call_to_action_url": {
+        "tr": "Eylem \u00c7a\u011fr\u0131s\u0131 URL'si"
+    },
+    "slider::attributes.caption_1": {
+        "tr": "B\u00f6l\u00fcm 1"
+    },
+    "slider::attributes.caption_1_delay": {
+        "tr": "Gecikme"
+    },
+    "slider::attributes.caption_1_effect": {
+        "tr": "Efekt"
+    },
+    "slider::attributes.caption_2": {
+        "tr": "B\u00f6l\u00fcm 2"
+    },
+    "slider::attributes.caption_2_delay": {
+        "tr": "Gecikme"
+    },
+    "slider::attributes.caption_2_effect": {
+        "tr": "Efekt"
+    },
+    "slider::attributes.direction": {
+        "tr": "Y\u00f6nlendirme"
+    },
+    "slider::attributes.dots": {
+        "tr": "Noktalar"
+    },
+    "slider::attributes.fade": {
+        "tr": "Soldur"
+    },
+    "slider::attributes.open_in_new_window": {
+        "tr": "Yeni pencerede a\u00e7"
+    },
+    "slider::attributes.speed": {
+        "tr": "H\u0131z"
+    },
+    "slider::permissions.create": {
+        "tr": "Slider Olu\u015ftur"
+    },
+    "slider::permissions.destroy": {
+        "tr": "Slider Sil"
+    },
+    "slider::permissions.edit": {
+        "tr": "Slider D\u00fczenle"
+    },
+    "slider::permissions.index": {
+        "tr": "Index Slider"
+    },
+    "slider::sliders.form.300ms": {
+        "tr": "300ms"
+    },
+    "slider::sliders.form.3000ms": {
+        "tr": "3000ms"
+    },
+    "slider::sliders.form.enable_autoplay": {
+        "tr": "Otomatik oynatmay\u0131 etkinle\u015ftir"
+    },
+    "slider::sliders.form.show_dots": {
+        "tr": "Slider noktalar\u0131n\u0131 g\u00f6ster"
+    },
+    "slider::sliders.slide.add_slide": {
+        "tr": "Slide Ekle"
+    },
+    "slider::sliders.slide.form.call_to_action_url": {
+        "tr": "Eylem \u00c7a\u011fr\u0131s\u0131 URL'si"
+    },
+    "slider::sliders.slide.form.caption_1": {
+        "tr": "B\u00f6l\u00fcm 1"
+    },
+    "slider::sliders.slide.form.caption_2": {
+        "tr": "B\u00f6l\u00fcm 2"
+    },
+    "slider::sliders.slide.form.directions.left": {
+        "tr": "Sol"
+    },
+    "slider::sliders.slide.form.directions.right": {
+        "tr": "Sa\u011f"
+    },
+    "slider::sliders.slide.form.open_in_new_window": {
+        "tr": "Yeni pencerede a\u00e7"
+    },
+    "slider::sliders.slide.image_slide": {
+        "tr": "Slider Resmi"
+    },
+    "slider::sliders.slider": {
+        "tr": "Slider"
+    },
+    "slider::sliders.sliders": {
+        "tr": "Sliderlar"
+    },
+    "slider::sliders.tabs.group.slider_information": {
+        "tr": "Slider Bilgisi"
+    },
+    "slider::sliders.tabs.settings": {
+        "tr": "Ayarlar"
+    },
+    "slider::sliders.tabs.slides": {
+        "tr": "Sliderlar"
+    },
+    "sms::messages.order_status_changed": {
+        "tr": "Merhaba :first_name, Sipari\u015finizin #:order_id durumu :status olarak de\u011fi\u015ftirildi"
+    },
+    "sms::messages.welcome": {
+        "tr": "Ho\u015f geldiniz :first_name, Hesab\u0131n\u0131z ba\u015far\u0131yla olu\u015fturuldu"
+    },
+    "sms::services.twilio": {
+        "tr": "Twilio"
+    },
+    "sms::services.vonage": {
+        "tr": "Vonage"
+    },
+    "storefront::404.404": {
+        "tr": "404"
+    },
+    "storefront::404.back_to_home": {
+        "tr": "Ana Sayfaya D\u00f6n"
+    },
+    "storefront::404.page_not_found": {
+        "tr": "Oops! Sayfa Bulunamad\u0131."
+    },
+    "storefront::404.unable_to_find_the_page": {
+        "tr": "\u00dczg\u00fcn\u00fcz ama arad\u0131\u011f\u0131n\u0131z sayfay\u0131 bulam\u0131yoruz."
+    },
+    "storefront::attributes.call_to_action_url": {
+        "tr": "Eylem \u00c7a\u011fr\u0131s\u0131 URL'si"
+    },
+    "storefront::attributes.caption_1": {
+        "tr": "B\u00f6l\u00fcm 1"
+    },
+    "storefront::attributes.caption_2": {
+        "tr": "B\u00f6l\u00fcm 2"
+    },
+    "storefront::attributes.category": {
+        "tr": "Kategori"
+    },
+    "storefront::attributes.enabled": {
+        "tr": "Etkin"
+    },
+    "storefront::attributes.icon": {
+        "tr": "\u0130kon"
+    },
+    "storefront::attributes.open_in_new_window": {
+        "tr": "Yeni pencerede a\u00e7"
+    },
+    "storefront::attributes.recent_blogs": {
+        "tr": "Son Bloglar"
+    },
+    "storefront::attributes.section_status": {
+        "tr": "B\u00f6l\u00fcm Durumu"
+    },
+    "storefront::attributes.section_subtitle": {
+        "tr": "B\u00f6l\u00fcm Alt Ba\u015fl\u0131\u011f\u0131"
+    },
+    "storefront::attributes.section_title": {
+        "tr": "B\u00f6l\u00fcm Ba\u015fl\u0131\u011f\u0131"
+    },
+    "storefront::attributes.storefront_active_flash_sale_campaign": {
+        "tr": "Aktif Kampanya"
+    },
+    "storefront::attributes.storefront_address": {
+        "tr": "Adres"
+    },
+    "storefront::attributes.storefront_category_menu": {
+        "tr": "Kategori Men\u00fcs\u00fc"
+    },
+    "storefront::attributes.storefront_copyright_text": {
+        "tr": "Alt Bilgi Copyright Metni"
+    },
+    "storefront::attributes.storefront_custom_mail_theme_color": {
+        "tr": "\u00d6zel E-posta Tema Rengi"
+    },
+    "storefront::attributes.storefront_custom_theme_color": {
+        "tr": "\u00d6zel Tema Rengi"
+    },
+    "storefront::attributes.storefront_display_font": {
+        "tr": "Ekran Yaz\u0131 Tipi"
+    },
+    "storefront::attributes.storefront_facebook_link": {
+        "tr": "Facebook"
+    },
+    "storefront::attributes.storefront_footer_menu_one": {
+        "tr": "Alt Bilgi Men\u00fcs\u00fc Bir"
+    },
+    "storefront::attributes.storefront_footer_menu_one_title": {
+        "tr": "Alt Bilgi Men\u00fcs\u00fc Bir Ba\u015fl\u0131\u011f\u0131"
+    },
+    "storefront::attributes.storefront_footer_menu_two": {
+        "tr": "Alt Bilgi Men\u00fcs\u00fc \u0130ki"
+    },
+    "storefront::attributes.storefront_footer_menu_two_title": {
+        "tr": "Alt Bilgi Men\u00fcs\u00fc \u0130ki Ba\u015fl\u0131\u011f\u0131"
+    },
+    "storefront::attributes.storefront_mail_theme_color": {
+        "tr": "E-posta Tema Rengi"
+    },
+    "storefront::attributes.storefront_navbar_text": {
+        "tr": "Navbar Metni"
+    },
+    "storefront::attributes.storefront_primary_menu": {
+        "tr": "Ana Men\u00fc"
+    },
+    "storefront::attributes.storefront_slider": {
+        "tr": "Slider"
+    },
+    "storefront::attributes.storefront_terms_page": {
+        "tr": "\u015eartlar & Ko\u015fullar Sayfas\u0131"
+    },
+    "storefront::attributes.storefront_theme_color": {
+        "tr": "Tema Rengi"
+    },
+    "storefront::attributes.storefront_top_brands": {
+        "tr": "Pop\u00fcler Markalar"
+    },
+    "storefront::attributes.storefront_twitter_link": {
+        "tr": "Twitter"
+    },
+    "storefront::attributes.storefront_welcome_text": {
+        "tr": "Ho\u015f Geldiniz Metni"
+    },
+    "storefront::attributes.storefront_youtube_link": {
+        "tr": "Youtube"
+    },
+    "storefront::attributes.subtitle": {
+        "tr": "Alt Ba\u015fl\u0131k"
+    },
+    "storefront::attributes.title": {
+        "tr": "Ba\u015fl\u0131k"
+    },
+    "storefront::attributes.type": {
+        "tr": "T\u00fcr"
+    },
+    "storefront::attributes.url": {
+        "tr": "URL"
+    },
+    "storefront::blog.blog": {
+        "tr": "Blog"
+    },
+    "storefront::blog.blog_posts.blog_post": {
+        "tr": "Blog G\u00f6nderi"
+    },
+    "storefront::blog.blog_posts.blog_posts": {
+        "tr": "Blog G\u00f6nderisi"
+    },
+    "storefront::blog.blog_posts.facebook": {
+        "tr": "Facebook"
+    },
+    "storefront::blog.blog_posts.linkedin": {
+        "tr": "Linkedin"
+    },
+    "storefront::blog.blog_posts.no_blog_post_found": {
+        "tr": "Oops! Blog g\u00f6nderisi bulunamad\u0131."
+    },
+    "storefront::blog.blog_posts.tumblr": {
+        "tr": "Tumblr"
+    },
+    "storefront::blog.blog_posts.twitter": {
+        "tr": "Twitter"
+    },
+    "storefront::blog.blog_posts.view_all": {
+        "tr": "Hepsini G\u00f6r"
+    },
+    "storefront::brands.brands": {
+        "tr": "Markalar"
+    },
+    "storefront::brands.no_brand_found": {
+        "tr": "Oops! Marka bulunamad\u0131."
+    },
+    "storefront::cart.01": {
+        "tr": "01"
+    },
+    "storefront::cart.02": {
+        "tr": "02"
+    },
+    "storefront::cart.03": {
+        "tr": "03"
+    },
+    "storefront::cart.proceed_to_checkout": {
+        "tr": "\u00d6deme \u0130\u015flemine Devam Edin"
+    },
+    "storefront::checkout.coupon": {
+        "tr": "Kupon"
+    },
+    "storefront::checkout.create_an_account_by_entering_the_information_below": {
+        "tr": "A\u015fa\u011f\u0131daki bilgileri girerek bir hesap olu\u015fturun. E\u011fer geri d\u00f6nen bir m\u00fc\u015fteriyseniz l\u00fctfen sayfan\u0131n \u00fcst k\u0131sm\u0131ndan giri\u015f yap\u0131n."
+    },
+    "storefront::checkout.free": {
+        "tr": "\u00dccretsiz"
+    },
+    "storefront::checkout.payment_for_order": {
+        "tr": "Sipari\u015f #:id i\u00e7in \u00f6deme"
+    },
+    "storefront::checkout.payment_instructions": {
+        "tr": "\u00d6deme Talimatlar\u0131"
+    },
+    "storefront::checkout.shipping_cost": {
+        "tr": "Kargo \u00dccreti"
+    },
+    "storefront::checkout.shipping_method": {
+        "tr": "Teslimat Y\u00f6ntemi"
+    },
+    "storefront::checkout.special_note_for_delivery": {
+        "tr": "Teslimat i\u00e7in \u00f6zel not"
+    },
+    "storefront::checkout.you_must_select_an_address": {
+        "tr": "Bir adres se\u00e7meniz gerekmektedir."
+    },
+    "storefront::compare.actions": {
+        "tr": "\u0130\u015flemler"
+    },
+    "storefront::compare.compare": {
+        "tr": "Kar\u015f\u0131la\u015ft\u0131r"
+    },
+    "storefront::compare.out_of_stock": {
+        "tr": "Stokta Yok"
+    },
+    "storefront::compare.product_overview": {
+        "tr": "\u00dcr\u00fcne Genel Bak\u0131\u015f"
+    },
+    "storefront::compare.rating": {
+        "tr": "Derecelendirme"
+    },
+    "storefront::compare.view_options": {
+        "tr": "Se\u00e7enekleri G\u00f6r"
+    },
+    "storefront::invoice.billing_address": {
+        "tr": "Fatura Adresi"
+    },
+    "storefront::invoice.coupon": {
+        "tr": "Kupon"
+    },
+    "storefront::invoice.date": {
+        "tr": "Tarih"
+    },
+    "storefront::invoice.invoice": {
+        "tr": "FATURA"
+    },
+    "storefront::invoice.order_details": {
+        "tr": "Sipari\u015f Detaylar\u0131"
+    },
+    "storefront::invoice.order_id": {
+        "tr": "Sipari\u015f ID"
+    },
+    "storefront::invoice.product": {
+        "tr": "\u00dcr\u00fcn"
+    },
+    "storefront::invoice.shipping_address": {
+        "tr": "Teslimat Adresi"
+    },
+    "storefront::invoice.subject": {
+        "tr": "Sipari\u015f #:id i\u00e7in fatura"
+    },
+    "storefront::layouts.blog": {
+        "tr": "Blog"
+    },
+    "storefront::layouts.navigation": {
+        "tr": "Navigasyon"
+    },
+    "storefront::layouts.most_searched": {
+        "tr": "En \u00e7ok arananlar:"
+    },
+    "storefront::layouts.more_results": {
+        "tr": ":count daha fazla sonu\u00e7"
+    },
+    "storefront::layouts.currency": {
+        "tr": "Para Birimi"
+    },
+    "storefront::layouts.subscribed": {
+        "tr": "Abone Olundu"
+    },
+    "storefront::mail.all_rights_reserved": {
+        "tr": "T\u00fcm haklar\u0131 sakl\u0131d\u0131r."
+    },
+    "storefront::messages.no_internet": {
+        "tr": "\u0130nternet Ba\u011flant\u0131s\u0131 Yok"
+    },
+    "storefront::messages.connection_lost": {
+        "tr": "\u0130nternet ba\u011flant\u0131s\u0131 kesildi, l\u00fctfen internete yeniden ba\u011flan\u0131n ve tekrar deneyin"
+    },
+    "storefront::permissions.storefront.edit": {
+        "tr": "Ma\u011faza Ayarlar\u0131n\u0131 D\u00fczenle"
+    },
+    "storefront::product_card.available": {
+        "tr": "Mevcut:"
+    },
+    "storefront::product_card.new": {
+        "tr": "Yeni"
+    },
+    "storefront::product_card.out_of_stock": {
+        "tr": "Stokta Yok"
+    },
+    "storefront::product_card.sold": {
+        "tr": "Sat\u0131ld\u0131:"
+    },
+    "storefront::product_card.view_options": {
+        "tr": "Se\u00e7enekleri G\u00f6r"
+    },
+    "storefront::product.click_to_select": {
+        "tr": "Se\u00e7mek i\u00e7in t\u0131klay\u0131n\u0131z"
+    },
+    "storefront::product.facebook": {
+        "tr": "Facebook"
+    },
+    "storefront::product.linkedin": {
+        "tr": "Linkedin"
+    },
+    "storefront::product.left_in_stock": {
+        "tr": ":count adet stokta kald\u0131"
+    },
+    "storefront::product.options.choose_an_option": {
+        "tr": "Bir se\u00e7enek se\u00e7iniz"
+    },
+    "storefront::product.out_of_stock": {
+        "tr": "Stokta Yok"
+    },
+    "storefront::products.grid_view": {
+        "tr": "Izgara G\u00f6r\u00fcn\u00fcm\u00fc"
+    },
+    "storefront::product.show_less": {
+        "tr": "Daha Az"
+    },
+    "storefront::product.show_more": {
+        "tr": "Daha Fazla"
+    },
+    "storefront::product.sku": {
+        "tr": "SKU:"
+    },
+    "storefront::product.specification": {
+        "tr": "\u00d6zellikler"
+    },
+    "storefront::product.tumblr": {
+        "tr": "Tumblr"
+    },
+    "storefront::product.twitter": {
+        "tr": "Twitter"
+    },
+    "storefront::product.unavailable": {
+        "tr": "Mevcut de\u011fil"
+    },
+    "storefront::product.you_might_also_like": {
+        "tr": "\u015eunlar\u0131 da be\u011fenebilirsiniz"
+    },
+    "storefront::sidebar.storefront": {
+        "tr": "Ma\u011faza"
+    },
+    "storefront::storefront.form.accepted_payment_methods_image": {
+        "tr": "Kabul Edilen \u00d6deme Y\u00f6ntemleri Resmi"
+    },
+    "storefront::storefront.form.background": {
+        "tr": "Arka Plan"
+    },
+    "storefront::storefront.form.banner": {
+        "tr": "Banner"
+    },
+    "storefront::storefront.form.banner_1": {
+        "tr": "Banner 1"
+    },
+    "storefront::storefront.form.banner_2": {
+        "tr": "Banner 2"
+    },
+    "storefront::storefront.form.banner_3": {
+        "tr": "Banner 3"
+    },
+    "storefront::storefront.form.category_1": {
+        "tr": "Kategori 1"
+    },
+    "storefront::storefront.form.category_2": {
+        "tr": "Kategori 2"
+    },
+    "storefront::storefront.form.category_3": {
+        "tr": "Kategori 3"
+    },
+    "storefront::storefront.form.category_4": {
+        "tr": "Kategori 4"
+    },
+    "storefront::storefront.form.category_5": {
+        "tr": "Kategori 5"
+    },
+    "storefront::storefront.form.category_6": {
+        "tr": "Kategori 6"
+    },
+    "storefront::storefront.form.enable_blogs_section": {
+        "tr": "Bloglar B\u00f6l\u00fcm\u00fcn\u00fc Etkinle\u015ftir"
+    },
+    "storefront::storefront.form.enable_brands_section": {
+        "tr": "Markalar b\u00f6l\u00fcm\u00fcn\u00fc etkinle\u015ftir"
+    },
+    "storefront::storefront.form.enable_featured_categories_section": {
+        "tr": "\u00d6ne \u00e7\u0131kan kategoriler b\u00f6l\u00fcm\u00fcn\u00fc etkinle\u015ftir"
+    },
+    "storefront::storefront.form.enable_features_section": {
+        "tr": "\u00d6zellikler b\u00f6l\u00fcm\u00fcn\u00fc etkinle\u015ftir"
+    },
+    "storefront::storefront.form.enable_one_column_banner_section": {
+        "tr": "Tek S\u00fctunlu Afi\u015f B\u00f6l\u00fcm\u00fcn\u00fc Etkinle\u015ftir"
+    },
+    "storefront::storefront.form.enable_product_grid_section": {
+        "tr": "\u00dcr\u00fcn Izgara B\u00f6l\u00fcm\u00fcn\u00fc Etkinle\u015ftir"
+    },
+    "storefront::storefront.form.enable_product_tabs_one_section": {
+        "tr": "\u00dcr\u00fcn Sekmeleri B\u00f6l\u00fcm\u00fcn\u00fc Etkinle\u015ftir"
+    },
+    "storefront::storefront.form.enable_product_tabs_two_section": {
+        "tr": "\u00dcr\u00fcn Sekmeleri \u0130ki B\u00f6l\u00fcm\u00fcn\u00fc Etkinle\u015ftir"
+    },
+    "storefront::storefront.form.enable_three_column_banners_section": {
+        "tr": "\u00dc\u00e7 S\u00fctunlu Afi\u015fler B\u00f6l\u00fcm\u00fcn\u00fc Etkinle\u015ftir"
+    },
+    "storefront::storefront.form.enable_three_column_full_width_banners_section": {
+        "tr": "Tam Geni\u015flikte \u00dc\u00e7 S\u00fctunlu Afi\u015fler B\u00f6l\u00fcm\u00fcn\u00fc Etkinle\u015ftir"
+    },
+    "storefront::storefront.form.enable_two_column_banners_section": {
+        "tr": "\u0130ki S\u00fctunlu Afi\u015fler B\u00f6l\u00fcm\u00fcn\u00fc Etkinle\u015ftir"
+    },
+    "storefront::storefront.form.favicon": {
+        "tr": "Favicon"
+    },
+    "storefront::storefront.form.feature_1": {
+        "tr": "\u00d6zellik 1"
+    },
+    "storefront::storefront.form.feature_2": {
+        "tr": "\u00d6zellik 2"
+    },
+    "storefront::storefront.form.feature_3": {
+        "tr": "\u00d6zellik 3"
+    },
+    "storefront::storefront.form.feature_4": {
+        "tr": "\u00d6zellik 4"
+    },
+    "storefront::storefront.form.feature_5": {
+        "tr": "\u00d6zellik 5"
+    },
+    "storefront::storefront.form.flash_sale": {
+        "tr": "Fla\u015f \u0130ndirim"
+    },
+    "storefront::storefront.form.header_logo": {
+        "tr": "Ba\u015fl\u0131k Logosu"
+    },
+    "storefront::storefront.form.mail_logo": {
+        "tr": "E-posta Logosu"
+    },
+    "storefront::storefront.form.newsletter_bg_image": {
+        "tr": "Arka Plan Resmi"
+    },
+    "storefront::storefront.form.product_page_banner": {
+        "tr": "\u00dcr\u00fcn Sayfas\u0131 Banner"
+    },
+    "storefront::storefront.form.recent_blogs.5": {
+        "tr": "5"
+    },
+    "storefront::storefront.form.recent_blogs.10": {
+        "tr": "10"
+    },
+    "storefront::storefront.form.recent_blogs.15": {
+        "tr": "15"
+    },
+    "storefront::storefront.form.recent_blogs.20": {
+        "tr": "20"
+    },
+    "storefront::storefront.form.storefront_top_brands": {
+        "tr": "Pop\u00fcler Markalar"
+    },
+    "storefront::storefront.form.tab_1": {
+        "tr": "Tab 1"
+    },
+    "storefront::storefront.form.tab_2": {
+        "tr": "Tab 2"
+    },
+    "storefront::storefront.form.tab_3": {
+        "tr": "Tab 3"
+    },
+    "storefront::storefront.form.tab_4": {
+        "tr": "Tab 4"
+    },
+    "storefront::storefront.social_links.facebook": {
+        "tr": "Facebook"
+    },
+    "storefront::storefront.social_links.twitter": {
+        "tr": "Twitter"
+    },
+    "storefront::storefront.social_links.youtube": {
+        "tr": "YouTube"
+    },
+    "storefront::storefront.something_went_wrong": {
+        "tr": "Bir \u015feyler ters gitti!"
+    },
+    "storefront::storefront.storefront": {
+        "tr": "Ma\u011faza"
+    },
+    "storefront::storefront.tabs.blogs": {
+        "tr": "Bloglar"
+    },
+    "storefront::storefront.tabs.features": {
+        "tr": "\u00d6zellikler"
+    },
+    "storefront::storefront.tabs.footer": {
+        "tr": "Alt Bilgi"
+    },
+    "storefront::storefront.tabs.general": {
+        "tr": "Genel"
+    },
+    "storefront::storefront.tabs.group.general_settings": {
+        "tr": "Genel Ayarlar"
+    },
+    "storefront::storefront.tabs.group.home_page_sections": {
+        "tr": "Ana Sayfa B\u00f6l\u00fcmleri"
+    },
+    "storefront::storefront.tabs.logo": {
+        "tr": "Logo"
+    },
+    "storefront::storefront.tabs.menus": {
+        "tr": "Men\u00fcler"
+    },
+    "storefront::storefront.tabs.newsletter": {
+        "tr": "B\u00fclten"
+    },
+    "storefront::storefront.tabs.one_column_banner": {
+        "tr": "Tek S\u00fctun Banner"
+    },
+    "storefront::storefront.tabs.product_grid": {
+        "tr": "\u00dcr\u00fcn Izgaras\u0131"
+    },
+    "storefront::storefront.tabs.product_page": {
+        "tr": "\u00dcr\u00fcn Sayfas\u0131"
+    },
+    "storefront::storefront.tabs.product_tabs_one": {
+        "tr": "\u00dcr\u00fcn Sekmesi 1"
+    },
+    "storefront::storefront.tabs.product_tabs_two": {
+        "tr": "\u00dcr\u00fcn Sekmesi 2"
+    },
+    "storefront::storefront.tabs.slider_banners": {
+        "tr": "Slider Bannerlar\u0131"
+    },
+    "storefront::storefront.tabs.social_links": {
+        "tr": "Sosyal Ba\u011flant\u0131lar"
+    },
+    "storefront::storefront.tabs.three_column_banners": {
+        "tr": "\u00dc\u00e7 S\u00fctun Bannerlar"
+    },
+    "storefront::storefront.tabs.three_column_full_width_banners": {
+        "tr": "\u00dc\u00e7 S\u00fctun Tam Geni\u015flikte Bannerlar"
+    },
+    "storefront::storefront.tabs.top_brands": {
+        "tr": "Pop\u00fcler Markalar"
+    },
+    "storefront::storefront.tabs.two_column_banners": {
+        "tr": "\u0130ki s\u00fctun bannerlar"
+    },
+    "storefront::storefront.try_again": {
+        "tr": "Tekrar Deneyiniz"
+    },
+    "storefront::themes.black": {
+        "tr": "Siyah"
+    },
+    "storefront::themes.blue": {
+        "tr": "Mavi"
+    },
+    "storefront::themes.bondi-blue": {
+        "tr": "Bondi Mavi"
+    },
+    "storefront::themes.cornflower": {
+        "tr": "Peygamber \u00c7i\u00e7e\u011fi"
+    },
+    "storefront::themes.custom_color": {
+        "tr": "\u00d6zel Renk"
+    },
+    "storefront::themes.green": {
+        "tr": "Ye\u015fil"
+    },
+    "storefront::themes.indigo": {
+        "tr": "Indigo"
+    },
+    "storefront::themes.magenta": {
+        "tr": "Magenta"
+    },
+    "storefront::themes.orange": {
+        "tr": "Turuncu"
+    },
+    "storefront::themes.pink": {
+        "tr": "Pembe"
+    },
+    "storefront::themes.red": {
+        "tr": "K\u0131rm\u0131z\u0131"
+    },
+    "storefront::themes.violet": {
+        "tr": "Violet"
+    },
+    "storefront::themes.yellow": {
+        "tr": "Sar\u0131"
+    },
+    "support::recaptcha.validation.failed_to_verify": {
+        "tr": "Do\u011frulama ba\u015far\u0131s\u0131z oldu"
+    },
+    "support::sitemap.generate": {
+        "tr": "Olu\u015ftur"
+    },
+    "support::sitemap.generate_sitemap": {
+        "tr": "Site Haritas\u0131 Olu\u015ftur"
+    },
+    "support::sitemap.messages.sitemap_generated_successfully": {
+        "tr": "Site haritas\u0131 ba\u015far\u0131yla olu\u015fturuldu"
+    },
+    "support::sitemap.sidebar.sitemap": {
+        "tr": "Site Haritas\u0131"
+    },
+    "support::sitemap.sitemap": {
+        "tr": "Site Haritas\u0131"
+    },
+    "tag::attributes.slug": {
+        "tr": "URL"
+    },
+    "tag::permissions.create": {
+        "tr": "Etiket Olu\u015ftur"
+    },
+    "tag::permissions.destroy": {
+        "tr": "Etiket Sil"
+    },
+    "tag::permissions.edit": {
+        "tr": "Etiket D\u00fczenle"
+    },
+    "tag::permissions.index": {
+        "tr": "Index Etiket"
+    },
+    "tax::attributes.label": {
+        "tr": "Vergi S\u0131n\u0131f\u0131"
+    },
+    "tax::attributes.based_on": {
+        "tr": "Temelinde (Based On)"
+    },
+    "tax::attributes.rate": {
+        "tr": "Oran %"
+    },
+    "tax::attributes.rates.*.rate": {
+        "tr": "Oran"
+    },
+    "tax::attributes.zip": {
+        "tr": "Posta Kodu"
+    },
+    "tax::attributes.state": {
+        "tr": "Sokak"
+    },
+    "tax::permissions.taxes.create": {
+        "tr": "Vergi Olu\u015ftur"
+    },
+    "tax::permissions.taxes.destroy": {
+        "tr": "Vergi Sil"
+    },
+    "tax::permissions.taxes.edit": {
+        "tr": "Vergi D\u00fczenle"
+    },
+    "tax::permissions.taxes.index": {
+        "tr": "Index Vergi"
+    },
+    "tax::sidebar.taxes": {
+        "tr": "Vergiler"
+    },
+    "tax::taxes.form.based_on.billing_address": {
+        "tr": "Fatura Adresi"
+    },
+    "tax::taxes.form.based_on.shipping_address": {
+        "tr": "Teslimat Adresi"
+    },
+    "tax::taxes.form.based_on.store_address": {
+        "tr": "Ma\u011faza Adresi"
+    },
+    "tax::taxes.form.delete_rate": {
+        "tr": "Oran Sil"
+    },
+    "tax::taxes.table.tax_class": {
+        "tr": "Vergi S\u0131n\u0131f\u0131"
+    },
+    "tax::taxes.tabs.general": {
+        "tr": "Genel"
+    },
+    "tax::taxes.tabs.group.tax_information": {
+        "tr": "Vergi Bilgisi"
+    },
+    "tax::taxes.tabs.rates": {
+        "tr": "Oranlar"
+    },
+    "tax::taxes.tax": {
+        "tr": "Vergi"
+    },
+    "tax::taxes.taxes": {
+        "tr": "Vergiler"
+    },
+    "transaction::permissions.index": {
+        "tr": "Dizin \u0130\u015flem"
+    },
+    "transaction::transactions.table.order_id": {
+        "tr": "Sipari\u015f ID"
+    },
+    "transaction::transactions.table.transaction_id": {
+        "tr": "\u0130\u015flem ID"
+    },
+    "transaction::transactions.transactions": {
+        "tr": "\u00c7eviriler"
+    },
+    "translatable::validation.translatableExist": {
+        "tr": ":attribute de\u011feri mevcut de\u011fil."
+    },
+    "translatable::validation.translatableUnique": {
+        "tr": ":attribute de\u011feri zaten kullan\u0131mda."
+    },
+    "translation::permissions.edit": {
+        "tr": "\u00c7evirileri D\u00fczenle"
+    },
+    "translation::permissions.index": {
+        "tr": "Index \u00c7eviriler"
+    },
+    "translation::sidebar.translations": {
+        "tr": "\u00c7eviriler"
+    },
+    "translation::translations.table.key": {
+        "tr": "Anahtar"
+    },
+    "translation::translations.translation": {
+        "tr": "\u00c7eviri"
+    },
+    "translation::translations.translations": {
+        "tr": "\u00c7eviriler"
+    },
+    "user::auth.create_new_password": {
+        "tr": "Yeni bir parola olu\u015ftur"
+    },
+    "user::auth.back_to_home": {
+        "tr": "Ana Sayfaya D\u00f6n"
+    },
+    "user::auth.show_password": {
+        "tr": "Parolay\u0131 g\u00f6ster"
+    },
+    "user::auth.logout": {
+        "tr": "\u00c7\u0131k\u0131\u015f Yap"
+    },
+    "user::auth.hide_password": {
+        "tr": "Parolay\u0131 gizle"
+    },
+    "user::mail.account_created": {
+        "tr": "Hesab\u0131n\u0131z ba\u015far\u0131yla olu\u015fturuldu."
+    },
+    "user::mail.if_you\\\u2019re_having_trouble": {
+        "tr": "E\u011fer 'Parolay\u0131 S\u0131f\u0131rla' d\u00fc\u011fmesine t\u0131klamakta sorun ya\u015f\u0131yorsan\u0131z, a\u015fa\u011f\u0131daki URL'yi kopyalay\u0131p web taray\u0131c\u0131n\u0131za yap\u0131\u015ft\u0131r\u0131n:"
+    },
+    "user::mail.no_further_action_is_required": {
+        "tr": "Parola s\u0131f\u0131rlama talebinde bulunmad\u0131ysan\u0131z, ba\u015fka bir i\u015flem yapman\u0131z gerekmez."
+    },
+    "user::mail.received_a_password_reset_request": {
+        "tr": "Bu e-postay\u0131 alman\u0131z\u0131n nedeni, hesab\u0131n\u0131z i\u00e7in bir parola s\u0131f\u0131rlama talebi alm\u0131\u015f olmam\u0131zd\u0131r."
+    },
+    "user::mail.reset_your_account_password": {
+        "tr": "Hesap parolan\u0131z\u0131 s\u0131f\u0131rlay\u0131n"
+    },
+    "user::messages.email.reset_password": {
+        "tr": "Hesap parolan\u0131z\u0131 s\u0131f\u0131rlay\u0131n"
+    },
+    "user::messages.users.account_created": {
+        "tr": "Hesab\u0131n\u0131z olu\u015fturuldu"
+    },
+    "user::messages.users.account_is_blocked": {
+        "tr": "Hesab\u0131n\u0131z :delay saniye boyunca bloke edildi."
+    },
+    "user::messages.users.account_not_activated": {
+        "tr": "Hesab\u0131n\u0131z etkinle\u015ftirilmedi. L\u00fctfen e-postan\u0131z\u0131 kontrol edin."
+    },
+    "user::messages.users.invalid_reset_code": {
+        "tr": "Ge\u00e7ersiz veya s\u00fcresi dolmu\u015f s\u0131f\u0131rlama kodu"
+    },
+    "user::messages.users.password_has_been_reset": {
+        "tr": "Parolan\u0131z s\u0131f\u0131rland\u0131"
+    },
+    "user::messages.users.reset_password_email_sent": {
+        "tr": "Parola s\u0131f\u0131rlama e-postas\u0131 g\u00f6nderildi"
+    },
+    "user::permissions.roles.create": {
+        "tr": "Rol Olu\u015ftur"
+    },
+    "user::permissions.roles.destroy": {
+        "tr": "Rol Sil"
+    },
+    "user::permissions.roles.edit": {
+        "tr": "Rol D\u00fczenle"
+    },
+    "user::permissions.roles.index": {
+        "tr": "Index Rol"
+    },
+    "user::roles.permissions.allow": {
+        "tr": "\u0130zin ver"
+    },
+    "user::roles.permissions.allow_all": {
+        "tr": "T\u00fcm\u00fcne izin ver"
+    },
+    "user::roles.permissions.deny": {
+        "tr": "Reddet"
+    },
+    "user::roles.permissions.deny_all": {
+        "tr": "T\u00fcm\u00fcn\u00fc reddet"
+    },
+    "user::roles.permissions.inherit": {
+        "tr": "Varsay\u0131lan"
+    },
+    "user::roles.permissions.inherit_all": {
+        "tr": "T\u00fcm\u00fcn\u00fc Varsay\u0131lan Yap"
+    },
+    "user::roles.role": {
+        "tr": "Rol"
+    },
+    "user::roles.roles": {
+        "tr": "Roller"
+    },
+    "user::roles.tabs.general": {
+        "tr": "Genel"
+    },
+    "user::roles.tabs.permissions": {
+        "tr": "\u0130zinler"
+    },
+    "variation::attributes.type": {
+        "tr": "T\u00fcr"
+    },
+    "user::roles.tabs.role_information": {
+        "tr": "Rol Bilgisi"
+    },
+    "user::sidebar.roles": {
+        "tr": "Roller"
+    },
+    "variation::variations.form.variation_types.text": {
+        "tr": "Metin"
+    },
+    "variation::variations.form.variation_types.image": {
+        "tr": "Resim"
+    },
+    "variation::variations.form.variation_types.color": {
+        "tr": "Renk"
+    },
+    "variation::variations.form.values": {
+        "tr": "De\u011ferler"
+    },
+    "variation::variations.form.type": {
+        "tr": "T\u00fcr"
+    },
+    "variation::variations.form.label": {
+        "tr": "Etiket"
+    },
+    "variation::variations.form.image": {
+        "tr": "Resim"
+    },
+    "variation::variations.form.color": {
+        "tr": "Renk"
+    },
+    "variation::variations.form.add_row": {
+        "tr": "Row Ekle"
+    },
+    "variation::permissions.variations.index": {
+        "tr": "Index Varyasyonlar"
+    },
+    "variation::permissions.variations.edit": {
+        "tr": "Varyasyonlar D\u00fczenle"
+    },
+    "variation::permissions.variations.destroy": {
+        "tr": "Varyasyonlar Sil"
+    },
+    "variation::permissions.variations.create": {
+        "tr": "Varyasyonlar Olu\u015ftur"
+    },
+    "variation::attributes.values.*.label": {
+        "tr": "Etiket"
+    },
+    "variation::attributes.values.*.image": {
+        "tr": "Resim"
+    },
+    "variation::attributes.values.*.color": {
+        "tr": "Renk"
+    },
+    "variation::attributes.values": {
+        "tr": "De\u011ferler"
+    },
+    "variation::variations.variation": {
+        "tr": "Varyasyon"
+    },
+    "variation::variations.table.type": {
+        "tr": "T\u00fcr"
+    },
+    "variation::variations.group.values": {
+        "tr": "De\u011ferler"
+    },
+    "variation::variations.group.general": {
+        "tr": "Genel"
+    },
+    "user::auth.login_warning": {
+        "tr": "Lütfen giriş yapın"
+    }
+}

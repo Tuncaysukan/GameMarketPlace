@@ -1,0 +1,4 @@
+<?php
+
+// Wallet helper functions
+

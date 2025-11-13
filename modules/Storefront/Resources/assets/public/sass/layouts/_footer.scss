@@ -1,0 +1,16 @@
+@import "footer/_footer-top";
+@import "footer/_footer-bottom";
+
+.footer-wrap {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.footer {
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .footer {
+        padding-bottom: 62px;
+    }
+}

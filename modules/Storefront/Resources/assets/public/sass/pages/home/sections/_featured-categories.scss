@@ -1,0 +1,250 @@
+.featured-categories-wrap {
+    .featured-categories-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .featured-category-products {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+
+    /* Custom Products Grid System for Featured Categories */
+    .products-grid {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -6px;
+
+        .product-item {
+            padding: 6px;
+            flex: 0 0 50%; /* Mobile: 2 products per row */
+            display: flex;
+
+            .product-card {
+                margin: 0;
+                height: 100%;
+                margin-bottom: 20px;
+                flex: 1;
+            }
+
+            .product-card-skeleton {
+                margin: 0;
+                margin-bottom: 20px;
+            }
+
+            /* Large mobile: stay 2 products per row */
+            @media (min-width: 480px) and (max-width: 767px) {
+                flex: 0 0 50%;
+            }
+
+            /* Tablet: 3 products per row */
+            @media (min-width: 768px) {
+                flex: 0 0 33.333%;
+            }
+
+            /* Small desktop: 4 products per row */
+            @media (min-width: 992px) {
+                flex: 0 0 25%;
+            }
+
+            /* Large desktop: 6 products per row */
+            @media (min-width: 1200px) {
+                flex: 0 0 16.666%;
+            }
+        }
+
+        .product-skeleton {
+            padding: 6px;
+            flex: 0 0 50%;
+
+            /* Large mobile: stay 2 products per row */
+            @media (min-width: 480px) and (max-width: 767px) {
+                flex: 0 0 50%;
+            }
+
+            /* Tablet: 3 products per row */
+            @media (min-width: 768px) {
+                flex: 0 0 33.333%;
+            }
+
+            /* Small desktop: 4 products per row */
+            @media (min-width: 992px) {
+                flex: 0 0 25%;
+            }
+
+            /* Large desktop: 6 products per row */
+            @media (min-width: 1200px) {
+                flex: 0 0 16.666%;
+            }
+        }
+    }
+}
+
+
+.featured-categories-slider {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    background: rgba(var(--color-primary-r), var(--color-primary-g), var(--color-primary-b), .08);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 10px;
+    padding: 15px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    touch-action: pan-x;
+
+    .swiper-slide {
+        width: auto !important;
+    }
+
+    .tab-item {
+        display: flex;
+        height: auto;
+        padding: 10px 14px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 10px;
+        cursor: pointer;
+        pointer-events: auto;
+        touch-action: pan-x;
+        transition: var(--transition-150);
+        border-radius: 6px;
+        background: rgba(255, 255, 255, 0.35);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        min-height: 40px;
+
+        &.active {
+            background: var(--color-primary);
+            color: white;
+            cursor: default;
+            border-color: var(--color-primary);
+        }
+
+        &.loading {
+            opacity: 0.7;
+            cursor: default;
+        }
+
+        &:hover:not(.active):not(.loading) {
+            background: rgba(255, 255, 255, 0.45);
+            transform: translateY(-1px);
+            border-color: rgba(255, 255, 255, 0.5);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+        }
+    }
+
+
+    .featured-category-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+
+        > img {
+            height: 36px;
+            width: 36px;
+            object-fit: contain;
+            border-radius: 5px;
+        }
+
+        .image-placeholder {
+            height: 36px;
+            width: 36px;
+            border-radius: 5px;
+        }
+    }
+
+    .featured-category-name {
+        font-size: 15px;
+        font-weight: 500;
+        white-space: nowrap;
+        color: inherit;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .featured-categories-slider {
+        // Navigation buttons removed
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .swiper-wrapper {
+        .swiper-slide {
+            .product-card {
+                min-height: 260px;
+
+                .product-name {
+                    h6 {
+                        font-size: 13px;
+                        line-height: 17px;
+                    }
+                }
+
+                .product-price {
+                    font-size: 13px;
+                    line-height: 17px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .swiper-wrapper {
+        .swiper-slide {
+            .product-card {
+                min-height: 240px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .featured-categories-wrap {
+        margin-top: 30px;
+        
+        .tab-content {
+            .featured-category-products {
+                padding-top: 25px;
+            }
+        }
+    }
+
+    .featured-categories-slider {
+        // Navigation buttons removed
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .featured-categories-slider {
+        padding: 15px 20px;
+        border-radius: 8px;
+        
+        .tab-item {
+            padding: 10px 12px;
+            gap: 8px;
+            min-height: 36px;
+            border-radius: 4px;
+            
+            .featured-category-image > img,
+            .featured-category-image .image-placeholder {
+                height: 26px;
+                width: 26px;
+                border-radius: 5px;
+            }
+            
+            .featured-category-name {
+                font-size: 13px;
+            }
+        }
+
+        // Navigation buttons removed
+    }
+}

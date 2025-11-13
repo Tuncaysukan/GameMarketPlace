@@ -1,0 +1,341 @@
+@import "swiper/scss/parallax";
+
+// Background image container - mobilde gizle
+.background-image-container {
+    @media screen and (max-width: 767px) {
+        display: none !important;
+    }
+}
+
+.home-slider {
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0 0 30px 0;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+
+    & .swiper-slide {
+        height: auto;
+        max-height: 500px;
+        overflow: hidden;
+        border-radius: 10px;
+        position: relative;
+
+        & img {
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+
+    }
+
+    & .swiper-pagination {
+        display: flex;
+        width: calc(100% - 120px);
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        text-align: center;
+        transform: translate3d(0, 0, 0);
+        bottom: -35px !important;
+        overflow: hidden;
+        left: 50% !important;
+        right: 50%;
+        transform: translate(-50%, -50%) !important;
+        border-radius: 10px;
+        padding: 0;
+
+        & .swiper-pagination-bullet {
+            width: 100%;
+            height: 90px;
+            border-radius: 0;
+            background: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(20px);
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            opacity: 1;
+            transition: all 0.3s ease;
+            overflow: hidden;
+            position: relative;
+
+            // İlk bullet'a sol köşe border-radius
+            &:first-child {
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+
+            // Son bullet'a sağ köşe border-radius
+            &:last-child {
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+
+            & img {
+                max-width: 60%;
+                max-height: 50px;
+                object-fit: contain;
+                transition: all 0.3s ease;
+                filter: brightness(0) invert(1);
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 0;
+                height: 5px;
+                background: transparent;
+                transition: all 0.5s ease;
+                z-index: -1; // Bullet'ın arkasına taşındı
+            }
+
+            @for $i from 0 through 9 {
+                &[data-bullet-index="#{$i}"]::before {
+                    background: var(--bullet-color-#{$i}, #007bff);
+                }
+            }
+
+            &:hover {
+                &::before {
+                    width: 100%;
+                }
+            }
+        }
+
+        & .swiper-pagination-bullet-active {
+            background: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(20px);
+            border-radius: 10px;
+
+            &::before {
+                width: 100%;
+            }
+
+            & img {
+                filter: brightness(1) invert(0);
+            }
+        }
+    }
+
+    .slide-content {
+        position: absolute;
+        top: 0;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+
+        &.align-left {
+            left: 0;
+            justify-content: flex-start;
+
+            .captions {
+                margin-left: 60px;
+                text-align: left;
+
+                .caption-2 {
+                    margin-right: 90px;
+                }
+            }
+        }
+
+        &.align-right {
+            right: 0;
+            justify-content: flex-end;
+
+            .captions {
+                margin-right: 60px;
+                text-align: right;
+
+                .caption-2 {
+                    margin-left: 90px;
+                }
+            }
+        }
+
+        .captions {
+            width: 460px;
+        }
+
+        .caption {
+            display: block;
+        }
+
+        .caption-1 {
+            font-size: 48px;
+            font-weight: var(--font-light);
+            line-height: 48px;
+            color: var(--color-black);
+        }
+
+        .caption-2 {
+            font-size: 16px;
+            line-height: 26px;
+            color: var(--color-gray);
+            margin-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .home-slider {
+        & .swiper-pagination {
+            width: calc(100% - 20px);
+            height: 70px !important;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 10px 5px;
+            overflow: hidden;
+            max-height: 270px;
+            border-radius: 10px;
+            bottom: -20px !important;
+            border: none;
+
+            &.swiper-pagination-scrollable {
+                flex-wrap: nowrap !important;
+                overflow-x: auto !important;
+                overflow-y: hidden !important;
+                justify-content: flex-start !important;
+                max-height: none !important;
+                height: 90px !important;
+                padding: 10px 5px !important;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+                cursor: grab;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+
+                &:active {
+                    cursor: grabbing;
+                }
+
+                & .swiper-pagination-bullet {
+                    flex-shrink: 0 !important;
+                    white-space: nowrap;
+                }
+            }
+
+            & .swiper-pagination-bullet {
+                width: auto;
+                min-width: 80px;
+                max-width: 100px;
+                height: 70px;
+                padding: 8px;
+                flex-shrink: 0;
+
+                & img {
+                    max-width: 50px;
+                    max-height: 35px;
+                }
+            }
+
+            & .swiper-pagination-bullet-active {
+                border-radius: 10px;
+            }
+        }
+
+        .slide-content {
+            .caption-1 {
+                font-size: 38px;
+                line-height: 38px;
+            }
+
+            .caption-2 {
+                font-size: 15px;
+                line-height: 25px;
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .home-slider {
+        & .swiper-pagination {
+            width: calc(100% - 20px) !important;
+            padding: 12px 8px !important;
+
+            &.swiper-pagination-scrollable {
+                height: 60px !important;
+                padding: 0 !important;
+                background: transparent !important;
+            }
+
+            & .swiper-pagination-bullet {
+                min-width: 70px !important;
+                max-width: 85px !important;
+                height: 60px !important;
+
+                & img {
+                    max-width: 45px !important;
+                    max-height: 30px !important;
+                }
+            }
+        }
+
+        .slide-content {
+            &.align-left {
+                .captions {
+                    margin: 0 50px 0 40px;
+
+                    .caption-2 {
+                        margin-right: 0;
+                    }
+                }
+            }
+
+            &.align-right {
+                .captions {
+                    margin: 0 40px 0 50px;
+
+                    .caption-2 {
+                        margin-left: 0;
+                    }
+                }
+            }
+
+            .caption-1 {
+                font-size: 28px;
+                line-height: 28px;
+            }
+
+            .caption-2 {
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .home-slider {
+        .slide-content {
+            &.align-left {
+                .captions {
+                    margin: 0 30px !important;
+                }
+            }
+
+            &.align-right {
+                .captions {
+                    margin: 0 30px !important;
+                }
+            }
+        }
+    }
+}

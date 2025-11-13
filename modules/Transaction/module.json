@@ -1,0 +1,6 @@
+{
+    "name": "Transaction",
+    "alias": "transaction",
+    "description": "The Veles Transaction Module.",
+    "priority": 100
+}
