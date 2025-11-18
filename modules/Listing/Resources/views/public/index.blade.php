@@ -3,169 +3,185 @@
 @section('title', 'İlanlar')
 
 @section('content')
-    <div class="container">
+    <div class="container listings-page">
+        <!-- Sayfa Başlığı ve Sonuç/Sıralama -->
+        <div class="panel panel-default listings-header">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h1 class="page-title">
+                            <i class="fa fa-list-alt text-primary"></i>
+                            İlanlar
+                            <small class="results-count">
+                                <strong class="text-primary">{{ $listings->total() }}</strong> ilan bulundu
+                            </small>
+                        </h1>
+                    </div>
+                    <div class="col-sm-6 text-right">
+                        <form method="GET" action="{{ route('listings.index') }}" class="form-inline sort-form">
+                            @foreach(request()->except('sort') as $key => $value)
+                                <input type="hidden" name="{{ $key }}" value="{{ $value }}">
+                            @endforeach
+                            <div class="form-group">
+                                <label class="sort-label">
+                                    <i class="fa fa-sort text-muted"></i>
+                                    Sıralama:
+                                </label>
+                                <select name="sort" class="form-control sort-select" onchange="this.form.submit()">
+                                    <option value="latest" {{ request('sort') == 'latest' ? 'selected' : '' }}>En Yeni</option>
+                                    <option value="price_low" {{ request('sort') == 'price_low' ? 'selected' : '' }}>Fiyat (Düşük-Yüksek)</option>
+                                    <option value="price_high" {{ request('sort') == 'price_high' ? 'selected' : '' }}>Fiyat (Yüksek-Düşük)</option>
+                                    <option value="popular" {{ request('sort') == 'popular' ? 'selected' : '' }}>En Popüler</option>
+                                    <option value="rating" {{ request('sort') == 'rating' ? 'selected' : '' }}>En Yüksek Puan</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="row">
             <!-- Sol Sidebar - Filtreler -->
             <div class="col-md-3">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-filter"></i> Filtreler</h4>
+                <div class="panel panel-default filters-panel">
+                    <div class="panel-heading filters-header">
+                        <h4 class="panel-title">
+                            <i class="fa fa-filter"></i> Filtreler
+                        </h4>
                     </div>
                     <div class="panel-body">
-                        <form method="GET" action="{{ route('listings.index') }}">
-                            <!-- Kategori -->
+                        <form method="GET" action="{{ route('listings.index') }}" id="filter-form">
                             <div class="form-group">
-                                <label>Kategori</label>
+                                <label class="filter-label">
+                                    <i class="fa fa-folder text-primary"></i>
+                                    Kategori
+                                </label>
                                 <select name="category" class="form-control" onchange="this.form.submit()">
                                     <option value="">Tüm Kategoriler</option>
                                     @foreach($categories as $category)
-                                        <option value="{{ $category->id }}" 
-                                                {{ request('category') == $category->id ? 'selected' : '' }}>
+                                        <option value="{{ $category->id }}" {{ request('category') == $category->id ? 'selected' : '' }}>
                                             {{ $category->name }}
                                         </option>
                                     @endforeach
                                 </select>
                             </div>
 
-                            <!-- Fiyat Aralığı -->
                             <div class="form-group">
-                                <label>Fiyat Aralığı</label>
+                                <label class="filter-label">
+                                    <i class="fa fa-tag text-success"></i>
+                                    Fiyat Aralığı
+                                </label>
                                 <div class="row">
                                     <div class="col-xs-6">
-                                        <input type="number" name="min_price" class="form-control" 
-                                               placeholder="Min" value="{{ request('min_price') }}">
+                                        <input type="number" name="min_price" class="form-control" placeholder="Min ₺" value="{{ request('min_price') }}">
                                     </div>
                                     <div class="col-xs-6">
-                                        <input type="number" name="max_price" class="form-control" 
-                                               placeholder="Max" value="{{ request('max_price') }}">
+                                        <input type="number" name="max_price" class="form-control" placeholder="Max ₺" value="{{ request('max_price') }}">
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Arama -->
                             <div class="form-group">
-                                <label>Arama</label>
-                                <input type="text" name="search" class="form-control" 
-                                       placeholder="İlan ara..." value="{{ request('search') }}">
+                                <label class="filter-label">
+                                    <i class="fa fa-search text-muted"></i>
+                                    Arama
+                                </label>
+                                <input type="text" name="search" class="form-control" placeholder="İlan ara..." value="{{ request('search') }}">
                             </div>
 
-                            <button type="submit" class="btn btn-primary btn-block">
-                                <i class="fa fa-search"></i> Filtrele
-                            </button>
-                            <a href="{{ route('listings.index') }}" class="btn btn-default btn-block">
-                                <i class="fa fa-times"></i> Temizle
-                            </a>
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <button type="submit" class="btn btn-primary btn-block">
+                                        <i class="fa fa-search"></i> Filtrele
+                                    </button>
+                                </div>
+                                <div class="col-xs-6">
+                                    <a href="{{ route('listings.index') }}" class="btn btn-default btn-block">
+                                        <i class="fa fa-times"></i> Temizle
+                                    </a>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
 
             <!-- Sağ İçerik - İlanlar -->
-            <div class="col-md-9">
-                <!-- Sıralama ve Sonuç Sayısı -->
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <p class="text-muted">
-                                    <strong>{{ $listings->total() }}</strong> ilan bulundu
-                                </p>
-                            </div>
-                            <div class="col-sm-6 text-right">
-                                <form method="GET" action="{{ route('listings.index') }}" class="form-inline">
-                                    @foreach(request()->except('sort') as $key => $value)
-                                        <input type="hidden" name="{{ $key }}" value="{{ $value }}">
-                                    @endforeach
-                                    <div class="form-group">
-                                        <label>Sıralama:</label>
-                                        <select name="sort" class="form-control input-sm" onchange="this.form.submit()">
-                                            <option value="latest" {{ request('sort') == 'latest' ? 'selected' : '' }}>
-                                                En Yeni
-                                            </option>
-                                            <option value="price_low" {{ request('sort') == 'price_low' ? 'selected' : '' }}>
-                                                Fiyat (Düşük-Yüksek)
-                                            </option>
-                                            <option value="price_high" {{ request('sort') == 'price_high' ? 'selected' : '' }}>
-                                                Fiyat (Yüksek-Düşük)
-                                            </option>
-                                            <option value="popular" {{ request('sort') == 'popular' ? 'selected' : '' }}>
-                                                En Popüler
-                                            </option>
-                                            <option value="rating" {{ request('sort') == 'rating' ? 'selected' : '' }}>
-                                                En Yüksek Puan
-                                            </option>
-                                        </select>
-                                    </div>
-                                </form>
-                            </div>
+            <div class="col-md-9 listings-content">
+                @if($listings->isEmpty())
+                    <div class="panel panel-default empty-state">
+                        <div class="panel-body text-center">
+                            <i class="fa fa-inbox empty-icon"></i>
+                            <h3 class="empty-title">İlan Bulunamadı</h3>
+                            <p class="empty-text">Arama kriterlerinize uygun ilan bulunamadı.</p>
                         </div>
                     </div>
-                </div>
-
-                <!-- İlan Listesi -->
-                @if($listings->isEmpty())
-                    <div class="alert alert-info text-center" style="padding: 50px;">
-                        <i class="fa fa-inbox fa-3x"></i>
-                        <h4>İlan Bulunamadı</h4>
-                        <p>Arama kriterlerinize uygun ilan bulunamadı.</p>
-                    </div>
                 @else
-                    <div class="row">
+                    <div class="row listings-grid">
                         @foreach($listings as $listing)
-                            <div class="col-sm-6 col-md-4">
+                            <div class="col-xs-6 col-sm-4 col-md-3 product-col">
                                 <div class="product-card">
-                                    <div class="product-card-img">
-                                        <a href="{{ $listing->url() }}">
-                                            @if($listing->primary_image)
-                                                <img src="{{ $listing->primary_image->path }}" 
-                                                     alt="{{ $listing->title }}"
-                                                     class="img-responsive">
+                                    <div class="product-image-wrapper">
+                                        <a href="{{ $listing->url() }}" class="product-image-link">
+                                            @if($listing->primary_image && $listing->primary_image->path)
+                                                <img src="{{ $listing->primary_image->path }}" alt="{{ $listing->title }}" class="product-image">
                                             @else
-                                                <img src="/images/placeholder.png" 
-                                                     alt="{{ $listing->title }}"
-                                                     class="img-responsive">
+                                                <div class="product-placeholder">
+                                                    <i class="fa fa-image"></i>
+                                                </div>
                                             @endif
                                         </a>
-
+                                        
                                         @if($listing->isFeatured())
-                                            <span class="badge badge-warning" 
-                                                  style="position: absolute; top: 10px; right: 10px;">
+                                            <span class="product-badge product-badge-featured">
                                                 <i class="fa fa-star"></i> Vitrin
                                             </span>
                                         @endif
+
+                                        @if($listing->in_stock)
+                                            <span class="product-badge product-badge-stock">
+                                                <i class="fa fa-check-circle"></i> Stokta
+                                            </span>
+                                        @endif
+                                        
+                                        <button class="product-wishlist" type="button">
+                                            <i class="fa fa-heart-o"></i>
+                                        </button>
                                     </div>
 
-                                    <div class="product-card-body">
-                                        <h4 class="product-card-title">
+                                    <div class="product-body">
+                                        <h5 class="product-title">
                                             <a href="{{ $listing->url() }}">{{ $listing->title }}</a>
-                                        </h4>
+                                        </h5>
 
-                                        <div class="product-card-meta">
-                                            <small class="text-muted">
-                                                <i class="fa fa-store"></i>
-                                                <a href="{{ $listing->vendor->url() }}">
-                                                    {{ $listing->vendor->shop_name }}
-                                                </a>
-                                            </small>
-                                            @if($listing->rating > 0)
-                                                <br>
-                                                <small>
-                                                    <i class="fa fa-star text-warning"></i>
-                                                    {{ number_format($listing->rating, 1) }}
-                                                    ({{ $listing->rating_count }})
-                                                </small>
-                                            @endif
+                                        <div class="product-vendor">
+                                            <i class="fa fa-store"></i>
+                                            <a href="{{ $listing->vendor->url() }}">{{ $listing->vendor->shop_name }}</a>
+                                        </div>
+                                        
+                                        @if($listing->rating > 0)
+                                            <div class="product-rating">
+                                                @for($i = 1; $i <= 5; $i++)
+                                                    @if($i <= floor($listing->rating))
+                                                        <i class="fa fa-star text-warning"></i>
+                                                    @elseif($i - 0.5 <= $listing->rating)
+                                                        <i class="fa fa-star-half-o text-warning"></i>
+                                                    @else
+                                                        <i class="fa fa-star-o text-muted"></i>
+                                                    @endif
+                                                @endfor
+                                                <span class="rating-value">{{ number_format($listing->rating, 1) }}</span>
+                                            </div>
+                                        @endif
+
+                                        <div class="product-price">
+                                            <span class="price-current">{{ $listing->price->format() }}</span>
                                         </div>
 
-                                        <div class="product-card-price">
-                                            <span class="price">{{ $listing->price->format() }}</span>
-                                        </div>
-
-                                        <div class="product-card-actions">
-                                            <a href="{{ $listing->url() }}" class="btn btn-primary btn-block">
-                                                <i class="fa fa-eye"></i> İncele
-                                            </a>
-                                        </div>
+                                        <a href="{{ $listing->url() }}" class="btn btn-primary btn-block product-btn">
+                                            <i class="fa fa-shopping-cart"></i> İncele
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +189,7 @@
                     </div>
 
                     <!-- Sayfalama -->
-                    <div class="text-center" style="margin-top: 30px;">
+                    <div class="text-center pagination-wrapper">
                         {{ $listings->appends(request()->query())->links() }}
                     </div>
                 @endif
@@ -184,52 +200,6 @@
 
 @push('styles')
 <style>
-    .product-card {
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        margin-bottom: 20px;
-        transition: all 0.3s;
-        height: 100%;
-    }
-    .product-card:hover {
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        transform: translateY(-5px);
-    }
-    .product-card-img {
-        position: relative;
-        height: 200px;
-        overflow: hidden;
-        background: #f5f5f5;
-    }
-    .product-card-img img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .product-card-body {
-        padding: 15px;
-    }
-    .product-card-title {
-        font-size: 16px;
-        margin: 0 0 10px;
-        height: 40px;
-        overflow: hidden;
-    }
-    .product-card-title a {
-        color: #333;
-        text-decoration: none;
-    }
-    .product-card-title a:hover {
-        color: #007bff;
-    }
-    .product-card-price {
-        margin: 15px 0;
-    }
-    .product-card-price .price {
-        font-size: 24px;
-        font-weight: bold;
-        color: #28a745;
-    }
+{!! file_get_contents(module_path('Listing') . '/Resources/assets/public/css/listings.css') !!}
 </style>
 @endpush
-
